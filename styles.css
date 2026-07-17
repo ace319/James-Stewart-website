@@ -336,7 +336,19 @@ p {
   color: #435057;
 }
 
-.biography-photo img,
+.biography-photo {
+  width: 100%;
+  max-width: 420px;
+  justify-self: center;
+}
+
+.biography-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
 .military-photo img,
 .gallery-item img {
   width: 100%;
