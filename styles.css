@@ -1557,36 +1557,40 @@ td.movie-title {
   align-items: center;
 }
 
-.rating-stars.star-meter {
-  --rating: 0;
-
-  position: relative;
-  display: inline-block;
-  width: 5.6em;
-  height: 1.1em;
-  overflow: hidden;
-  font-size: 1rem;
+.rating-stars {
+  display: inline-flex;
+  gap: 3px;
+  align-items: center;
   line-height: 1;
-  letter-spacing: 0.05em;
 }
 
-.rating-stars.star-meter::before,
-.rating-stars.star-meter::after {
-  content: "★★★★★";
-  position: absolute;
-  top: 0;
-  left: 0;
-  white-space: nowrap;
-}
-
-.rating-stars.star-meter::before {
+.single-star {
+  display: inline-block;
   color: #cbc5ba;
+  font-size: 1rem;
 }
 
-.rating-stars.star-meter::after {
-  width: calc((var(--rating) / 5) * 100%);
-  overflow: hidden;
+.single-star.full {
   color: var(--gold);
+}
+
+.single-star.half {
+  background: linear-gradient(
+    to right,
+    var(--gold) 0%,
+    var(--gold) 50%,
+    #cbc5ba 50%,
+    #cbc5ba 100%
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.single-star.empty {
+  color: #cbc5ba;
 }
 
 .rating-number {
