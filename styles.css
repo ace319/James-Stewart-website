@@ -509,7 +509,88 @@ p {
   color: var(--muted);
   font-size: 0.9rem;
 }
+/* JIMMY STEWART AND PIE */
 
+.pie-section {
+  padding: 120px 0;
+  background: var(--paper);
+}
+
+.pie-layout {
+  display: grid;
+  grid-template-columns: minmax(340px, 0.95fr) minmax(0, 1.05fr);
+  gap: 80px;
+  align-items: center;
+}
+
+.pie-photo {
+  overflow: hidden;
+  background: var(--ink);
+  box-shadow: var(--shadow);
+}
+
+.pie-photo img {
+  display: block;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.pie-photo figcaption {
+  padding: 16px 18px;
+  background: var(--ink);
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 0.78rem;
+}
+
+.pie-copy h2 {
+  margin-bottom: 24px;
+}
+
+.pie-copy p {
+  margin-bottom: 20px;
+  color: #465157;
+}
+
+.pie-introduction {
+  color: var(--red) !important;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.pie-facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 38px;
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+
+.pie-facts article {
+  min-height: 130px;
+  padding: 20px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: var(--cream);
+}
+
+.pie-facts span {
+  display: block;
+  margin-bottom: 12px;
+  color: var(--red);
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.pie-facts strong {
+  display: block;
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 1.15rem;
+  line-height: 1.25;
+}
 /* MILITARY */
 
 .military-section {
