@@ -942,6 +942,12 @@ td.movie-title {
   object-position: center;
 }
 
+.gallery-item-contain img {
+  object-fit: contain;
+  object-position: center top;
+  background: var(--ink);
+}
+
 .gallery-item {
   overflow: hidden;
   box-shadow: none;
