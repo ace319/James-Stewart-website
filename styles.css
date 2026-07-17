@@ -15,7 +15,7 @@
   --small-shadow: 0 12px 30px rgba(23, 33, 38, 0.08);
 }
 
-/* GENERAL RESET */
+/* GENERAL */
 
 * {
   box-sizing: border-box;
@@ -244,8 +244,8 @@ p {
 
 .button:hover,
 .button:focus-visible {
-  background: var(--red-dark);
   border-color: var(--red-dark);
+  background: var(--red-dark);
 }
 
 .button-secondary {
@@ -318,9 +318,27 @@ p {
   align-items: start;
 }
 
-.biography-photo {
-  margin: 0 auto;
+.biography-layout {
+  display: grid;
+  grid-template-columns: 420px minmax(0, 1fr);
+  gap: 80px;
+  align-items: start;
+}
 
+.biography-photo {
+  width: 100%;
+  max-width: 420px;
+  justify-self: center;
+  overflow: hidden;
+  background: var(--ink);
+  box-shadow: var(--small-shadow);
+}
+
+.biography-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 .biography-copy h3 {
@@ -332,35 +350,6 @@ p {
 .biography-copy p {
   margin-bottom: 22px;
   color: #435057;
-}
-
-.biography-photo {
-  width: 100%;
-  max-width: 420px;
-  justify-self: center;
-}
-
-.biography-photo img {
-  display: block;
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-}
-
-.military-photo img {
-  display: block;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-.gallery-item img {
-  display: block;
-  width: 100%;
-  height: 320px;
-  object-fit: cover;
-  object-position: center;
-
 }
 
 .biography-photo figcaption,
@@ -546,7 +535,6 @@ p {
 .military-timeline {
   position: relative;
   display: grid;
-  gap: 0;
 }
 
 .military-timeline::before {
@@ -594,10 +582,16 @@ p {
 .military-photo {
   position: sticky;
   top: 25px;
+  overflow: hidden;
+  background: var(--ink);
+  box-shadow: var(--small-shadow);
 }
 
-.military-photo .photo-placeholder-inner {
-  min-height: 620px;
+.military-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 .military-awards {
@@ -791,7 +785,7 @@ td.movie-title {
   text-align: center;
 }
 
-/* DYNAMIC DESCRIPTION AND RATING STYLES */
+/* RATINGS */
 
 .star-rating {
   display: inline-flex;
@@ -825,6 +819,8 @@ td.movie-title {
   overflow: hidden;
   color: #f2c45e;
 }
+
+/* MOVIE DESCRIPTIONS */
 
 .movie-main-row {
   cursor: pointer;
@@ -952,6 +948,7 @@ td.movie-title {
   margin: 20px auto;
   object-fit: contain;
   object-position: center;
+  background: var(--ink);
 }
 
 .gallery-item .photo-placeholder-inner {
@@ -959,12 +956,14 @@ td.movie-title {
 }
 
 .gallery-item figcaption {
+  min-height: 76px;
   padding: 14px 16px;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
   background: var(--ink);
   color: rgba(255, 255, 255, 0.74);
   font-size: 0.78rem;
 }
+
 /* ABOUT */
 
 .about {
@@ -1026,7 +1025,7 @@ td.movie-title {
 
 /* TABLET */
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .nav-links {
     gap: 15px;
     font-size: 0.74rem;
@@ -1053,17 +1052,18 @@ td.movie-title {
     gap: 50px;
   }
 
-  .military-photo {
-    position: static;
+  .biography-photo {
+    margin: 0 auto;
   }
 
-  .military-photo .photo-placeholder-inner {
-    min-height: 520px;
+  .military-photo {
+    position: static;
+    max-width: 500px;
+    margin: 0 auto;
   }
 
   .facts-grid,
-  .awards-grid,
-  .gallery-grid {
+  .awards-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -1073,6 +1073,11 @@ td.movie-title {
 
   .search-box {
     grid-column: 1 / -1;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 320px);
+    max-width: 668px;
   }
 }
 
@@ -1151,7 +1156,6 @@ td.movie-title {
 
   .facts-grid,
   .awards-grid,
-  .gallery-grid,
   .feature-grid {
     grid-template-columns: 1fr;
   }
@@ -1174,10 +1178,6 @@ td.movie-title {
     font-size: 0.65rem;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
-  }
-
-  .military-photo .photo-placeholder-inner {
-    min-height: 420px;
   }
 
   .controls {
@@ -1263,8 +1263,20 @@ td.movie-title {
     margin: 0;
   }
 
-  .gallery-item .photo-placeholder-inner {
-    min-height: 330px;
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    max-width: 100%;
+  }
+
+  .gallery-item {
+    width: min(100%, 320px);
+  }
+
+  .gallery-item img {
+    width: calc(100% - 40px);
+    height: 190px;
+    margin: 20px auto;
   }
 
   .footer {
@@ -1274,28 +1286,4 @@ td.movie-title {
   .footer p + p {
     margin-top: 8px;
   }
-}
-/* Final gallery size */
-
-.gallery-grid {
-  display: grid !important;
-  grid-template-columns: repeat(3, 320px) !important;
-  justify-content: center !important;
-  gap: 28px !important;
-}
-
-.gallery-item {
-  width: 320px !important;
-  max-width: 320px !important;
-  overflow: hidden !important;
-}
-
-.gallery-item img {
-  display: block !important;
-  width: 280px !important;
-  max-width: 280px !important;
-  height: 190px !important;
-  max-height: 190px !important;
-  margin: 20px auto !important;
-  object-fit: contain !important;
 }
