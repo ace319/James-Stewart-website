@@ -357,9 +357,9 @@ p {
 .gallery-item img {
   display: block;
   width: 100%;
-  height: 220px;
-  object-fit: contain;
-  background: #172126;
+  height: 320px;
+  object-fit: cover;
+  object-position: center;
 
 }
 
