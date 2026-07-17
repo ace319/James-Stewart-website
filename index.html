@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ace's personal Jimmy Stewart movie journey, featuring films, characters, directors, genres, and reviews.">
+  <title>My Jimmy Stewart Journey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav container">
+      <a class="logo" href="#top">JS</a>
+      <div class="nav-links">
+        <a href="#journey">My Journey</a>
+        <a href="#movies">Movies</a>
+        <a href="#about">About the Site</a>
+      </div>
+    </nav>
+
+    <div class="hero-content container" id="top">
+      <p class="eyebrow">A personal classic-film project</p>
+      <h1>My Jimmy Stewart Journey</h1>
+      <p class="hero-copy">
+        Following Jimmy Stewart from early romantic comedies and Frank Capra classics
+        to Hitchcock thrillers, Anthony Mann westerns, and the later films of his career.
+      </p>
+      <a class="button" href="#movies">Explore the films</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="stats container" id="journey" aria-label="Viewing statistics">
+      <article>
+        <strong id="film-count">26</strong>
+        <span>Films watched</span>
+      </article>
+      <article>
+        <strong>1938–1962</strong>
+        <span>Years covered</span>
+      </article>
+      <article>
+        <strong id="director-count">17</strong>
+        <span>Directors</span>
+      </article>
+      <article>
+        <strong id="western-count">7</strong>
+        <span>Westerns</span>
+      </article>
+    </section>
+
+    <section class="intro container">
+      <div>
+        <p class="eyebrow dark">Why I made this</p>
+        <h2>More than a filmography</h2>
+      </div>
+      <p>
+        This site tracks every Jimmy Stewart movie I have watched, the character he
+        played, who directed it, and what kind of movie it is. As I keep watching,
+        I can add ratings, rankings, favorite scenes, and personal reviews.
+      </p>
+    </section>
+
+    <section class="movie-section" id="movies">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">The watchlist</p>
+            <h2>Movies I’ve watched</h2>
+          </div>
+          <p id="results-label" aria-live="polite">Showing all 26 films</p>
+        </div>
+
+        <div class="controls">
+          <label class="search-box">
+            <span class="sr-only">Search movies</span>
+            <input id="search" type="search" placeholder="Search movie, character, or director…">
+          </label>
+
+          <select id="director-filter" aria-label="Filter by director">
+            <option value="all">All directors</option>
+          </select>
+
+          <select id="genre-filter" aria-label="Filter by genre">
+            <option value="all">All genres</option>
+          </select>
+
+          <select id="sort" aria-label="Sort movies">
+            <option value="year-asc">Year: earliest first</option>
+            <option value="year-desc">Year: latest first</option>
+            <option value="title-asc">Movie title: A–Z</option>
+            <option value="director-asc">Director: A–Z</option>
+            <option value="genre-asc">Genre: A–Z</option>
+          </select>
+
+          <button id="reset" type="button">Reset</button>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Year</th>
+                <th scope="col">Movie</th>
+                <th scope="col">Jimmy Stewart as</th>
+                <th scope="col">Director</th>
+                <th scope="col">Primary genre</th>
+                <th scope="col">My rating</th>
+              </tr>
+            </thead>
+            <tbody id="movie-table"></tbody>
+          </table>
+        </div>
+
+        <div id="movie-cards" class="movie-cards"></div>
+        <p id="empty-state" class="empty-state" hidden>No films match those filters.</p>
+      </div>
+    </section>
+
+    <section class="feature-grid container">
+      <article>
+        <span>01</span>
+        <h3>Capra classics</h3>
+        <p>Follow Stewart’s idealistic heroes from Tony Kirby to Jefferson Smith and George Bailey.</p>
+      </article>
+      <article>
+        <span>02</span>
+        <h3>Hitchcock thrillers</h3>
+        <p>Compare Rupert Cadell, Jeff Jefferies, Ben McKenna, and Scottie Ferguson.</p>
+      </article>
+      <article>
+        <span>03</span>
+        <h3>Anthony Mann westerns</h3>
+        <p>Track the darker, harder-edged western characters that reshaped Stewart’s screen image.</p>
+      </article>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container about-inner">
+        <div>
+          <p class="eyebrow">Built by Ace</p>
+          <h2>A fan’s view of a legendary career</h2>
+        </div>
+        <p>
+          This is an independent fan project created to document my Jimmy Stewart
+          viewing journey. It is not affiliated with Jimmy Stewart’s estate, any
+          studio, or any rights holder.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p>My Jimmy Stewart Journey</p>
+    <p>Built with HTML, CSS, and JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
