@@ -1005,14 +1005,20 @@ td.movie-title {
 /* SOURCES */
 
 .sources-section {
+  display: block;
+  width: 100%;
   padding: 90px 0;
   background: var(--cream);
   color: var(--ink);
 }
 
 .sources-section h2 {
-  color: var(--ink);
+  color: var(--ink) !important;
   font-size: clamp(2rem, 4vw, 3.7rem);
+}
+
+.sources-section .eyebrow {
+  color: var(--red);
 }
 
 .sources-section p {
