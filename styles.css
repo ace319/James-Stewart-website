@@ -1390,3 +1390,230 @@ td.movie-title {
     margin-top: 8px;
   }
 }
+/* MOVIE POSTERS AND DESCRIPTIONS */
+
+.movie-row {
+  cursor: pointer;
+}
+
+.movie-row:focus-visible {
+  outline: 3px solid var(--red);
+  outline-offset: -3px;
+}
+
+.movie-title-with-poster {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  min-width: 260px;
+}
+
+.movie-title-with-poster em {
+  display: block;
+  font-weight: 700;
+}
+
+.description-hint {
+  display: block;
+  margin-top: 7px;
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-style: normal;
+  line-height: 1.3;
+}
+
+.movie-poster-frame {
+  position: relative;
+  flex: none;
+  overflow: hidden;
+  aspect-ratio: 2 / 3;
+  background: var(--ink);
+  border: 1px solid var(--line);
+}
+
+.movie-poster-frame--table {
+  width: 64px;
+}
+
+.movie-poster-frame--card {
+  width: 110px;
+}
+
+.movie-poster {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.movie-poster-fallback {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background: var(--ink);
+  color: var(--white);
+  text-align: center;
+}
+
+.movie-poster-fallback:not([hidden]) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.movie-poster-fallback span {
+  color: var(--gold);
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+}
+
+.movie-poster-fallback strong {
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 0.72rem;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+.movie-description-row td {
+  padding: 0 !important;
+}
+
+.movie-description-panel {
+  padding: 24px 30px 26px 110px;
+  background: var(--cream);
+  border-left: 4px solid var(--red);
+}
+
+.movie-description-panel strong,
+.movie-card-description strong {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--red);
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.movie-description-panel p,
+.movie-card-description p {
+  max-width: 850px;
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.movie-card-with-poster {
+  padding: 22px;
+}
+
+.movie-card-shell {
+  display: grid;
+  grid-template-columns: 110px minmax(0, 1fr);
+  gap: 22px;
+  align-items: start;
+}
+
+.movie-card-body {
+  min-width: 0;
+}
+
+.movie-card-body .movie-card-top {
+  margin-top: 0;
+}
+
+.movie-card-toggle {
+  margin-top: 18px;
+  padding: 10px 14px;
+  border: 1px solid var(--red);
+  background: transparent;
+  color: var(--red);
+  cursor: pointer;
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.movie-card-toggle:hover,
+.movie-card-toggle:focus-visible {
+  background: var(--red);
+  color: var(--white);
+}
+
+.movie-card-description {
+  margin-top: 22px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+
+.movie-rating {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.rating-stars.star-meter {
+  --rating: 0;
+
+  position: relative;
+  display: inline-block;
+  width: 5.6em;
+  height: 1.1em;
+  overflow: hidden;
+  font-size: 1rem;
+  line-height: 1;
+  letter-spacing: 0.05em;
+}
+
+.rating-stars.star-meter::before,
+.rating-stars.star-meter::after {
+  content: "★★★★★";
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+}
+
+.rating-stars.star-meter::before {
+  color: #cbc5ba;
+}
+
+.rating-stars.star-meter::after {
+  width: calc((var(--rating) / 5) * 100%);
+  overflow: hidden;
+  color: var(--gold);
+}
+
+.rating-number {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+@media (max-width: 700px) {
+  .movie-card-shell {
+    grid-template-columns: 92px minmax(0, 1fr);
+    gap: 17px;
+  }
+
+  .movie-poster-frame--card {
+    width: 92px;
+  }
+
+  .movie-card-with-poster {
+    padding: 18px;
+  }
+
+  .movie-card-body h3 {
+    font-size: 1.15rem;
+  }
+
+  .movie-description-panel {
+    padding: 20px;
+  }
+}
