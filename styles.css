@@ -947,11 +947,12 @@ td.movie-title {
 
 .gallery-item img {
   display: block;
-  width: 260px;
-  height: 120px;
+  width: auto;
+  max-width: 190px;
+  height: auto;
+  max-height: 140px;
+  margin: 18px auto;
   object-fit: contain;
-  object-position: center;
-  background: var(--ink);
 }
 
 .gallery-item .photo-placeholder-inner {
