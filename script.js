@@ -6,8 +6,9 @@ const movies = [
     director: "Frank Capra",
     genre: "Romantic Comedy",
     rating: 4.5,
+    poster: "images/posters/you-cant-take-it-with-you.jpg",
     description:
-      "The good-hearted son of a wealthy, serious banking family. Tony dislikes the rigid life planned for him and wants to marry Alice Sycamore, whose eccentric family teaches him that happiness and love matter more than money or status."
+      "The good-hearted son of a wealthy banking family. Tony dislikes the rigid life planned for him and wants to marry Alice Sycamore, whose eccentric family teaches him that happiness and love matter more than money or status."
   },
   {
     year: 1939,
@@ -16,8 +17,9 @@ const movies = [
     director: "John Cromwell",
     genre: "Romantic Drama",
     rating: 3.5,
+    poster: "images/posters/made-for-each-other.jpg",
     description:
-      "A hardworking young lawyer who quickly marries Jane and then struggles with money, family pressure, and their dangerously ill baby. He is loving but overwhelmed, and much of the film is about him trying to hold his family together."
+      "A hardworking young lawyer who quickly marries Jane and then struggles with money, family pressure and their dangerously ill baby. He is loving but overwhelmed as he tries to hold his family together."
   },
   {
     year: 1939,
@@ -26,8 +28,9 @@ const movies = [
     director: "Frank Capra",
     genre: "Political Drama",
     rating: 5,
+    poster: "images/posters/mr-smith-goes-to-washington.jpg",
     description:
-      "An idealistic, inexperienced youth leader unexpectedly appointed to the United States Senate. He initially seems naïve, but his honesty and endurance make him brave enough to confront political corruption almost entirely by himself."
+      "An idealistic and inexperienced youth leader unexpectedly appointed to the United States Senate. Although initially naïve, his honesty and endurance give him the courage to confront political corruption."
   },
   {
     year: 1940,
@@ -36,8 +39,9 @@ const movies = [
     director: "George Cukor",
     genre: "Romantic Comedy",
     rating: 4.5,
+    poster: "images/posters/the-philadelphia-story.jpg",
     description:
-      "A sharp, sarcastic writer reluctantly working as a society reporter. Mike initially looks down on wealthy people but gradually recognizes Tracy’s vulnerability and briefly falls for her, while retaining more common sense than most of the party guests."
+      "A sharp and sarcastic writer reluctantly working as a society reporter. Mike initially looks down on the wealthy people he covers but gradually recognizes Tracy’s vulnerability and briefly falls in love with her."
   },
   {
     year: 1940,
@@ -46,8 +50,9 @@ const movies = [
     director: "Ernst Lubitsch",
     genre: "Romantic Comedy",
     rating: 5,
+    poster: "images/posters/the-shop-around-the-corner.jpg",
     description:
-      "The intelligent and dependable senior clerk at a Budapest shop. He constantly argues with Klara without realizing she is the anonymous pen pal he has fallen in love with. Beneath his pride, Alfred is sensitive, romantic, and deeply afraid of rejection."
+      "The intelligent and dependable senior clerk at a Budapest shop. He constantly argues with Klara without realizing that she is the anonymous pen pal with whom he has fallen in love."
   },
   {
     year: 1941,
@@ -56,8 +61,9 @@ const movies = [
     director: "George Marshall",
     genre: "Musical Comedy",
     rating: 3,
+    poster: "images/posters/pot-o-gold.jpg",
     description:
-      "A friendly, music-loving man caught between his wealthy, anti-music uncle and a family of musicians. Jimmy is an easygoing romantic lead who becomes involved in radio contests, misunderstandings, and musical comedy."
+      "A friendly, music-loving man caught between his wealthy anti-music uncle and a family of musicians. Jimmy becomes involved in radio contests, misunderstandings and musical comedy."
   },
   {
     year: 1946,
@@ -66,8 +72,9 @@ const movies = [
     director: "Frank Capra",
     genre: "Fantasy Drama",
     rating: 5,
+    poster: "images/posters/its-a-wonderful-life.jpg",
     description:
-      "A generous, ambitious man who repeatedly sacrifices his dreams to help his family and Bedford Falls. Years of disappointment convince him that his life has been worthless, until Clarence shows him how profoundly he has affected everyone around him."
+      "A generous and ambitious man who repeatedly sacrifices his dreams to help his family and Bedford Falls. Clarence eventually shows George how profoundly his life has affected everyone around him."
   },
   {
     year: 1948,
@@ -76,8 +83,9 @@ const movies = [
     director: "Alfred Hitchcock",
     genre: "Psychological Crime Thriller",
     rating: 4.5,
+    poster: "images/posters/rope.jpg",
     description:
-      "A clever, observant former teacher whose intellectual ideas about superior people helped influence two former students. Rupert gradually suspects they have committed murder and is horrified when he realizes they treated his philosophical arguments as permission to kill."
+      "A clever and observant former teacher whose intellectual arguments have influenced two former students. Rupert gradually suspects that they have committed murder and is horrified by what his ideas helped inspire."
   },
   {
     year: 1948,
@@ -86,8 +94,9 @@ const movies = [
     director: "Henry Hathaway",
     genre: "Film Noir / Crime Drama",
     rating: 4,
+    poster: "images/posters/call-northside-777.jpg",
     description:
-      "A skeptical Chicago newspaper reporter assigned to investigate claims that a convicted murderer is innocent. He begins the case believing it is merely a human-interest story but becomes determined to uncover the truth once the evidence starts challenging the official version."
+      "A skeptical Chicago newspaper reporter assigned to investigate claims that a convicted murderer is innocent. What begins as a human-interest story becomes a determined search for the truth."
   },
   {
     year: 1950,
@@ -96,8 +105,9 @@ const movies = [
     director: "Henry Koster",
     genre: "Fantasy Comedy",
     rating: 5,
+    poster: "images/posters/harvey.jpg",
     description:
-      "An unfailingly polite, gentle man whose closest friend is Harvey, an invisible six-foot rabbit. Everyone assumes Elwood is mentally ill, but his kindness makes the supposedly normal characters look far more troubled—and the film ultimately indicates that Harvey is real."
+      "An unfailingly polite and gentle man whose closest friend is Harvey, an invisible six-foot-tall rabbit. Elwood’s kindness makes everyone question whether he is truly the person who needs to be changed."
   },
   {
     year: 1950,
@@ -106,8 +116,9 @@ const movies = [
     director: "Walter Lang",
     genre: "Comedy",
     rating: 3,
+    poster: "images/posters/the-jackpot.jpg",
     description:
-      "An ordinary family man who wins an enormous collection of prizes on a radio program. What seems like incredible luck becomes a headache because of taxes, storage problems, and strain on his job and marriage."
+      "A small-town family man who wins an enormous collection of prizes from a radio contest. The supposed jackpot creates taxes, confusion and problems that quickly overwhelm his ordinary life."
   },
   {
     year: 1950,
@@ -116,8 +127,9 @@ const movies = [
     director: "Anthony Mann",
     genre: "Western",
     rating: 4.5,
+    poster: "images/posters/winchester-73.jpg",
     description:
-      "A highly skilled marksman relentlessly pursuing the outlaw Dutch Henry Brown. Lin initially appears like a traditional heroic cowboy, but his anger and personal connection to Dutch reveal a much darker, revenge-driven side."
+      "A skilled marksman relentlessly pursuing Dutch Henry Brown. Lin’s search for a stolen Winchester rifle gradually reveals that his mission is driven by a deeply personal desire for revenge."
   },
   {
     year: 1951,
@@ -126,8 +138,9 @@ const movies = [
     director: "Henry Koster",
     genre: "Aviation Drama",
     rating: 4,
+    poster: "images/posters/no-highway-in-the-sky.jpg",
     description:
-      "A brilliant but absent-minded aeronautical engineer who predicts that a particular aircraft model will suffer catastrophic metal fatigue. Socially awkward yet completely sincere, Honey risks his career—and even sabotages an aircraft—to prevent people from being killed."
+      "An eccentric and socially awkward aviation engineer who believes a new passenger aircraft will suffer catastrophic metal fatigue. Although others dismiss him, Honey risks his career to prevent a disaster."
   },
   {
     year: 1952,
@@ -136,8 +149,9 @@ const movies = [
     director: "Cecil B. DeMille",
     genre: "Circus Drama",
     rating: 2,
+    poster: "images/posters/the-greatest-show-on-earth.jpg",
     description:
-      "A compassionate circus clown who never removes his makeup because he is really a fugitive doctor. He ended the suffering of his terminally ill wife and now hides from the law, but exposes his medical knowledge to save injured people after the train disaster."
+      "A mysterious circus clown who never removes his makeup. Buttons was once a doctor and is hiding from the law after ending the suffering of his terminally ill wife."
   },
   {
     year: 1952,
@@ -146,8 +160,9 @@ const movies = [
     director: "Anthony Mann",
     genre: "Western",
     rating: 4,
+    poster: "images/posters/bend-of-the-river.jpg",
     description:
-      "A former Missouri border raider attempting to build a respectable life as a wagon-train guide. Because he understands how difficult it is to escape a violent past, he trusts Emerson Cole—only to discover that not everyone truly wants redemption."
+      "A former border raider attempting to leave his violent past behind. Glyn guides a wagon train west but must prove that a person with a troubled history can genuinely change."
   },
   {
     year: 1953,
@@ -156,8 +171,9 @@ const movies = [
     director: "Anthony Mann",
     genre: "Psychological Western",
     rating: 4.5,
+    poster: "images/posters/the-naked-spur.jpg",
     description:
-      "A bitter Civil War veteran hunting an outlaw for reward money so he can recover the ranch stolen from him. Howard presents himself as a lawman but is emotionally wounded, suspicious, and increasingly consumed by greed before eventually recovering his humanity."
+      "A bitter Civil War veteran hunting an outlaw for reward money so he can recover his stolen ranch. Howard becomes increasingly consumed by suspicion and greed before recovering his humanity."
   },
   {
     year: 1954,
@@ -166,8 +182,9 @@ const movies = [
     director: "Alfred Hitchcock",
     genre: "Mystery Thriller",
     rating: 5,
+    poster: "images/posters/rear-window.jpg",
     description:
-      "An adventurous professional photographer confined to his apartment with a broken leg. Restless and resistant to marriage, Jeff watches his neighbors through the rear window and becomes convinced that one of them has murdered his wife."
+      "An adventurous professional photographer confined to his apartment with a broken leg. Jeff watches his neighbors through the rear window and becomes convinced that one of them has committed murder."
   },
   {
     year: 1954,
@@ -176,8 +193,9 @@ const movies = [
     director: "Anthony Mann",
     genre: "Western",
     rating: 4,
+    poster: "images/posters/the-far-country.jpg",
     description:
-      "A fiercely independent cattleman who believes that looking after himself is all that matters. He initially refuses responsibility for the people around him, but violence and betrayal eventually force him to choose between isolation and helping the community."
+      "A fiercely independent cattleman who believes that looking after himself is all that matters. Violence and betrayal eventually force Jeff to choose between isolation and helping a threatened community."
   },
   {
     year: 1955,
@@ -186,8 +204,9 @@ const movies = [
     director: "Anthony Mann",
     genre: "Western",
     rating: 5,
+    poster: "images/posters/the-man-from-laramie.jpg",
     description:
-      "A former Army officer secretly investigating the sale of repeating rifles to the Apache attackers who killed his brother. Controlled and principled on the surface, Will is driven by grief and revenge but remains more morally disciplined than the violent men surrounding him."
+      "A former Army officer secretly investigating the sale of repeating rifles to the Apache attackers who killed his brother. Will is controlled and principled but driven by grief and revenge."
   },
   {
     year: 1956,
@@ -196,8 +215,9 @@ const movies = [
     director: "Alfred Hitchcock",
     genre: "Spy Thriller",
     rating: 4.5,
+    poster: "images/posters/the-man-who-knew-too-much.jpg",
     description:
-      "An American doctor vacationing with his wife and son who accidentally learns about an assassination plot. After his son is kidnapped to ensure his silence, Ben becomes frightened, stubborn, and increasingly determined to rescue him without trusting the authorities."
+      "An American doctor vacationing with his wife and son who accidentally learns about an assassination plot. After his son is kidnapped, Ben desperately tries to rescue him without alerting the conspirators."
   },
   {
     year: 1957,
@@ -206,8 +226,9 @@ const movies = [
     director: "Billy Wilder",
     genre: "Biographical Drama",
     rating: 4,
+    poster: "images/posters/the-spirit-of-st-louis.jpg",
     description:
-      "The real-life aviator attempting the first solo nonstop flight from New York to Paris. Much of Jimmy’s performance shows Lindbergh alone in the cockpit, fighting exhaustion, remembering how he reached that moment, and methodically solving problems in the air."
+      "The determined aviator attempting the first solo nonstop flight from New York to Paris. Much of the character’s struggle is against exhaustion, isolation, dangerous weather and the limitations of his aircraft."
   },
   {
     year: 1957,
@@ -216,8 +237,9 @@ const movies = [
     director: "James Neilson",
     genre: "Western",
     rating: 3.5,
+    poster: "images/posters/night-passage.jpg",
     description:
-      "A former railroad employee and talented accordion player who was dismissed after allowing a suspected outlaw to escape. Grant receives a chance to redeem himself by protecting a payroll shipment, while confronting the fact that the outlaw leader is his younger brother."
+      "A former railroad employee hired to transport payroll money through dangerous territory. Grant must confront a gang of outlaws that includes his younger brother."
   },
   {
     year: 1958,
@@ -226,8 +248,9 @@ const movies = [
     director: "Alfred Hitchcock",
     genre: "Psychological Mystery Thriller",
     rating: 5,
+    poster: "images/posters/vertigo.jpg",
     description:
-      "A former police detective whose acrophobia and guilt force him into retirement. After becoming obsessed with Madeleine, Scottie’s grief turns into an unhealthy need to recreate her through Judy, making him one of Jimmy’s darkest and most psychologically damaged characters."
+      "A retired San Francisco detective suffering from acrophobia. Scottie becomes dangerously obsessed with a mysterious woman and later attempts to transform another woman into the image of the person he lost."
   },
   {
     year: 1958,
@@ -236,8 +259,9 @@ const movies = [
     director: "Richard Quine",
     genre: "Romantic Fantasy Comedy",
     rating: 4,
+    poster: "images/posters/bell-book-and-candle.jpg",
     description:
-      "A conventional New York publisher who is magically enchanted by the witch Gillian Holroyd. He falls intensely in love without knowing that his emotions were initially caused by a spell, and he becomes understandably furious when he discovers the manipulation."
+      "A successful publisher who becomes enchanted by his mysterious neighbor Gillian. He does not initially realize that she is a witch who has used magic to make him fall in love with her."
   },
   {
     year: 1959,
@@ -246,8 +270,9 @@ const movies = [
     director: "Otto Preminger",
     genre: "Courtroom Drama",
     rating: 3.5,
+    poster: "images/posters/anatomy-of-a-murder.jpg",
     description:
-      "A relaxed-seeming small-town lawyer and former district attorney who loves fishing and jazz. Beneath that casual exterior, he is a shrewd courtroom strategist willing to shape testimony and exploit legal uncertainty while defending a soldier accused of murder."
+      "A relaxed but highly intelligent small-town lawyer defending an Army lieutenant accused of murder. Paul carefully navigates conflicting testimony, difficult moral questions and courtroom strategy."
   },
   {
     year: 1962,
@@ -256,8 +281,9 @@ const movies = [
     director: "John Ford",
     genre: "Western",
     rating: 5,
+    poster: "images/posters/the-man-who-shot-liberty-valance.jpg",
     description:
-      "An idealistic young lawyer who believes education and law—not gun violence—can civilize the West. After being credited with killing Liberty Valance, he builds a celebrated political career upon a heroic story he knows is untrue, leaving him permanently indebted to Tom Doniphon."
+      "An idealistic young lawyer who believes education and law can civilize the West. His political career is built upon a heroic story about Liberty Valance that he knows is not completely true."
   }
 ];
 
@@ -271,166 +297,60 @@ const resetButton = document.querySelector("#reset");
 const resultsLabel = document.querySelector("#results-label");
 const emptyState = document.querySelector("#empty-state");
 
-/*
-  Adds the styles needed for real half-filled stars and
-  expandable character descriptions.
-*/
-const extraStyles = document.createElement("style");
-
-extraStyles.textContent = `
-  .star-rating {
-    display: inline-flex;
-    gap: 2px;
-    white-space: nowrap;
-    font-family: Arial, sans-serif;
-    font-size: 1.05rem;
-    line-height: 1;
-  }
-
-  .rating-star {
-    position: relative;
-    display: inline-block;
-    color: rgba(255, 255, 255, 0.25);
-  }
-
-  .rating-star.full {
-    color: #f2c45e;
-  }
-
-  .rating-star.half {
-    color: rgba(255, 255, 255, 0.25);
-  }
-
-  .rating-star.half::before {
-    content: "★";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    overflow: hidden;
-    color: #f2c45e;
-  }
-
-  .movie-main-row {
-    cursor: pointer;
-  }
-
-  .movie-main-row:hover {
-    background: rgba(255, 255, 255, 0.055);
-  }
-
-  .movie-main-row:focus {
-    outline: 2px solid #c89f5a;
-    outline-offset: -2px;
-  }
-
-  .movie-title-button {
-    padding: 0;
-    min-height: auto;
-    border: 0;
-    background: transparent;
-    color: inherit;
-    font: inherit;
-    text-align: left;
-    text-transform: none;
-    letter-spacing: normal;
-    cursor: pointer;
-  }
-
-  .movie-title-button:hover {
-    text-decoration: underline;
-    text-decoration-color: #c89f5a;
-    text-underline-offset: 4px;
-  }
-
-  .description-row td {
-    padding: 0;
-    background: rgba(200, 159, 90, 0.08);
-  }
-
-  .description-content {
-    padding: 24px 28px;
-    border-left: 4px solid #c89f5a;
-  }
-
-  .description-content strong {
-    display: block;
-    margin-bottom: 8px;
-    color: #c89f5a;
-    font-family: "Oswald", Arial, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    font-size: 0.8rem;
-  }
-
-  .description-content p {
-    max-width: 920px;
-    margin: 0;
-    color: rgba(255, 255, 255, 0.82);
-  }
-
-  .description-warning {
-    margin-top: 12px !important;
-    color: rgba(255, 255, 255, 0.48) !important;
-    font-size: 0.75rem;
-  }
-
-  .mobile-description-button {
-    width: 100%;
-    min-height: 42px;
-    margin-top: 18px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    background: rgba(255, 255, 255, 0.06);
-    color: white;
-    cursor: pointer;
-  }
-
-  .mobile-description {
-    margin-top: 16px;
-    padding-top: 16px;
-    border-top: 1px solid rgba(255, 255, 255, 0.13);
-    color: rgba(255, 255, 255, 0.78);
-    font-size: 0.86rem;
-  }
-
-  .mobile-description p {
-    margin: 0;
-  }
-`;
-
-document.head.appendChild(extraStyles);
-
 function uniqueValues(key) {
   return [...new Set(movies.map(movie => movie[key]))].sort((a, b) =>
     a.localeCompare(b)
   );
 }
 
-function formatRating(rating) {
-  let stars = "";
+function createMovieId(movie) {
+  return `${movie.year}-${movie.title}`
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[’']/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
 
-  for (let position = 1; position <= 5; position++) {
-    if (rating >= position) {
-      stars += '<span class="rating-star full" aria-hidden="true">★</span>';
-    } else if (rating >= position - 0.5) {
-      stars += '<span class="rating-star half" aria-hidden="true">★</span>';
-    } else {
-      stars += '<span class="rating-star" aria-hidden="true">★</span>';
-    }
-  }
-
+function ratingMarkup(rating) {
   return `
     <span
-      class="star-rating"
+      class="rating-stars star-meter"
+      style="--rating: ${rating};"
       aria-label="${rating} out of 5 stars"
-      title="${rating} out of 5 stars"
-    >
-      ${stars}
-    </span>
+    ></span>
+    <span class="rating-number">${rating}/5</span>
+  `;
+}
+
+function posterMarkup(movie, extraClass = "") {
+  return `
+    <div class="movie-poster-frame ${extraClass}">
+      <img
+        class="movie-poster"
+        src="${movie.poster}"
+        alt="Movie poster for ${movie.title}"
+        loading="lazy"
+      >
+
+      <div class="movie-poster-fallback" hidden>
+        <span>${movie.year}</span>
+        <strong>${movie.title}</strong>
+      </div>
+    </div>
   `;
 }
 
 function populateFilters() {
+  directorFilter
+    .querySelectorAll("option:not(:first-child)")
+    .forEach(option => option.remove());
+
+  genreFilter
+    .querySelectorAll("option:not(:first-child)")
+    .forEach(option => option.remove());
+
   uniqueValues("director").forEach(director => {
     directorFilter.add(new Option(director, director));
   });
@@ -463,16 +383,13 @@ function sortMovies(items) {
   if (value === "director-asc") {
     sorted.sort(
       (a, b) =>
-        a.director.localeCompare(b.director) ||
-        a.year - b.year
+        a.director.localeCompare(b.director) || a.year - b.year
     );
   }
 
   if (value === "genre-asc") {
     sorted.sort(
-      (a, b) =>
-        a.genre.localeCompare(b.genre) ||
-        a.year - b.year
+      (a, b) => a.genre.localeCompare(b.genre) || a.year - b.year
     );
   }
 
@@ -508,162 +425,202 @@ function getFilteredMovies() {
   );
 }
 
-function closeAllDesktopDescriptions(exceptId = null) {
-  document.querySelectorAll(".description-row").forEach(row => {
-    if (row.id !== exceptId) {
-      row.hidden = true;
-    }
-  });
+function showPosterFallback(image) {
+  image.hidden = true;
 
-  document.querySelectorAll(".movie-main-row").forEach(row => {
-    const descriptionId = row.getAttribute("aria-controls");
+  const fallback = image.nextElementSibling;
 
-    if (descriptionId !== exceptId) {
-      row.setAttribute("aria-expanded", "false");
+  if (fallback) {
+    fallback.hidden = false;
+  }
+}
+
+function activatePosterFallbacks() {
+  document.querySelectorAll(".movie-poster").forEach(image => {
+    image.addEventListener(
+      "error",
+      () => {
+        showPosterFallback(image);
+      },
+      { once: true }
+    );
+
+    if (image.complete && image.naturalWidth === 0) {
+      showPosterFallback(image);
     }
   });
 }
 
-function toggleDesktopDescription(index) {
+function toggleTableDescription(row) {
+  const movieId = row.dataset.movieId;
   const descriptionRow = document.querySelector(
-    `#description-row-${index}`
+    `#table-description-${movieId}`
   );
 
-  const mainRow = document.querySelector(
-    `[aria-controls="description-row-${index}"]`
-  );
-
-  if (!descriptionRow || !mainRow) {
+  if (!descriptionRow) {
     return;
   }
 
   const willOpen = descriptionRow.hidden;
 
-  closeAllDesktopDescriptions(
-    willOpen ? `description-row-${index}` : null
-  );
-
   descriptionRow.hidden = !willOpen;
-  mainRow.setAttribute("aria-expanded", String(willOpen));
+  row.setAttribute("aria-expanded", String(willOpen));
 }
 
-function toggleMobileDescription(index) {
-  const description = document.querySelector(
-    `#mobile-description-${index}`
-  );
+function activateTableRows() {
+  tableBody.querySelectorAll(".movie-row").forEach(row => {
+    row.addEventListener("click", () => {
+      toggleTableDescription(row);
+    });
 
-  const button = document.querySelector(
-    `[aria-controls="mobile-description-${index}"]`
-  );
+    row.addEventListener("keydown", event => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        toggleTableDescription(row);
+      }
+    });
+  });
+}
 
-  if (!description || !button) {
-    return;
-  }
+function activateCardButtons() {
+  cardGrid.querySelectorAll(".movie-card-toggle").forEach(button => {
+    button.addEventListener("click", () => {
+      const descriptionId = button.getAttribute("aria-controls");
+      const description = document.querySelector(`#${descriptionId}`);
 
-  const willOpen = description.hidden;
+      if (!description) {
+        return;
+      }
 
-  description.hidden = !willOpen;
-  button.setAttribute("aria-expanded", String(willOpen));
-  button.textContent = willOpen
-    ? "Hide character description"
-    : "Read character description";
+      const willOpen = description.hidden;
+
+      description.hidden = !willOpen;
+      button.setAttribute("aria-expanded", String(willOpen));
+      button.textContent = willOpen
+        ? "Hide character description"
+        : "Read character description";
+    });
+  });
 }
 
 function render() {
   const visibleMovies = getFilteredMovies();
 
   tableBody.innerHTML = visibleMovies
-    .map((movie, index) => `
-      <tr
-        class="movie-main-row"
-        tabindex="0"
-        role="button"
-        aria-expanded="false"
-        aria-controls="description-row-${index}"
-        data-description-index="${index}"
-        title="Click to read the character description"
-      >
-        <td>${movie.year}</td>
+    .map(movie => {
+      const movieId = createMovieId(movie);
 
-        <td class="movie-title">
-          <button
-            class="movie-title-button"
-            type="button"
-            tabindex="-1"
-          >
-            <em>${movie.title}</em>
-          </button>
-        </td>
+      return `
+        <tr
+          class="movie-row"
+          data-movie-id="${movieId}"
+          tabindex="0"
+          aria-expanded="false"
+          aria-controls="table-description-${movieId}"
+        >
+          <td>${movie.year}</td>
 
-        <td>${movie.character}</td>
-        <td>${movie.director}</td>
-        <td>${movie.genre}</td>
-        <td>${formatRating(movie.rating)}</td>
-      </tr>
+          <td class="movie-title">
+            <div class="movie-title-with-poster">
+              ${posterMarkup(movie, "movie-poster-frame--table")}
 
-      <tr
-        class="description-row"
-        id="description-row-${index}"
-        hidden
-      >
-        <td colspan="6">
-          <div class="description-content">
-            <strong>
-              ${movie.character} — Character description
-            </strong>
+              <div>
+                <em>${movie.title}</em>
+                <small class="description-hint">
+                  Select to read about the character
+                </small>
+              </div>
+            </div>
+          </td>
 
-            <p>${movie.description}</p>
+          <td>${movie.character}</td>
+          <td>${movie.director}</td>
+          <td>${movie.genre}</td>
 
-            <p class="description-warning">
-              This character guide contains spoilers.
-            </p>
-          </div>
-        </td>
-      </tr>
-    `)
+          <td>
+            <div class="movie-rating">
+              ${ratingMarkup(movie.rating)}
+            </div>
+          </td>
+        </tr>
+
+        <tr
+          class="movie-description-row"
+          id="table-description-${movieId}"
+          hidden
+        >
+          <td colspan="6">
+            <div class="movie-description-panel">
+              <strong>${movie.character}</strong>
+              <p>${movie.description}</p>
+            </div>
+          </td>
+        </tr>
+      `;
+    })
     .join("");
 
   cardGrid.innerHTML = visibleMovies
-    .map((movie, index) => `
-      <article class="movie-card">
-        <div class="movie-card-top">
-          <h3>${movie.title}</h3>
-          <span class="movie-year">${movie.year}</span>
-        </div>
+    .map(movie => {
+      const movieId = createMovieId(movie);
 
-        <dl>
-          <dt>Character</dt>
-          <dd>${movie.character}</dd>
+      return `
+        <article class="movie-card movie-card-with-poster">
 
-          <dt>Director</dt>
-          <dd>${movie.director}</dd>
+          <div class="movie-card-shell">
 
-          <dt>Genre</dt>
-          <dd>${movie.genre}</dd>
+            ${posterMarkup(movie, "movie-poster-frame--card")}
 
-          <dt>My rating</dt>
-          <dd>${formatRating(movie.rating)}</dd>
-        </dl>
+            <div class="movie-card-body">
 
-        <button
-          class="mobile-description-button"
-          type="button"
-          aria-expanded="false"
-          aria-controls="mobile-description-${index}"
-          data-mobile-description-index="${index}"
-        >
-          Read character description
-        </button>
+              <div class="movie-card-top">
+                <h3>${movie.title}</h3>
+                <span class="movie-year">${movie.year}</span>
+              </div>
 
-        <div
-          class="mobile-description"
-          id="mobile-description-${index}"
-          hidden
-        >
-          <p>${movie.description}</p>
-        </div>
-      </article>
-    `)
+              <dl>
+                <dt>Character</dt>
+                <dd>${movie.character}</dd>
+
+                <dt>Director</dt>
+                <dd>${movie.director}</dd>
+
+                <dt>Genre</dt>
+                <dd>${movie.genre}</dd>
+
+                <dt>My rating</dt>
+                <dd>
+                  <div class="movie-rating">
+                    ${ratingMarkup(movie.rating)}
+                  </div>
+                </dd>
+              </dl>
+
+              <button
+                class="movie-card-toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="card-description-${movieId}"
+              >
+                Read character description
+              </button>
+
+            </div>
+
+          </div>
+
+          <div
+            class="movie-card-description"
+            id="card-description-${movieId}"
+            hidden
+          >
+            <strong>${movie.character}</strong>
+            <p>${movie.description}</p>
+          </div>
+
+        </article>
+      `;
+    })
     .join("");
 
   const count = visibleMovies.length;
@@ -675,34 +632,9 @@ function render() {
 
   emptyState.hidden = count !== 0;
 
-  addDescriptionListeners();
-}
-
-function addDescriptionListeners() {
-  document.querySelectorAll(".movie-main-row").forEach(row => {
-    row.addEventListener("click", () => {
-      const index = row.dataset.descriptionIndex;
-      toggleDesktopDescription(index);
-    });
-
-    row.addEventListener("keydown", event => {
-      if (event.key === "Enter" || event.key === " ") {
-        event.preventDefault();
-
-        const index = row.dataset.descriptionIndex;
-        toggleDesktopDescription(index);
-      }
-    });
-  });
-
-  document
-    .querySelectorAll(".mobile-description-button")
-    .forEach(button => {
-      button.addEventListener("click", () => {
-        const index = button.dataset.mobileDescriptionIndex;
-        toggleMobileDescription(index);
-      });
-    });
+  activatePosterFallbacks();
+  activateTableRows();
+  activateCardButtons();
 }
 
 function resetFilters() {
@@ -714,21 +646,30 @@ function resetFilters() {
   render();
 }
 
-searchInput.addEventListener("input", render);
-directorFilter.addEventListener("change", render);
-genreFilter.addEventListener("change", render);
-sortSelect.addEventListener("change", render);
+[searchInput, directorFilter, genreFilter, sortSelect].forEach(control => {
+  control.addEventListener("input", render);
+  control.addEventListener("change", render);
+});
+
 resetButton.addEventListener("click", resetFilters);
 
-document.querySelector("#film-count").textContent = movies.length;
+const filmCount = document.querySelector("#film-count");
+const directorCount = document.querySelector("#director-count");
+const westernCount = document.querySelector("#western-count");
 
-document.querySelector("#director-count").textContent =
-  uniqueValues("director").length;
+if (filmCount) {
+  filmCount.textContent = movies.length;
+}
 
-document.querySelector("#western-count").textContent =
-  movies.filter(movie =>
+if (directorCount) {
+  directorCount.textContent = uniqueValues("director").length;
+}
+
+if (westernCount) {
+  westernCount.textContent = movies.filter(movie =>
     movie.genre.toLowerCase().includes("western")
   ).length;
+}
 
 populateFilters();
 render();
