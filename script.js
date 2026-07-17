@@ -314,12 +314,30 @@ function createMovieId(movie) {
 }
 
 function ratingMarkup(rating) {
+  const stars = Array.from({ length: 5 }, (_, index) => {
+    const amount = rating - index;
+
+    let starClass = "empty";
+
+    if (amount >= 1) {
+      starClass = "full";
+    } else if (amount >= 0.5) {
+      starClass = "half";
+    }
+
+    return `
+      <span class="single-star ${starClass}" aria-hidden="true">★</span>
+    `;
+  }).join("");
+
   return `
     <span
-      class="rating-stars star-meter"
-      style="--rating: ${rating};"
+      class="rating-stars"
       aria-label="${rating} out of 5 stars"
-    ></span>
+    >
+      ${stars}
+    </span>
+
     <span class="rating-number">${rating}/5</span>
   `;
 }
