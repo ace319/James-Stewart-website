@@ -1007,16 +1007,21 @@ td.movie-title {
 .sources-section {
   padding: 90px 0;
   background: var(--cream);
+  color: var(--ink);
 }
 
 .sources-section h2 {
+  color: var(--ink);
   font-size: clamp(2rem, 4vw, 3.7rem);
 }
 
-.sources-section p:last-child {
+.sources-section p {
   max-width: 850px;
-  margin-bottom: 0;
   color: var(--muted);
+}
+
+.sources-section p:last-child {
+  margin-bottom: 0;
 }
 
 /* FOOTER */
