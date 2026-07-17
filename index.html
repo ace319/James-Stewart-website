@@ -2,106 +2,945 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Ace's personal Jimmy Stewart movie journey, featuring films, characters, directors, genres, and reviews.">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Ace's personal Jimmy Stewart movie journey, featuring his life, military service, films, characters, directors, genres, ratings, and reviews."
+  >
+
   <title>My Jimmy Stewart Journey</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Oswald:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <header class="hero">
+
+  <!-- HERO -->
+
+  <header class="hero" id="top">
+
     <nav class="nav container">
-      <a class="logo" href="#top">JS</a>
+
+      <a
+        class="logo"
+        href="#top"
+        aria-label="Return to the top of the page"
+      >
+        JS
+      </a>
+
       <div class="nav-links">
-        <a href="#journey">My Journey</a>
-        <a href="#movies">Movies</a>
-        <a href="#about">About the Site</a>
+        <a href="#biography">His Life</a>
+        <a href="#military">Military Service</a>
+        <a href="#awards">Awards</a>
+        <a href="#movies">My Movies</a>
+        <a href="#gallery">Gallery</a>
       </div>
+
     </nav>
 
-    <div class="hero-content container" id="top">
-      <p class="eyebrow">A personal classic-film project</p>
-      <h1>My Jimmy Stewart Journey</h1>
-      <p class="hero-copy">
-        Following Jimmy Stewart from early romantic comedies and Frank Capra classics
-        to Hitchcock thrillers, Anthony Mann westerns, and the later films of his career.
+    <div class="hero-content container">
+
+      <p class="eyebrow">
+        A personal classic-film project
       </p>
-      <a class="button" href="#movies">Explore the films</a>
+
+      <h1>
+        My Jimmy Stewart Journey
+      </h1>
+
+      <p class="hero-copy">
+        Exploring the life and career of James Stewart—from his
+        Pennsylvania childhood and distinguished military service to
+        his comedies, dramas, Hitchcock thrillers, westerns, and some
+        of the most memorable characters in American film.
+      </p>
+
+      <div class="hero-buttons">
+
+        <a class="button" href="#biography">
+          Discover his life
+        </a>
+
+        <a class="button button-secondary" href="#movies">
+          Explore my movies
+        </a>
+
+      </div>
+
     </div>
+
   </header>
 
+
   <main>
-    <section class="stats container" id="journey" aria-label="Viewing statistics">
+
+    <!-- VIEWING STATISTICS -->
+
+    <section
+      class="stats container"
+      id="journey"
+      aria-label="Viewing statistics"
+    >
+
       <article>
         <strong id="film-count">26</strong>
-        <span>Films watched</span>
+        <span>Films I have watched</span>
       </article>
+
       <article>
         <strong>1938–1962</strong>
-        <span>Years covered</span>
+        <span>Years currently covered</span>
       </article>
+
       <article>
         <strong id="director-count">17</strong>
-        <span>Directors</span>
+        <span>Directors represented</span>
       </article>
+
       <article>
         <strong id="western-count">7</strong>
-        <span>Westerns</span>
+        <span>Westerns watched</span>
       </article>
+
     </section>
+
+
+    <!-- BIOGRAPHY INTRODUCTION -->
+
+    <section class="biography-section" id="biography">
+
+      <div class="container">
+
+        <div class="section-heading biography-heading">
+
+          <div>
+            <p class="eyebrow dark">
+              About Jimmy Stewart
+            </p>
+
+            <h2>
+              An American original
+            </h2>
+          </div>
+
+          <p class="section-introduction">
+            James Maitland Stewart became one of the most recognizable
+            and beloved actors of Hollywood’s Golden Age. His screen
+            characters could be idealistic, gentle, funny, frightened,
+            angry, obsessive, or deeply wounded—but they nearly always
+            felt human.
+          </p>
+
+        </div>
+
+
+        <div class="biography-layout">
+
+          <!-- Replace this placeholder with a real photograph later -->
+
+          <figure class="biography-photo photo-placeholder">
+
+            <div class="photo-placeholder-inner">
+              <span class="photo-number">01</span>
+
+              <p>
+                Add a classic Jimmy Stewart portrait here
+              </p>
+
+              <small>
+                Suggested filename:
+                images/jimmy-stewart-portrait.jpg
+              </small>
+            </div>
+
+            <!--
+            When you upload a photograph, remove the placeholder above
+            and use this code:
+
+            <img
+              src="images/jimmy-stewart-portrait.jpg"
+              alt="Portrait of Jimmy Stewart"
+            >
+            -->
+
+            <figcaption>
+              James Maitland Stewart, one of American cinema’s most
+              enduring stars.
+            </figcaption>
+
+          </figure>
+
+
+          <div class="biography-copy">
+
+            <h3>
+              From Indiana, Pennsylvania, to Hollywood
+            </h3>
+
+            <p>
+              James Maitland Stewart was born on May 20, 1908, in
+              Indiana, Pennsylvania. He grew up with his parents,
+              Alexander and Elizabeth Stewart, and his sisters,
+              Virginia and Mary. His father operated the family
+              hardware store, and Stewart’s small-town upbringing
+              remained an important part of his public identity
+              throughout his life.
+            </p>
+
+            <p>
+              Stewart attended Mercersburg Academy before studying
+              architecture at Princeton University. After graduating,
+              he became involved in summer theater and eventually
+              followed friends to New York, where he began appearing
+              on Broadway.
+            </p>
+
+            <p>
+              MGM signed Stewart to a film contract in 1935. His
+              natural speaking style, lanky appearance, hesitant
+              delivery, and ability to suggest both decency and inner
+              conflict helped him stand apart from other leading men.
+            </p>
+
+            <p>
+              During the late 1930s and early 1940s, Stewart became a
+              major star through movies such as
+              <em>You Can’t Take It with You</em>,
+              <em>Mr. Smith Goes to Washington</em>,
+              <em>The Shop Around the Corner</em>, and
+              <em>The Philadelphia Story</em>.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- QUICK FACTS -->
+
+    <section class="quick-facts">
+
+      <div class="container">
+
+        <div class="quick-facts-heading">
+
+          <p class="eyebrow">
+            At a glance
+          </p>
+
+          <h2>
+            Jimmy Stewart facts
+          </h2>
+
+        </div>
+
+
+        <div class="facts-grid">
+
+          <article class="fact-card">
+            <span class="fact-label">Full name</span>
+            <strong>James Maitland Stewart</strong>
+          </article>
+
+          <article class="fact-card">
+            <span class="fact-label">Born</span>
+            <strong>May 20, 1908</strong>
+          </article>
+
+          <article class="fact-card">
+            <span class="fact-label">Birthplace</span>
+            <strong>Indiana, Pennsylvania</strong>
+          </article>
+
+          <article class="fact-card">
+            <span class="fact-label">Education</span>
+            <strong>Princeton University</strong>
+          </article>
+
+          <article class="fact-card">
+            <span class="fact-label">Film career began</span>
+            <strong>1935</strong>
+          </article>
+
+          <article class="fact-card">
+            <span class="fact-label">Film appearances</span>
+            <strong>More than 80</strong>
+          </article>
+
+          <article class="fact-card">
+            <span class="fact-label">Combat missions</span>
+            <strong>20</strong>
+          </article>
+
+          <article class="fact-card">
+            <span class="fact-label">Highest military rank</span>
+            <strong>Brigadier General</strong>
+          </article>
+
+          <article class="fact-card">
+            <span class="fact-label">Died</span>
+            <strong>July 2, 1997</strong>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- FILM CAREER -->
+
+    <section class="career-section">
+
+      <div class="container">
+
+        <div class="career-grid">
+
+          <div class="career-copy">
+
+            <p class="eyebrow dark">
+              Hollywood career
+            </p>
+
+            <h2>
+              More than the ordinary American hero
+            </h2>
+
+            <p>
+              Stewart first became famous playing sincere, idealistic
+              young men. Jefferson Smith and George Bailey remain two
+              of the clearest examples, but his career became much
+              darker and more complicated after World War II.
+            </p>
+
+            <p>
+              In the 1950s, Stewart worked repeatedly with director
+              Anthony Mann on westerns that revealed anger, trauma,
+              greed, vengeance, and moral uncertainty beneath his
+              familiar everyman image.
+            </p>
+
+            <p>
+              His films with Alfred Hitchcock took that transformation
+              even further. In <em>Rear Window</em>,
+              <em>The Man Who Knew Too Much</em>, and
+              <em>Vertigo</em>, Stewart played men whose fear,
+              curiosity, possessiveness, and obsession could place
+              both themselves and others in danger.
+            </p>
+
+            <p>
+              He also worked with directors including Frank Capra,
+              Ernst Lubitsch, George Cukor, Cecil B. DeMille,
+              Billy Wilder, Otto Preminger, and John Ford.
+            </p>
+
+          </div>
+
+
+          <div class="career-eras">
+
+            <article>
+              <span>1930s–1940s</span>
+
+              <h3>
+                Idealists and romantics
+              </h3>
+
+              <p>
+                Comedies, romances, political dramas, and ordinary
+                men trying to hold onto their principles.
+              </p>
+            </article>
+
+
+            <article>
+              <span>1950s</span>
+
+              <h3>
+                Westerns and thrillers
+              </h3>
+
+              <p>
+                Darker heroes shaped by grief, revenge, suspicion,
+                fear, and obsession.
+              </p>
+            </article>
+
+
+            <article>
+              <span>1960s and beyond</span>
+
+              <h3>
+                Established legend
+              </h3>
+
+              <p>
+                Later westerns, family films, television work, and
+                recognition as one of Hollywood’s defining actors.
+              </p>
+            </article>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- MILITARY SERVICE -->
+
+    <section class="military-section" id="military">
+
+      <div class="container">
+
+        <div class="military-layout">
+
+          <div class="military-copy">
+
+            <p class="eyebrow">
+              World War II
+            </p>
+
+            <h2>
+              Service before stardom
+            </h2>
+
+            <p class="military-lead">
+              Stewart did not simply appear in military publicity
+              films. He became a trained bomber pilot, commanded a
+              squadron, flew combat missions over Europe, and
+              continued serving long after the war ended.
+            </p>
+
+
+            <div class="military-timeline">
+
+              <article>
+
+                <span class="timeline-year">
+                  1941
+                </span>
+
+                <div>
+                  <h3>
+                    Entered the Army
+                  </h3>
+
+                  <p>
+                    Stewart entered the United States Army as an
+                    enlisted man and was assigned to the Army Air
+                    Corps. He already had extensive civilian flying
+                    experience and later earned his military pilot
+                    wings and an officer’s commission.
+                  </p>
+                </div>
+
+              </article>
+
+
+              <article>
+
+                <span class="timeline-year">
+                  1941–1943
+                </span>
+
+                <div>
+                  <h3>
+                    Pilot and instructor
+                  </h3>
+
+                  <p>
+                    He trained and instructed other airmen in several
+                    aircraft, including the B-17 bomber, before
+                    receiving an overseas combat assignment.
+                  </p>
+                </div>
+
+              </article>
+
+
+              <article>
+
+                <span class="timeline-year">
+                  1943
+                </span>
+
+                <div>
+                  <h3>
+                    Squadron commander
+                  </h3>
+
+                  <p>
+                    Stewart traveled to England as commanding officer
+                    of the 703rd Bomb Squadron, which operated
+                    B-24 Liberator bombers.
+                  </p>
+                </div>
+
+              </article>
+
+
+              <article>
+
+                <span class="timeline-year">
+                  1943–1945
+                </span>
+
+                <div>
+                  <h3>
+                    Combat operations
+                  </h3>
+
+                  <p>
+                    He flew 20 combat missions during World War II.
+                    He later served as operations officer of the
+                    453rd Bomb Group and as chief of staff of the
+                    2nd Combat Wing.
+                  </p>
+                </div>
+
+              </article>
+
+
+              <article>
+
+                <span class="timeline-year">
+                  1959
+                </span>
+
+                <div>
+                  <h3>
+                    Brigadier general
+                  </h3>
+
+                  <p>
+                    Stewart continued serving in the United States
+                    Air Force Reserve after the war and was promoted
+                    to brigadier general.
+                  </p>
+                </div>
+
+              </article>
+
+
+              <article>
+
+                <span class="timeline-year">
+                  1968
+                </span>
+
+                <div>
+                  <h3>
+                    Military retirement
+                  </h3>
+
+                  <p>
+                    He retired from the Air Force Reserve after more
+                    than 27 years of military service.
+                  </p>
+                </div>
+
+              </article>
+
+            </div>
+
+          </div>
+
+
+          <!-- Replace this placeholder with a military photograph -->
+
+          <figure class="military-photo photo-placeholder">
+
+            <div class="photo-placeholder-inner">
+              <span class="photo-number">02</span>
+
+              <p>
+                Add a photograph of Stewart in uniform
+              </p>
+
+              <small>
+                Suggested filename:
+                images/jimmy-stewart-military.jpg
+              </small>
+            </div>
+
+            <!--
+            Replace the placeholder with:
+
+            <img
+              src="images/jimmy-stewart-military.jpg"
+              alt="Jimmy Stewart wearing his military uniform"
+            >
+            -->
+
+            <figcaption>
+              Stewart served as a bomber pilot and commander during
+              World War II.
+            </figcaption>
+
+          </figure>
+
+        </div>
+
+
+        <div class="military-awards">
+
+          <p class="eyebrow">
+            Military honors
+          </p>
+
+          <h3>
+            Selected decorations
+          </h3>
+
+          <div class="honor-list">
+
+            <span>Distinguished Service Medal</span>
+
+            <span>
+              Distinguished Flying Cross with Oak Leaf Cluster
+            </span>
+
+            <span>
+              Air Medal with three Oak Leaf Clusters
+            </span>
+
+            <span>Army Commendation Medal</span>
+
+            <span>Presidential Unit Citation</span>
+
+            <span>
+              French Croix de Guerre with Palm
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- AWARDS -->
+
+    <section class="awards-section" id="awards">
+
+      <div class="container">
+
+        <div class="section-heading awards-heading">
+
+          <div>
+            <p class="eyebrow dark">
+              Recognition
+            </p>
+
+            <h2>
+              Awards and honors
+            </h2>
+          </div>
+
+          <p class="section-introduction">
+            Stewart received major honors for individual
+            performances, his entire acting career, his public
+            service, and his military service.
+          </p>
+
+        </div>
+
+
+        <div class="awards-grid">
+
+          <article class="award-card featured-award">
+
+            <span class="award-year">
+              1941
+            </span>
+
+            <h3>
+              Academy Award for Best Actor
+            </h3>
+
+            <p>
+              Stewart won Best Actor for his performance as
+              Macaulay “Mike” Connor in
+              <em>The Philadelphia Story</em>.
+            </p>
+
+          </article>
+
+
+          <article class="award-card">
+
+            <span class="award-year">
+              Five
+            </span>
+
+            <h3>
+              Competitive Oscar nominations
+            </h3>
+
+            <p>
+              His nominated performances included
+              <em>Mr. Smith Goes to Washington</em>,
+              <em>The Philadelphia Story</em>,
+              <em>It’s a Wonderful Life</em>,
+              <em>Harvey</em>, and
+              <em>Anatomy of a Murder</em>.
+            </p>
+
+          </article>
+
+
+          <article class="award-card">
+
+            <span class="award-year">
+              1965
+            </span>
+
+            <h3>
+              Cecil B. DeMille Award
+            </h3>
+
+            <p>
+              The Golden Globes honored Stewart for his outstanding
+              contributions to entertainment.
+            </p>
+
+          </article>
+
+
+          <article class="award-card">
+
+            <span class="award-year">
+              1980
+            </span>
+
+            <h3>
+              AFI Life Achievement Award
+            </h3>
+
+            <p>
+              The American Film Institute recognized the range,
+              influence, and lasting importance of his work.
+            </p>
+
+          </article>
+
+
+          <article class="award-card">
+
+            <span class="award-year">
+              1984
+            </span>
+
+            <h3>
+              Honorary Academy Award
+            </h3>
+
+            <p>
+              The Academy honored Stewart for 50 years of memorable
+              performances and his ideals both on and off screen.
+            </p>
+
+          </article>
+
+
+          <article class="award-card">
+
+            <span class="award-year">
+              1985
+            </span>
+
+            <h3>
+              Presidential Medal of Freedom
+            </h3>
+
+            <p>
+              Stewart received the United States’ highest civilian
+              honor in recognition of his career and public service.
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- PERSONAL VIEWING INTRODUCTION -->
 
     <section class="intro container">
+
       <div>
-        <p class="eyebrow dark">Why I made this</p>
-        <h2>More than a filmography</h2>
+
+        <p class="eyebrow dark">
+          My viewing project
+        </p>
+
+        <h2>
+          More than a filmography
+        </h2>
+
       </div>
-      <p>
-        This site tracks every Jimmy Stewart movie I have watched, the character he
-        played, who directed it, and what kind of movie it is. As I keep watching,
-        I can add ratings, rankings, favorite scenes, and personal reviews.
-      </p>
+
+      <div>
+
+        <p>
+          This site tracks every Jimmy Stewart movie I have watched,
+          the character he played, who directed it, what kind of
+          movie it is, and my personal rating.
+        </p>
+
+        <p>
+          Click any movie in the list to read a spoiler-filled
+          description of Stewart’s character. As I continue through
+          his career, I will add more films, personal reviews,
+          rankings, favorite scenes, and photographs.
+        </p>
+
+      </div>
+
     </section>
 
+
+    <!-- MOVIE DATABASE -->
+
     <section class="movie-section" id="movies">
+
       <div class="container">
+
         <div class="section-heading">
+
           <div>
-            <p class="eyebrow">The watchlist</p>
-            <h2>Movies I’ve watched</h2>
+
+            <p class="eyebrow">
+              The watchlist
+            </p>
+
+            <h2>
+              Movies I’ve watched
+            </h2>
+
           </div>
-          <p id="results-label" aria-live="polite">Showing all 26 films</p>
+
+          <p
+            id="results-label"
+            aria-live="polite"
+          >
+            Showing all 26 films
+          </p>
+
         </div>
+
 
         <div class="controls">
+
           <label class="search-box">
-            <span class="sr-only">Search movies</span>
-            <input id="search" type="search" placeholder="Search movie, character, or director…">
+
+            <span class="sr-only">
+              Search movies
+            </span>
+
+            <input
+              id="search"
+              type="search"
+              placeholder="Search movie, character, director, or description…"
+            >
+
           </label>
 
-          <select id="director-filter" aria-label="Filter by director">
-            <option value="all">All directors</option>
+
+          <select
+            id="director-filter"
+            aria-label="Filter by director"
+          >
+            <option value="all">
+              All directors
+            </option>
           </select>
 
-          <select id="genre-filter" aria-label="Filter by genre">
-            <option value="all">All genres</option>
+
+          <select
+            id="genre-filter"
+            aria-label="Filter by genre"
+          >
+            <option value="all">
+              All genres
+            </option>
           </select>
 
-          <select id="sort" aria-label="Sort movies">
-            <option value="year-asc">Year: earliest first</option>
-            <option value="year-desc">Year: latest first</option>
-            <option value="title-asc">Movie title: A–Z</option>
-            <option value="director-asc">Director: A–Z</option>
-            <option value="genre-asc">Genre: A–Z</option>
+
+          <select
+            id="sort"
+            aria-label="Sort movies"
+          >
+
+            <option value="year-asc">
+              Year: earliest first
+            </option>
+
+            <option value="year-desc">
+              Year: latest first
+            </option>
+
+            <option value="title-asc">
+              Movie title: A–Z
+            </option>
+
+            <option value="director-asc">
+              Director: A–Z
+            </option>
+
+            <option value="genre-asc">
+              Genre: A–Z
+            </option>
+
           </select>
 
-          <button id="reset" type="button">Reset</button>
+
+          <button id="reset" type="button">
+            Reset
+          </button>
+
         </div>
 
+
         <div class="table-wrap">
+
           <table>
+
             <thead>
+
               <tr>
                 <th scope="col">Year</th>
                 <th scope="col">Movie</th>
@@ -110,54 +949,296 @@
                 <th scope="col">Primary genre</th>
                 <th scope="col">My rating</th>
               </tr>
+
             </thead>
+
             <tbody id="movie-table"></tbody>
+
           </table>
+
         </div>
 
-        <div id="movie-cards" class="movie-cards"></div>
-        <p id="empty-state" class="empty-state" hidden>No films match those filters.</p>
+
+        <div
+          id="movie-cards"
+          class="movie-cards"
+        ></div>
+
+
+        <p
+          id="empty-state"
+          class="empty-state"
+          hidden
+        >
+          No films match those filters.
+        </p>
+
       </div>
+
     </section>
+
+
+    <!-- CHARACTER TYPES -->
 
     <section class="feature-grid container">
+
       <article>
+
         <span>01</span>
-        <h3>Capra classics</h3>
-        <p>Follow Stewart’s idealistic heroes from Tony Kirby to Jefferson Smith and George Bailey.</p>
+
+        <h3>
+          The sincere idealist
+        </h3>
+
+        <p>
+          Jeff Smith, George Bailey, Tony Kirby, and
+          Ranse Stoddard believe that decency can make a difference.
+        </p>
+
       </article>
+
+
       <article>
+
         <span>02</span>
-        <h3>Hitchcock thrillers</h3>
-        <p>Compare Rupert Cadell, Jeff Jefferies, Ben McKenna, and Scottie Ferguson.</p>
+
+        <h3>
+          The troubled man
+        </h3>
+
+        <p>
+          Scottie Ferguson, Howard Kemp, Lin McAdam, and
+          Will Lockhart reveal Stewart’s darker and more wounded side.
+        </p>
+
       </article>
+
+
       <article>
+
         <span>03</span>
-        <h3>Anthony Mann westerns</h3>
-        <p>Track the darker, harder-edged western characters that reshaped Stewart’s screen image.</p>
+
+        <h3>
+          The charming eccentric
+        </h3>
+
+        <p>
+          Elwood P. Dowd, Theodore Honey, and Mike Connor show
+          Stewart’s warmth, humor, and unusual screen personality.
+        </p>
+
       </article>
+
     </section>
+
+
+    <!-- PHOTO GALLERY -->
+
+    <section class="gallery-section" id="gallery">
+
+      <div class="container">
+
+        <div class="section-heading gallery-heading">
+
+          <div>
+
+            <p class="eyebrow">
+              Photo archive
+            </p>
+
+            <h2>
+              Jimmy Stewart gallery
+            </h2>
+
+          </div>
+
+          <p class="section-introduction">
+            This area is ready for public-domain photographs,
+            licensed images, personal photographs, or images whose
+            terms permit use on a fan website.
+          </p>
+
+        </div>
+
+
+        <div class="gallery-grid">
+
+          <figure class="gallery-item photo-placeholder">
+
+            <div class="photo-placeholder-inner">
+              <span class="photo-number">01</span>
+              <p>Early career photograph</p>
+              <small>images/jimmy-early-career.jpg</small>
+            </div>
+
+            <figcaption>
+              Early Hollywood career
+            </figcaption>
+
+          </figure>
+
+
+          <figure class="gallery-item photo-placeholder">
+
+            <div class="photo-placeholder-inner">
+              <span class="photo-number">02</span>
+              <p>World War II photograph</p>
+              <small>images/jimmy-world-war-two.jpg</small>
+            </div>
+
+            <figcaption>
+              Military service
+            </figcaption>
+
+          </figure>
+
+
+          <figure class="gallery-item photo-placeholder">
+
+            <div class="photo-placeholder-inner">
+              <span class="photo-number">03</span>
+              <p>Hitchcock-era photograph</p>
+              <small>images/jimmy-hitchcock-era.jpg</small>
+            </div>
+
+            <figcaption>
+              Hitchcock thrillers
+            </figcaption>
+
+          </figure>
+
+
+          <figure class="gallery-item photo-placeholder">
+
+            <div class="photo-placeholder-inner">
+              <span class="photo-number">04</span>
+              <p>Western-era photograph</p>
+              <small>images/jimmy-western-era.jpg</small>
+            </div>
+
+            <figcaption>
+              Western films
+            </figcaption>
+
+          </figure>
+
+
+          <figure class="gallery-item photo-placeholder">
+
+            <div class="photo-placeholder-inner">
+              <span class="photo-number">05</span>
+              <p>Awards photograph</p>
+              <small>images/jimmy-awards.jpg</small>
+            </div>
+
+            <figcaption>
+              Career recognition
+            </figcaption>
+
+          </figure>
+          <figure class="gallery-item photo-placeholder">
+
+            <div class="photo-placeholder-inner">
+              <span class="photo-number">06</span>
+              <p>Later-life photograph</p>
+              <small>images/jimmy-later-life.jpg</small>
+            </div>
+
+            <figcaption>
+              Later life and legacy
+            </figcaption>
+
+          </figure>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- SITE INFORMATION -->
 
     <section class="about" id="about">
+
       <div class="container about-inner">
+
         <div>
-          <p class="eyebrow">Built by Ace</p>
-          <h2>A fan’s view of a legendary career</h2>
+
+          <p class="eyebrow">
+            Built by Ace
+          </p>
+
+          <h2>
+            A fan’s view of a legendary career
+          </h2>
+
         </div>
-        <p>
-          This is an independent fan project created to document my Jimmy Stewart
-          viewing journey. It is not affiliated with Jimmy Stewart’s estate, any
-          studio, or any rights holder.
-        </p>
+
+        <div>
+
+          <p>
+            This is an independent fan project created to document
+            my Jimmy Stewart viewing journey and celebrate his life,
+            acting career, and military service.
+          </p>
+
+          <p>
+            It is not affiliated with Jimmy Stewart’s estate, the
+            Jimmy Stewart Museum, any film studio, or any rights
+            holder.
+          </p>
+
+        </div>
+
       </div>
+
     </section>
+
+
+    <!-- SOURCES -->
+
+    <section class="sources-section">
+
+      <div class="container">
+
+        <p class="eyebrow dark">
+          Research
+        </p>
+
+        <h2>
+          Main information sources
+        </h2>
+
+        <p>
+          Biographical, military, and awards information on this page
+          was checked against material from the Jimmy Stewart Museum,
+          the National Museum of the United States Air Force, the
+          Academy of Motion Picture Arts and Sciences, and the
+          American Film Institute.
+        </p>
+
+      </div>
+
+    </section>
+
   </main>
 
+
   <footer class="footer container">
-    <p>My Jimmy Stewart Journey</p>
-    <p>Built with HTML, CSS, and JavaScript.</p>
+
+    <p>
+      My Jimmy Stewart Journey
+    </p>
+
+    <p>
+      Built with HTML, CSS, and JavaScript.
+    </p>
+
   </footer>
 
+
   <script src="script.js"></script>
+
 </body>
 </html>
