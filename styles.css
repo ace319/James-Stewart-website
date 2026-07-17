@@ -929,37 +929,39 @@ td.movie-title {
   color: rgba(255, 255, 255, 0.65);
 }
 
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+
 .gallery-item {
+  width: 100%;
+  max-width: 100%;
   overflow: hidden;
   background: var(--ink);
+  box-shadow: none;
 }
 
 .gallery-item img {
   display: block;
   width: 100%;
-  height: 280px;
-  object-fit: cover;
-  object-position: center;
-}
-
-.gallery-item-contain img {
+  height: 220px;
   object-fit: contain;
-  object-position: center top;
+  object-position: center;
   background: var(--ink);
-}
-
-.gallery-item {
-  overflow: hidden;
-  box-shadow: none;
 }
 
 .gallery-item .photo-placeholder-inner {
-  min-height: 360px;
+  min-height: 220px;
 }
 
 .gallery-item figcaption {
+  padding: 14px 16px;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
   background: var(--ink);
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 0.78rem;
 }
 
 /* ABOUT */
