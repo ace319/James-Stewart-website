@@ -921,21 +921,32 @@ td.movie-title {
   color: var(--white);
 }
 
-.gallery-heading .section-introduction {
-  color: rgba(255, 255, 255, 0.65);
+.gallery-header {
+  max-width: 780px;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+.gallery-header h2 {
+  margin-bottom: 20px;
+}
+
+.gallery-header .section-introduction {
+  max-width: 700px;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.68);
 }
 
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(3, 320px);
-  justify-content: center;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 28px;
   max-width: 1020px;
   margin: 0 auto;
 }
 
 .gallery-item {
-  width: 320px;
+  width: 100%;
   overflow: hidden;
   background: var(--ink);
   box-shadow: none;
@@ -943,7 +954,7 @@ td.movie-title {
 
 .gallery-item img {
   display: block;
-  width: 280px;
+  width: calc(100% - 40px);
   height: 190px;
   margin: 20px auto;
   object-fit: contain;
