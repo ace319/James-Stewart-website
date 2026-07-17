@@ -929,10 +929,17 @@ td.movie-title {
   color: rgba(255, 255, 255, 0.65);
 }
 
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 22px;
+.gallery-item {
+  overflow: hidden;
+  background: var(--ink);
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .gallery-item {
