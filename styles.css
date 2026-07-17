@@ -318,11 +318,9 @@ p {
   align-items: start;
 }
 
-.biography-layout {
-  display: grid;
-  grid-template-columns: minmax(320px, 0.9fr) minmax(0, 1.1fr);
-  gap: 80px;
-  align-items: start;
+.biography-photo {
+  margin: 0 auto;
+
 }
 
 .biography-copy h3 {
