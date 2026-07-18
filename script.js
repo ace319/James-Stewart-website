@@ -34,17 +34,6 @@ const movies = [
   },
   {
     year: 1940,
-    title: "The Philadelphia Story",
-    character: "Macaulay “Mike” Connor",
-    director: "George Cukor",
-    genre: "Romantic Comedy",
-    rating: 4.5,
-    poster: "images/posters/the-philadelphia-story.jpg",
-    description:
-      "A sharp and sarcastic writer reluctantly working as a society reporter. Mike initially looks down on the wealthy people he covers but gradually recognizes Tracy’s vulnerability and briefly falls in love with her."
-  },
-  {
-    year: 1940,
     title: "The Shop Around the Corner",
     character: "Alfred Kralik",
     director: "Ernst Lubitsch",
@@ -54,6 +43,18 @@ const movies = [
     description:
       "The intelligent and dependable senior clerk at a Budapest shop. He constantly argues with Klara without realizing that she is the anonymous pen pal with whom he has fallen in love."
   },
+  {
+    year: 1940,
+    title: "The Philadelphia Story",
+    character: "Macaulay “Mike” Connor",
+    director: "George Cukor",
+    genre: "Romantic Comedy",
+    rating: 4.5,
+    poster: "images/posters/the-philadelphia-story.jpg",
+    description:
+      "A sharp and sarcastic writer reluctantly working as a society reporter. Mike initially looks down on the wealthy people he covers but gradually recognizes Tracy’s vulnerability and briefly falls in love with her."
+  },
+  
   {
     year: 1941,
     title: "Pot o’ Gold",
@@ -76,6 +77,17 @@ const movies = [
     description:
       "A generous and ambitious man who repeatedly sacrifices his dreams to help his family and Bedford Falls. Clarence eventually shows George how profoundly his life has affected everyone around him."
   },
+   {
+    year: 1948,
+    title: "Call Northside 777",
+    character: "P. James McNeal",
+    director: "Henry Hathaway",
+    genre: "Film Noir / Crime Drama",
+    rating: 4,
+    poster: "images/posters/call-northside-777.jpg",
+    description:
+      "A skeptical Chicago newspaper reporter assigned to investigate claims that a convicted murderer is innocent. What begins as a human-interest story becomes a determined search for the truth."
+  },
   {
     year: 1948,
     title: "Rope",
@@ -86,17 +98,6 @@ const movies = [
     poster: "images/posters/rope.jpg",
     description:
       "A clever and observant former teacher whose intellectual arguments have influenced two former students. Rupert gradually suspects that they have committed murder and is horrified by what his ideas helped inspire."
-  },
-  {
-    year: 1948,
-    title: "Call Northside 777",
-    character: "P. James McNeal",
-    director: "Henry Hathaway",
-    genre: "Film Noir / Crime Drama",
-    rating: 4,
-    poster: "images/posters/call-northside-777.jpg",
-    description:
-      "A skeptical Chicago newspaper reporter assigned to investigate claims that a convicted murderer is innocent. What begins as a human-interest story becomes a determined search for the truth."
   },
    {
     year: 1950,
@@ -155,17 +156,6 @@ const movies = [
   },
   {
     year: 1952,
-    title: "The Greatest Show on Earth",
-    character: "Buttons",
-    director: "Cecil B. DeMille",
-    genre: "Circus Drama",
-    rating: 2,
-    poster: "images/posters/the-greatest-show-on-earth.jpg",
-    description:
-      "A mysterious circus clown who never removes his makeup. Buttons was once a doctor and is hiding from the law after ending the suffering of his terminally ill wife."
-  },
-  {
-    year: 1952,
     title: "Bend of the River",
     character: "Glyn McLyntock",
     director: "Anthony Mann",
@@ -175,6 +165,18 @@ const movies = [
     description:
       "A former border raider attempting to leave his violent past behind. Glyn guides a wagon train west but must prove that a person with a troubled history can genuinely change."
   },
+  {
+    year: 1952,
+    title: "The Greatest Show on Earth",
+    character: "Buttons",
+    director: "Cecil B. DeMille",
+    genre: "Circus Drama",
+    rating: 2,
+    poster: "images/posters/the-greatest-show-on-earth.jpg",
+    description:
+      "A mysterious circus clown who never removes his makeup. Buttons was once a doctor and is hiding from the law after ending the suffering of his terminally ill wife."
+  },
+
   {
     year: 1953,
     title: "The Naked Spur",
