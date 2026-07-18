@@ -98,6 +98,28 @@ const movies = [
     description:
       "A skeptical Chicago newspaper reporter assigned to investigate claims that a convicted murderer is innocent. What begins as a human-interest story becomes a determined search for the truth."
   },
+   {
+    year: 1950,
+    title: "Winchester ’73",
+    character: "Lin McAdam",
+    director: "Anthony Mann",
+    genre: "Western",
+    rating: 4.5,
+    poster: "images/posters/winchester-73.jpg",
+    description:
+      "A skilled marksman relentlessly pursuing Dutch Henry Brown. Lin’s search for a stolen Winchester rifle gradually reveals that his mission is driven by a deeply personal desire for revenge."
+  },
+  {
+  year: 1950,
+  title: "Broken Arrow",
+  character: "Tom Jeffords",
+  director: "Delmer Daves",
+  genre: "Western Drama",
+  rating: 3.5,
+  poster: "images/posters/broken-arrow.jpg",
+  description:
+    "A former Army scout who becomes determined to create peace between the Apache people and American settlers. Tom develops a deep friendship with Cochise and marries Sonseeahray, but his efforts toward peace come at a devastating personal cost."
+},
   {
     year: 1950,
     title: "Harvey",
@@ -119,17 +141,6 @@ const movies = [
     poster: "images/posters/the-jackpot.jpg",
     description:
       "A small-town family man who wins an enormous collection of prizes from a radio contest. The supposed jackpot creates taxes, confusion and problems that quickly overwhelm his ordinary life."
-  },
-  {
-    year: 1950,
-    title: "Winchester ’73",
-    character: "Lin McAdam",
-    director: "Anthony Mann",
-    genre: "Western",
-    rating: 4.5,
-    poster: "images/posters/winchester-73.jpg",
-    description:
-      "A skilled marksman relentlessly pursuing Dutch Henry Brown. Lin’s search for a stolen Winchester rifle gradually reveals that his mission is driven by a deeply personal desire for revenge."
   },
   {
     year: 1951,
