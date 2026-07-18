@@ -394,16 +394,12 @@ function sortMovies(items) {
   const value = sortSelect.value;
 
   if (value === "year-asc") {
-    sorted.sort(
-      (a, b) => a.year - b.year || a.title.localeCompare(b.title)
-    );
-  }
+  sorted.sort((a, b) => a.year - b.year);
+}
 
-  if (value === "year-desc") {
-    sorted.sort(
-      (a, b) => b.year - a.year || a.title.localeCompare(b.title)
-    );
-  }
+ if (value === "year-desc") {
+  sorted.sort((a, b) => b.year - a.year);
+}
 
   if (value === "title-asc") {
     sorted.sort((a, b) => a.title.localeCompare(b.title));
