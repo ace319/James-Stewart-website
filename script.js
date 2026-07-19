@@ -1,5 +1,16 @@
 const movies = [
   {
+  year: 1935,
+  title: "The Murder Man",
+  character: "“Shorty”",
+  director: "Tim Whelan",
+  genre: "Crime Drama",
+  rating: 3,
+  poster: "images/posters/the-murder-man.jpg",
+  description:
+    "An eager young newspaper reporter working alongside the more experienced members of the crime desk. Shorty appears only briefly, but the role marked Jimmy Stewart’s credited feature-film debut."
+},
+  {
     year: 1938,
     title: "You Can't Take It with You",
     character: "Tony Kirby",
