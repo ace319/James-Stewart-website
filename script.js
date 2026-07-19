@@ -16,7 +16,7 @@ const movies = [
     character: "Tony Kirby",
     director: "Frank Capra",
     genre: "Romantic Comedy",
-    rating: 4.5,
+    rating: 4,
     poster: "images/posters/you-cant-take-it-with-you.jpg",
     description:
       "The good-hearted son of a wealthy banking family. Tony dislikes the rigid life planned for him and wants to marry Alice Sycamore, whose eccentric family teaches him that happiness and love matter more than money or status."
@@ -49,7 +49,7 @@ const movies = [
     character: "Alfred Kralik",
     director: "Ernst Lubitsch",
     genre: "Romantic Comedy",
-    rating: 5,
+    rating: 4.5,
     poster: "images/posters/the-shop-around-the-corner.jpg",
     description:
       "The intelligent and dependable senior clerk at a Budapest shop. He constantly argues with Klara without realizing that she is the anonymous pen pal with whom he has fallen in love."
@@ -160,7 +160,7 @@ const movies = [
     character: "Theodore Honey",
     director: "Henry Koster",
     genre: "Aviation Drama",
-    rating: 4,
+    rating: 3.5,
     poster: "images/posters/no-highway-in-the-sky.jpg",
     description:
       "An eccentric and socially awkward aviation engineer who believes a new passenger aircraft will suffer catastrophic metal fatigue. Although others dismiss him, Honey risks his career to prevent a disaster."
@@ -282,7 +282,7 @@ const movies = [
     character: "Shepherd “Shep” Henderson",
     director: "Richard Quine",
     genre: "Romantic Fantasy Comedy",
-    rating: 4,
+    rating: 3,
     poster: "images/posters/bell-book-and-candle.jpg",
     description:
       "A successful publisher who becomes enchanted by his mysterious neighbor Gillian. He does not initially realize that she is a witch who has used magic to make him fall in love with her."
