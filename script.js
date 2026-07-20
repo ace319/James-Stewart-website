@@ -11,6 +11,17 @@ const movies = [
     "An eager young newspaper reporter working alongside the more experienced members of the crime desk. Shorty appears only briefly, but the role marked Jimmy Stewart’s credited feature-film debut."
 },
   {
+  year: 1936,
+  title: "Next Time We Love",
+  character: "Christopher Tyler",
+  director: "Edward H. Griffith",
+  genre: "Romantic Drama",
+  rating: 3,
+  poster: "images/posters/next-time-we-love.jpg",
+  description:
+    "An ambitious young newspaper reporter married to aspiring actress Cicely Tyler. As their careers repeatedly separate them, Christopher struggles to balance his professional dreams with his love for his wife and family."
+},
+  {
     year: 1938,
     title: "You Can't Take It with You",
     character: "Tony Kirby",
