@@ -5,7 +5,7 @@ const movies = [
   character: "“Shorty”",
   director: "Tim Whelan",
   genre: "Crime Drama",
-  rating: 3,
+  rating: 2.5,
   poster: "images/posters/the-murder-man.jpg",
   description:
     "An eager young newspaper reporter working alongside the more experienced members of the crime desk. Shorty appears only briefly, but the role marked Jimmy Stewart’s credited feature-film debut."
@@ -27,7 +27,7 @@ const movies = [
     character: "Tony Kirby",
     director: "Frank Capra",
     genre: "Romantic Comedy",
-    rating: 4,
+    rating: 3.5,
     poster: "images/posters/you-cant-take-it-with-you.jpg",
     description:
       "The good-hearted son of a wealthy banking family. Tony dislikes the rigid life planned for him and wants to marry Alice Sycamore, whose eccentric family teaches him that happiness and love matter more than money or status."
@@ -60,7 +60,7 @@ const movies = [
     character: "Alfred Kralik",
     director: "Ernst Lubitsch",
     genre: "Romantic Comedy",
-    rating: 4.5,
+    rating: 4,
     poster: "images/posters/the-shop-around-the-corner.jpg",
     description:
       "The intelligent and dependable senior clerk at a Budapest shop. He constantly argues with Klara without realizing that she is the anonymous pen pal with whom he has fallen in love."
@@ -127,7 +127,7 @@ const movies = [
     character: "Lin McAdam",
     director: "Anthony Mann",
     genre: "Western",
-    rating: 4.5,
+    rating: 4,
     poster: "images/posters/winchester-73.jpg",
     description:
       "A skilled marksman relentlessly pursuing Dutch Henry Brown. Lin’s search for a stolen Winchester rifle gradually reveals that his mission is driven by a deeply personal desire for revenge."
@@ -205,7 +205,7 @@ const movies = [
     character: "Howard Kemp",
     director: "Anthony Mann",
     genre: "Psychological Western",
-    rating: 4.5,
+    rating: 4,
     poster: "images/posters/the-naked-spur.jpg",
     description:
       "A bitter Civil War veteran hunting an outlaw for reward money so he can recover his stolen ranch. Howard becomes increasingly consumed by suspicion and greed before recovering his humanity."
@@ -238,7 +238,7 @@ const movies = [
     character: "Will Lockhart",
     director: "Anthony Mann",
     genre: "Western",
-    rating: 5,
+    rating: 4.5,
     poster: "images/posters/the-man-from-laramie.jpg",
     description:
       "A former Army officer secretly investigating the sale of repeating rifles to the Apache attackers who killed his brother. Will is controlled and principled but driven by grief and revenge."
