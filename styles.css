@@ -460,10 +460,9 @@ p {
   font-size: 1.7rem;
   font-weight: 500;
   line-height: 1.2;
-}
 .fact-extra {
   margin: 12px 0 14px;
-  color: rgba(255, 255, 255, 0.72);
+  color: var(--ink);
   font-size: 0.85rem;
   line-height: 1.5;
 }
@@ -477,8 +476,8 @@ p {
 .fact-links a {
   display: inline-block;
   padding: 8px 12px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  color: var(--white);
+  border: 1px solid var(--ink);
+  color: var(--ink);
   font-size: 0.72rem;
   text-decoration: none;
   text-transform: uppercase;
@@ -487,8 +486,9 @@ p {
 
 .fact-links a:hover,
 .fact-links a:focus-visible {
-  border-color: var(--gold);
-  color: var(--gold-light);
+  border-color: var(--red);
+  background: var(--red);
+  color: var(--white);
 }
 .walk-of-fame-photo {
   display: block;
