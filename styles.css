@@ -461,7 +461,35 @@ p {
   font-weight: 500;
   line-height: 1.2;
 }
+.fact-extra {
+  margin: 12px 0 14px;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
 
+.fact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.fact-links a {
+  display: inline-block;
+  padding: 8px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: var(--white);
+  font-size: 0.72rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.fact-links a:hover,
+.fact-links a:focus-visible {
+  border-color: var(--gold);
+  color: var(--gold-light);
+}
 /* CAREER */
 
 .career-section {
