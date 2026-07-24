@@ -490,6 +490,24 @@ p {
   border-color: var(--gold);
   color: var(--gold-light);
 }
+.walk-of-fame-photo {
+  display: block;
+  margin: 16px 0;
+  overflow: hidden;
+}
+
+.walk-of-fame-photo img {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  transition: transform 0.25s ease;
+}
+
+.walk-of-fame-photo:hover img {
+  transform: scale(1.03);
+}
 /* CAREER */
 
 .career-section {
