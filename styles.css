@@ -1667,3 +1667,21 @@ td.movie-title {
     padding: 20px;
   }
 }
+/* WALK OF FAME TEXT FIX */
+
+.walk-of-fame-card .fact-extra {
+  color: var(--ink) !important;
+}
+
+.walk-of-fame-card .fact-links a {
+  color: var(--ink) !important;
+  border-color: var(--ink) !important;
+  background: transparent;
+}
+
+.walk-of-fame-card .fact-links a:hover,
+.walk-of-fame-card .fact-links a:focus-visible {
+  color: var(--white) !important;
+  background: var(--red);
+  border-color: var(--red) !important;
+}
