@@ -22,6 +22,17 @@ const movies = [
     "An ambitious young newspaper reporter married to aspiring actress Cicely Tyler. As their careers repeatedly separate them, Christopher struggles to balance his professional dreams with his love for his wife and family."
 },
   {
+  year: 1936,
+  title: "Speed",
+  character: "Terry Martin",
+  director: "Edwin L. Marin",
+  genre: "Action Drama",
+  rating: 3,
+  poster: "images/posters/speed.jpg",
+  description:
+    "A confident and witty automobile test driver attempting to perfect a revolutionary new carburetor. Terry risks his safety during increasingly dangerous high-speed tests while also becoming involved in a workplace romance."
+},
+  {
     year: 1938,
     title: "You Can't Take It with You",
     character: "Tony Kirby",
