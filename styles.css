@@ -490,6 +490,22 @@ p {
   border-color: var(--gold);
   color: var(--gold-light);
 }
+/* WALK OF FAME TEXT ONLY */
+
+.walk-of-fame-card .fact-extra {
+  color: var(--ink) !important;
+}
+
+.walk-of-fame-card .fact-links a {
+  color: var(--ink) !important;
+  border-color: var(--ink);
+}
+
+.walk-of-fame-card .fact-links a:hover,
+.walk-of-fame-card .fact-links a:focus-visible {
+  color: var(--red) !important;
+  border-color: var(--red);
+}
 /* CAREER */
 
 .career-section {
