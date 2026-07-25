@@ -33,6 +33,17 @@ const movies = [
     "A confident and witty automobile test driver attempting to perfect a revolutionary new carburetor. Terry risks his safety during increasingly dangerous high-speed tests while also becoming involved in a workplace romance."
 },
   {
+  year: 1936,
+  title: "Born to Dance",
+  character: "Ted Barker",
+  director: "Roy Del Ruth",
+  genre: "Musical Comedy",
+  rating: 3.5,
+  poster: "images/posters/born-to-dance.jpg",
+  description:
+    "A friendly Navy sailor who falls in love with aspiring dancer Nora Paige while on shore leave. Ted’s connection to a famous Broadway performer creates romantic misunderstandings, giving Jimmy Stewart an unusually musical role filled with singing, comedy and dancing."
+},
+  {
     year: 1938,
     title: "You Can't Take It with You",
     character: "Tony Kirby",
