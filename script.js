@@ -44,6 +44,17 @@ const movies = [
     "A friendly Navy sailor who falls in love with aspiring dancer Nora Paige while on shore leave. Ted’s connection to a famous Broadway performer creates romantic misunderstandings, giving Jimmy Stewart an unusually musical role filled with singing, comedy and dancing."
 },
   {
+  year: 1936,
+  title: "After the Thin Man",
+  character: "David Graham",
+  director: "W. S. Van Dyke",
+  genre: "Murder Mystery Comedy",
+  rating: 4,
+  poster: "images/posters/after-the-thin-man.jpg",
+  description:
+    "The former fiancé of Selma Landis, whose husband disappears shortly after Nick and Nora Charles return to San Francisco. David initially appears devoted and concerned, but the investigation gradually reveals a much darker and more calculating side to him."
+},
+  {
     year: 1938,
     title: "You Can't Take It with You",
     character: "Tony Kirby",
