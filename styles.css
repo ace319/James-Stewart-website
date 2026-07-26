@@ -553,6 +553,154 @@ p {
   color: var(--muted);
   font-size: 0.9rem;
 }
+/* JIMMY STEWART AND HENRY FONDA */
+
+.fonda-section {
+  padding: 120px 0;
+  background: var(--cream);
+}
+
+.fonda-layout {
+  display: grid;
+  grid-template-columns: minmax(340px, 0.9fr) minmax(0, 1.1fr);
+  gap: 80px;
+  align-items: center;
+}
+
+.fonda-photo {
+  overflow: hidden;
+  background: var(--ink);
+  box-shadow: var(--shadow);
+}
+
+.fonda-photo img {
+  display: block;
+  width: 100%;
+  height: 520px;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.fonda-photo figcaption {
+  padding: 16px 18px;
+  background: var(--ink);
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 0.78rem;
+}
+
+.fonda-copy h2 {
+  margin-bottom: 24px;
+}
+
+.fonda-copy p {
+  margin-bottom: 20px;
+  color: #465157;
+}
+
+.fonda-introduction {
+  color: var(--red) !important;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.fonda-facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 38px;
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+
+.fonda-facts article {
+  min-height: 130px;
+  padding: 20px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: var(--paper);
+}
+
+.fonda-facts span {
+  display: block;
+  margin-bottom: 12px;
+  color: var(--red);
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.fonda-facts strong {
+  display: block;
+  color: var(--ink);
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 1.15rem;
+  line-height: 1.25;
+}
+
+.fonda-films {
+  margin-top: 34px;
+}
+
+.fonda-films > p {
+  margin-bottom: 12px;
+  color: var(--red);
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.fonda-film-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.fonda-film-list span {
+  padding: 10px 13px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 0.78rem;
+}
+
+
+/* FONDA SECTION — TABLET */
+
+@media (max-width: 1100px) {
+  .fonda-layout {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .fonda-photo {
+    width: 100%;
+    max-width: 620px;
+    margin: 0 auto;
+  }
+}
+
+
+/* FONDA SECTION — MOBILE */
+
+@media (max-width: 700px) {
+  .fonda-section {
+    padding: 75px 0;
+  }
+
+  .fonda-photo img {
+    height: 380px;
+  }
+
+  .fonda-facts {
+    grid-template-columns: 1fr;
+  }
+
+  .fonda-film-list {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
 /* JIMMY STEWART AND PIE */
 
 .pie-section {
