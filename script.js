@@ -34,6 +34,17 @@ const movies = [
 },
   {
   year: 1936,
+  title: "The Gorgeous Hussy",
+  character: "“Rowdy” Dow",
+  director: "Clarence Brown",
+  genre: "Historical Romance Drama",
+  rating: 1.5,
+  poster: "images/posters/the-gorgeous-hussy.jpg",
+  description:
+    "Peggy O’Neal’s loyal childhood friend, who remains protective of her during the political scandals surrounding her life in Washington. Rowdy helps defend Peggy’s reputation and escorts her during a dangerous journey, but Jimmy Stewart appears in only a small supporting role."
+},
+  {
+  year: 1936,
   title: "Born to Dance",
   character: "Ted Barker",
   director: "Roy Del Ruth",
