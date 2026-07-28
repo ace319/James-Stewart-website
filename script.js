@@ -65,6 +65,17 @@ const movies = [
   description:
     "The former fiancé of Selma Landis, whose husband disappears shortly after Nick and Nora Charles return to San Francisco. David initially appears devoted and concerned, but the investigation gradually reveals a much darker and more calculating side to him."
 },
+{
+  year: 1937,
+  title: "Seventh Heaven",
+  character: "Chico",
+  director: "Henry King",
+  genre: "Romantic Drama",
+  rating: 4,
+  poster: "images/posters/seventh-heaven.jpg",
+  description:
+    "A poor Paris sewer worker who dreams of improving his life and reluctantly gives Diane a safe place to stay. Their unusual arrangement develops into love, but World War I separates them and leaves Chico fighting to return home."
+},
   {
     year: 1938,
     title: "You Can't Take It with You",
