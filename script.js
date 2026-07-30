@@ -1031,4 +1031,3 @@ if (westernCount) {
 
 populateFilters();
 render();
-activateMovieLinks();
