@@ -154,6 +154,17 @@ const movies = [
     description:
       "A generous and ambitious man who repeatedly sacrifices his dreams to help his family and Bedford Falls. Clarence eventually shows George how profoundly his life has affected everyone around him."
   },
+  {
+  year: 1948,
+  title: "On Our Merry Way",
+  character: "Slim",
+  director: "Multiple Directors",
+  genre: "Comedy Anthology",
+  rating: 2.5,
+  poster: "images/posters/on-our-merry-way.jpg",
+  description:
+    "A struggling jazz musician traveling with his friend Lank and an impoverished band. Slim and Lank attempt to rig a local talent contest to earn money for repairs, leading to musical confusion and physical comedy. Jimmy Stewart appears only in one segment of the anthology."
+},
    {
     year: 1948,
     title: "Call Northside 777",
