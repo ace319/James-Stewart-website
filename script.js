@@ -722,6 +722,101 @@ function activateCardButtons() {
     });
   });
 }
+function openMovieFromLink(title) {
+  const movie = movies.find(item => item.title === title);
+
+  if (!movie) {
+    return;
+  }
+
+  searchInput.value = "";
+  directorFilter.value = "all";
+  genreFilter.value = "all";
+  sortSelect.value = "year-asc";
+
+  render();
+
+  const movieId = createMovieId(movie);
+  const isMobile = window.matchMedia("(max-width: 700px)").matches;
+
+  if (isMobile) {
+    const card = document.querySelector(
+      `#movie-card-${movieId}`
+    );
+
+    if (!card) {
+      return;
+    }
+
+    const button = card.querySelector(".movie-card-toggle");
+    const description = card.querySelector(
+      ".movie-card-description"
+    );
+
+    if (description) {
+      description.hidden = false;
+    }
+
+    if (button) {
+      button.setAttribute("aria-expanded", "true");
+      button.textContent =
+        "Hide character description and review";
+    }
+
+    card.scrollIntoView({
+      behavior: "smooth",
+      block: "center"
+    });
+
+    if (button) {
+      button.focus({
+        preventScroll: true
+      });
+    }
+
+    return;
+  }
+
+  const row = document.querySelector(
+    `#movie-row-${movieId}`
+  );
+
+  const descriptionRow = document.querySelector(
+    `#table-description-${movieId}`
+  );
+
+  if (!row) {
+    return;
+  }
+
+  if (descriptionRow) {
+    descriptionRow.hidden = false;
+    row.setAttribute("aria-expanded", "true");
+  }
+
+  row.scrollIntoView({
+    behavior: "smooth",
+    block: "center"
+  });
+
+  row.focus({
+    preventScroll: true
+  });
+}
+
+function activateMovieLinks() {
+  document
+    .querySelectorAll("[data-movie-title]")
+    .forEach(link => {
+      link.addEventListener("click", event => {
+        event.preventDefault();
+
+        openMovieFromLink(
+          link.dataset.movieTitle
+        );
+      });
+    });
+}
 function render() {
   const visibleMovies = getFilteredMovies();
 
