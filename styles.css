@@ -490,22 +490,43 @@ p {
   border-color: var(--gold);
   color: var(--gold-light);
 }
-/* WALK OF FAME TEXT ONLY */
+
+/* WALK OF FAME PHOTO AND TEXT */
+
+.walk-of-fame-photo {
+  display: block;
+  margin: 16px 0;
+  overflow: hidden;
+}
+
+.walk-of-fame-photo img {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  transition: transform 0.25s ease;
+}
+
+.walk-of-fame-photo:hover img {
+  transform: scale(1.03);
+}
 
 .walk-of-fame-card .fact-extra {
-  color: var(--ink) !important;
+  color: var(--ink);
 }
 
 .walk-of-fame-card .fact-links a {
-  color: var(--ink) !important;
   border-color: var(--ink);
+  color: var(--ink);
 }
 
 .walk-of-fame-card .fact-links a:hover,
 .walk-of-fame-card .fact-links a:focus-visible {
-  color: var(--red) !important;
   border-color: var(--red);
+  color: var(--red);
 }
+
 /* CAREER */
 
 .career-section {
@@ -553,6 +574,7 @@ p {
   color: var(--muted);
   font-size: 0.9rem;
 }
+
 /* JIMMY STEWART AND HENRY FONDA */
 
 .fonda-section {
@@ -664,9 +686,6 @@ p {
   font-size: 0.78rem;
 }
 
-
-/* FONDA SECTION — TABLET */
-
 @media (max-width: 1100px) {
   .fonda-layout {
     grid-template-columns: 1fr;
@@ -679,9 +698,6 @@ p {
     margin: 0 auto;
   }
 }
-
-
-/* FONDA SECTION — MOBILE */
 
 @media (max-width: 700px) {
   .fonda-section {
@@ -701,6 +717,7 @@ p {
     grid-template-columns: 1fr;
   }
 }
+
 /* JIMMY STEWART AND PIE */
 
 .pie-section {
@@ -1582,6 +1599,37 @@ td.movie-title {
     margin-top: 8px;
   }
 }
+
+/* PERSONAL MOVIE REVIEWS */
+
+.movie-detail-block + .movie-detail-block {
+  margin-top: 24px;
+  padding-top: 22px;
+  border-top: 1px solid var(--line);
+}
+
+.movie-detail-label {
+  display: block;
+  margin-bottom: 9px;
+  color: var(--red);
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+}
+
+.movie-description-panel .personal-review p,
+.movie-card-description .personal-review p {
+  color: var(--ink);
+  font-style: italic;
+}
+
+.movie-card-description {
+  padding: 20px;
+  background: var(--cream);
+}
+
 /* MOVIE POSTERS AND DESCRIPTIONS */
 
 .movie-row {
