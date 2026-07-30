@@ -806,9 +806,12 @@ function render() {
       const movieId = createMovieId(movie);
 
       return `
-        <article class="movie-card movie-card-with-poster">
+  <article
+    class="movie-card movie-card-with-poster"
+    id="movie-card-${movieId}"
+  >
 
-          <div class="movie-card-shell">
+    <div class="movie-card-shell">
 
             ${posterMarkup(movie, "movie-poster-frame--card")}
 
