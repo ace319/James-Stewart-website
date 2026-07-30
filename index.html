@@ -28,25 +28,24 @@
     rel="stylesheet"
   >
 
+  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="styles.css?v=4">
 </head>
 
 <body>
-
-  <!-- HERO -->
-
-  <header class="hero" id="top">
-
-    <nav class="nav container">
-
-      <a
-        class="logo"
-        href="#top"
-        aria-label="Return to the top of the page"
-      >
+@@ -47,15 +47,15 @@
         JS
       </a>
 
+  <div class="nav-links">
+  <a href="#biography">His Life</a>
+  <a href="#fonda">Henry Fonda</a>
+  <a href="#pie">Pie</a>
+  <a href="#military">Military Service</a>
+  <a href="#awards">Awards</a>
+  <a href="#movies">My Movies</a>
+  <a href="#gallery">Gallery</a>
+</div>
       <div class="nav-links">
         <a href="#biography">His Life</a>
         <a href="#fonda">Henry Fonda</a>
@@ -59,79 +58,31 @@
 
     </nav>
 
-    <div class="hero-content container">
-
-      <p class="eyebrow">
-        A personal classic-film project
-      </p>
-
-      <h1>
-        My Jimmy Stewart Journey
-      </h1>
-
-      <p class="hero-copy">
-        Exploring the life and career of James Stewart—from his
-        Pennsylvania childhood and distinguished military service to
-        his comedies, dramas, Hitchcock thrillers, westerns, and some
-        of the most memorable characters in American film.
-      </p>
-
-      <div class="hero-buttons">
-
-        <a class="button" href="#biography">
-          Discover his life
-        </a>
-
-        <a class="button button-secondary" href="#movies">
-          Explore my movies
-        </a>
-
-      </div>
-
-    </div>
-
-  </header>
-
-
-  <main>
-
-    <!-- VIEWING STATISTICS -->
-
-    <section
-      class="stats container"
-      id="journey"
-      aria-label="Viewing statistics"
+@@ -104,7 +104,7 @@
     >
 
       <article>
+        <strong id="film-count">26</strong>
         <strong id="film-count">35</strong>
         <span>Films I have watched</span>
       </article>
 
-      <article>
-        <strong>1935–1962</strong>
-        <span>Years currently covered</span>
+@@ -114,12 +114,12 @@
       </article>
 
       <article>
+        <strong id="director-count">17</strong>
         <strong id="director-count">25</strong>
         <span>Directors represented</span>
       </article>
 
       <article>
+        <strong id="western-count">7</strong>
         <strong id="western-count">8</strong>
         <span>Westerns watched</span>
       </article>
 
-    </section>
-
-
-    <!-- BIOGRAPHY INTRODUCTION -->
-
-    <section class="biography-section" id="biography">
-
-      <div class="container">
-
+@@ -135,13 +135,15 @@
         <div class="section-heading biography-heading">
 
           <div>
@@ -147,16 +98,20 @@
           </div>
 
           <p class="section-introduction">
-            James Maitland Stewart became one of the most recognizable
-            and beloved actors of Hollywood’s Golden Age. His screen
-            characters could be idealistic, gentle, funny, frightened,
-            angry, obsessive, or deeply wounded—but they nearly always
-            felt human.
-          </p>
+@@ -154,16 +156,25 @@
 
         </div>
 
+       <figure class="biography-photo">
+  <img
+    src="images/jimmy-stewart-portrait.jpg"
+    alt="Portrait of Jimmy Stewart"
+  >
 
+  <figcaption>
+    James Maitland Stewart, one of American cinema’s most enduring stars.
+  </figcaption>
+</figure>
         <div class="biography-layout">
 
           <figure class="biography-photo">
@@ -178,129 +133,51 @@
           <div class="biography-copy">
 
             <h3>
-              From Indiana, Pennsylvania, to Hollywood
-            </h3>
-
-            <p>
-              James Maitland Stewart was born on May 20, 1908, in
-              Indiana, Pennsylvania. He grew up with his parents,
-              Alexander and Elizabeth Stewart, and his sisters,
-              Virginia and Mary. His father operated the family
-              hardware store, and Stewart’s small-town upbringing
-              remained an important part of his public identity
-              throughout his life.
-            </p>
-
-            <p>
-              Stewart attended Mercersburg Academy before studying
-              architecture at Princeton University. After graduating,
-              he became involved in summer theater and eventually
-              followed friends to New York, where he began appearing
-              on Broadway.
-            </p>
-
-            <p>
-              MGM signed Stewart to a film contract in 1935. His
-              natural speaking style, lanky appearance, hesitant
-              delivery, and ability to suggest both decency and inner
-              conflict helped him stand apart from other leading men.
-            </p>
-
-            <p>
-              During the late 1930s and early 1940s, Stewart became a
-              major star through movies such as
-              <em>You Can’t Take It with You</em>,
-              <em>Mr. Smith Goes to Washington</em>,
-              <em>The Shop Around the Corner</em>, and
-              <em>The Philadelphia Story</em>.
-            </p>
-
-          </div>
-
-        </div>
-
+@@ -284,47 +295,83 @@
       </div>
 
     </section>
+<article class="fact-card walk-of-fame-card">
+  <span class="fact-label">Hollywood Walk of Fame</span>
 
+  <a
+    class="walk-of-fame-photo"
+    href="https://walkoffame.com/james-stewart/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      src="images/jimmy-stewart-walk-of-fame.jpg"
+      alt="James Stewart’s star on the Hollywood Walk of Fame"
+    >
+  </a>
 
-    <!-- QUICK FACTS -->
+  <strong>1708 Vine Street</strong>
 
-    <section class="quick-facts">
-
-      <div class="container">
-
-        <div class="quick-facts-heading">
-
-          <p class="eyebrow">
-            At a glance
-          </p>
-
-          <h2>
-            Jimmy Stewart facts
-          </h2>
-
-        </div>
-
-
-        <div class="facts-grid">
-
-          <article class="fact-card">
-            <span class="fact-label">Full name</span>
-            <strong>James Maitland Stewart</strong>
-          </article>
-
-          <article class="fact-card">
-            <span class="fact-label">Born</span>
-            <strong>May 20, 1908</strong>
-          </article>
-
-          <article class="fact-card">
-            <span class="fact-label">Birthplace</span>
-            <strong>Indiana, Pennsylvania</strong>
-          </article>
-
-          <article class="fact-card">
-            <span class="fact-label">Education</span>
-            <strong>Princeton University</strong>
-          </article>
-
-          <article class="fact-card">
-            <span class="fact-label">Film career began</span>
-            <strong>1935</strong>
-          </article>
-
-          <article class="fact-card">
-            <span class="fact-label">Film appearances</span>
-            <strong>More than 80</strong>
-          </article>
-
-          <article class="fact-card">
-            <span class="fact-label">Combat missions</span>
-            <strong>20</strong>
-          </article>
-
-          <article class="fact-card">
-            <span class="fact-label">Highest military rank</span>
-            <strong>Brigadier General</strong>
-          </article>
-
-          <article class="fact-card">
-            <span class="fact-label">Died</span>
-            <strong>July 2, 1997</strong>
-          </article>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
+  <p class="fact-extra">
+    Motion Pictures star dedicated February 8, 1960.
+  </p>
     <!-- HOLLYWOOD WALK OF FAME -->
 
+  <div class="fact-links">
+    <a
+      href="https://walkoffame.com/james-stewart/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Official star page
+    </a>
     <section class="awards-section" id="walk-of-fame">
 
+    <a
+      href="https://www.google.com/maps/search/?api=1&query=1708+Vine+Street+Hollywood+CA"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      View on map
+    </a>
+  </div>
+</article>
       <div class="container">
 
         <div class="career-grid">
@@ -328,6 +205,7 @@
 
           <div class="career-copy">
 
+    <!-- FILM CAREER -->
             <p class="eyebrow dark">
               Hollywood landmark
             </p>
@@ -375,52 +253,7 @@
 
     <section class="career-section">
 
-      <div class="container">
-
-        <div class="career-grid">
-
-          <div class="career-copy">
-
-            <p class="eyebrow dark">
-              Hollywood career
-            </p>
-
-            <h2>
-              More than the ordinary American hero
-            </h2>
-
-            <p>
-              Stewart first became famous playing sincere, idealistic
-              young men. Jefferson Smith and George Bailey remain two
-              of the clearest examples, but his career became much
-              darker and more complicated after World War II.
-            </p>
-
-            <p>
-              In the 1950s, Stewart worked repeatedly with director
-              Anthony Mann on westerns that revealed anger, trauma,
-              greed, vengeance, and moral uncertainty beneath his
-              familiar everyman image.
-            </p>
-
-            <p>
-              His films with Alfred Hitchcock took that transformation
-              even further. In <em>Rear Window</em>,
-              <em>The Man Who Knew Too Much</em>, and
-              <em>Vertigo</em>, Stewart played men whose fear,
-              curiosity, possessiveness, and obsession could place
-              both themselves and others in danger.
-            </p>
-
-            <p>
-              He also worked with directors including Frank Capra,
-              Ernst Lubitsch, George Cukor, Cecil B. DeMille,
-              Billy Wilder, Otto Preminger, and John Ford.
-            </p>
-
-          </div>
-
-
+@@ -377,6 +424,7 @@
           <div class="career-eras">
 
             <article>
@@ -428,10 +261,7 @@
               <span>1930s–1940s</span>
 
               <h3>
-                Idealists and romantics
-              </h3>
-
-              <p>
+@@ -387,10 +435,12 @@
                 Comedies, romances, political dramas, and ordinary
                 men trying to hold onto their principles.
               </p>
@@ -444,10 +274,7 @@
               <span>1950s</span>
 
               <h3>
-                Westerns and thrillers
-              </h3>
-
-              <p>
+@@ -401,10 +451,12 @@
                 Darker heroes shaped by grief, revenge, suspicion,
                 fear, and obsession.
               </p>
@@ -460,10 +287,7 @@
               <span>1960s and beyond</span>
 
               <h3>
-                Established legend
-              </h3>
-
-              <p>
+@@ -415,6 +467,7 @@
                 Later westerns, family films, television work, and
                 recognition as one of Hollywood’s defining actors.
               </p>
@@ -471,42 +295,92 @@
             </article>
 
           </div>
-
-        </div>
-
+@@ -424,180 +477,205 @@
       </div>
 
     </section>
+<!-- JIMMY STEWART AND HENRY FONDA -->
 
+<section class="fonda-section" id="fonda">
+  <div class="container fonda-layout">
 
+    <figure class="fonda-photo">
+      <img
+        src="images/jimmy-stewart-henry-fonda.jpg"
+        alt="James Stewart and Henry Fonda together"
+      >
     <!-- JIMMY STEWART AND HENRY FONDA -->
 
+      <figcaption>
+        James Stewart and Henry Fonda shared one of Hollywood’s most
+        enduring friendships.
+      </figcaption>
+    </figure>
     <section class="fonda-section" id="fonda">
 
       <div class="container fonda-layout">
 
+    <div class="fonda-copy">
         <figure class="fonda-photo">
 
+      <p class="eyebrow dark">
+        Hank and Jim
+      </p>
           <img
             src="images/jimmy-stewart-henry-fonda.jpg"
             alt="James Stewart and Henry Fonda together"
             loading="lazy"
           >
 
+      <h2>
+        Jimmy Stewart and Henry Fonda
+      </h2>
           <figcaption>
             James Stewart and Henry Fonda shared one of Hollywood’s most
             enduring friendships.
           </figcaption>
 
+      <p class="fonda-introduction">
+        Before they became two of Hollywood’s greatest actors, Jimmy
+        Stewart and Henry Fonda were young performers trying to build
+        careers together.
+      </p>
         </figure>
 
+      <p>
+        They became friends through the University Players, a summer
+        theater company that also included Margaret Sullavan and director
+        Joshua Logan. Stewart and Fonda later became roommates while
+        working as struggling stage actors in New York.
+      </p>
 
+      <p>
+        When their careers brought them to Hollywood, they lived together
+        again. Away from acting, they enjoyed building model airplanes,
+        playing practical jokes and spending quiet time together without
+        treating each other like movie stars.
+      </p>
         <div class="fonda-copy">
 
+      <p>
+        Their personalities and political beliefs were often very
+        different, but their friendship endured for about five decades.
+        Rather than allowing those differences to divide them, they
+        reportedly avoided political arguments and concentrated on the
+        things they shared.
+      </p>
           <p class="eyebrow dark">
             Hank and Jim
           </p>
 
+      <p>
+        They appeared together in <em>On Our Merry Way</em>,
+        <em>Firecreek</em> and <em>The Cheyenne Social Club</em>.
+        During the making of <em>The Cheyenne Social Club</em>, Fonda
+        presented Stewart with a watercolor portrait of Pie, creating a
+        personal connection between Jimmy’s closest friend and his
+        beloved western horse.
+      </p>
           <h2>
             Jimmy Stewart and Henry Fonda
           </h2>
@@ -525,6 +399,7 @@
             New York.
           </p>
 
+      <div class="fonda-facts">
           <p>
             When their careers brought them to Hollywood, they lived
             together again. Away from acting, they enjoyed building
@@ -532,6 +407,10 @@
             time together without treating each other like movie stars.
           </p>
 
+        <article>
+          <span>Friendship</span>
+          <strong>About five decades</strong>
+        </article>
           <p>
             Their personalities and political beliefs were often very
             different, but their friendship endured for about five
@@ -540,6 +419,10 @@
             concentrated on the things they shared.
           </p>
 
+        <article>
+          <span>Films together</span>
+          <strong>Three</strong>
+        </article>
           <p>
             They appeared together in <em>On Our Merry Way</em>,
             <em>Firecreek</em>, and
@@ -550,7 +433,12 @@
             western horse.
           </p>
 
+        <article>
+          <span>Personal gift</span>
+          <strong>A portrait of Pie</strong>
+        </article>
 
+      </div>
           <div class="fonda-facts">
 
             <article>
@@ -563,6 +451,8 @@
               <strong>Three</strong>
             </article>
 
+      <div class="fonda-films">
+        <p>Films together</p>
             <article>
               <span>Personal gift</span>
               <strong>A portrait of Pie</strong>
@@ -577,60 +467,92 @@
               Films together
             </p>
 
-           <div class="fonda-film-list">
-
- <a
-  class="fonda-film-link"
-  href="#movies"
-  data-movie-title="On Our Merry Way"
->
-  <em>On Our Merry Way</em> — 1948
-  <small>View my review</small>
-</a>
-
-  <span>
-    <em>Firecreek</em> — 1968
-  </span>
-
-  <span>
-    <em>The Cheyenne Social Club</em> — 1970
-  </span>
-
-</div>
+            <div class="fonda-film-list">
+              <span><em>On Our Merry Way</em> — 1948</span>
+              <span><em>Firecreek</em> — 1968</span>
+              <span><em>The Cheyenne Social Club</em> — 1970</span>
+            </div>
 
           </div>
 
+        <div class="fonda-film-list">
+          <span><em>On Our Merry Way</em> — 1948</span>
+          <span><em>Firecreek</em> — 1968</span>
+          <span><em>The Cheyenne Social Club</em> — 1970</span>
         </div>
 
       </div>
 
+    </div>
     </section>
 
+  </div>
+</section>
+<!-- JIMMY STEWART AND PIE -->
 
+<section class="pie-section" id="pie">
+  <div class="container pie-layout">
     <!-- JIMMY STEWART AND PIE -->
 
+    <figure class="pie-photo">
+      <img
+        src="images/jimmy-stewart-pie.jpg"
+        alt="Jimmy Stewart riding Pie during his western-film career"
+      >
     <section class="pie-section" id="pie">
 
+      <figcaption>
+        Jimmy Stewart and Pie, his trusted horse throughout much of his
+        western-film career.
+      </figcaption>
+    </figure>
       <div class="container pie-layout">
 
+    <div class="pie-copy">
         <figure class="pie-photo">
 
+      <p class="eyebrow dark">
+        A special western partnership
+      </p>
           <img
             src="images/jimmy-stewart-pie.jpg"
             alt="Jimmy Stewart riding Pie during his western-film career"
             loading="lazy"
           >
 
+      <h2>
+        Jimmy Stewart and Pie
+      </h2>
           <figcaption>
             Jimmy Stewart and Pie, his trusted horse throughout much of
             his western-film career.
           </figcaption>
 
+      <p class="pie-introduction">
+        One of Jimmy Stewart’s most memorable western co-stars was not
+        another actor, but a horse named Pie.
+      </p>
         </figure>
 
+      <p>
+        Stewart first worked with Pie while making
+        <em>Winchester ’73</em>. The two developed a strong partnership,
+        and Pie continued appearing with Stewart throughout much of his
+        western-film career.
+      </p>
 
+      <p>
+        Stewart believed Pie understood what was required during a scene.
+        Their familiarity helped difficult riding moments look natural,
+        making Pie an important part of Stewart’s western screen image.
+      </p>
         <div class="pie-copy">
 
+      <p>
+        Stewart’s close friend Henry Fonda later painted a watercolor
+        portrait of Pie as a gift. It became a personal tribute to the
+        horse who had shared so many western adventures with him.
+      </p>
           <p class="eyebrow dark">
             A special western partnership
           </p>
@@ -651,6 +573,7 @@
             throughout much of his western-film career.
           </p>
 
+      <div class="pie-facts">
           <p>
             Stewart believed Pie understood what was required during a
             scene. Their familiarity helped difficult riding moments
@@ -658,13 +581,25 @@
             western screen image.
           </p>
 
+        <article>
+          <span>First major film together</span>
+          <strong><em>Winchester ’73</em></strong>
+        </article>
           <p>
             Stewart’s close friend Henry Fonda later painted a watercolor
             portrait of Pie as a gift. It became a personal tribute to the
             horse who had shared so many western adventures with him.
           </p>
 
+        <article>
+          <span>Screen partnership</span>
+          <strong>Many western films</strong>
+        </article>
 
+        <article>
+          <span>Special tribute</span>
+          <strong>Painted by Henry Fonda</strong>
+        </article>
           <div class="pie-facts">
 
             <article>
@@ -688,41 +623,16 @@
 
       </div>
 
+    </div>
     </section>
 
 
+  </div>
+</section>
     <!-- MILITARY SERVICE -->
 
     <section class="military-section" id="military">
-
-      <div class="container">
-
-        <div class="military-layout">
-
-          <div class="military-copy">
-
-            <p class="eyebrow">
-              World War II
-            </p>
-
-            <h2>
-              Service before stardom
-            </h2>
-
-            <p class="military-lead">
-              Stewart did not simply appear in military publicity
-              films. He became a trained bomber pilot, commanded a
-              squadron, flew combat missions over Europe, and
-              continued serving long after the war ended.
-            </p>
-
-
-            <div class="military-timeline">
-
-              <article>
-
-                <span class="timeline-year">
-                  1941
+@@ -633,6 +711,7 @@
                 </span>
 
                 <div>
@@ -730,11 +640,7 @@
                   <h3>
                     Entered the Army
                   </h3>
-
-                  <p>
-                    Stewart entered the United States Army as an
-                    enlisted man and was assigned to the Army Air
-                    Corps. He already had extensive civilian flying
+@@ -644,6 +723,7 @@
                     experience and later earned his military pilot
                     wings and an officer’s commission.
                   </p>
@@ -742,12 +648,7 @@
                 </div>
 
               </article>
-
-
-              <article>
-
-                <span class="timeline-year">
-                  1941–1943
+@@ -656,6 +736,7 @@
                 </span>
 
                 <div>
@@ -755,9 +656,7 @@
                   <h3>
                     Pilot and instructor
                   </h3>
-
-                  <p>
-                    He trained and instructed other airmen in several
+@@ -665,6 +746,7 @@
                     aircraft, including the B-17 bomber, before
                     receiving an overseas combat assignment.
                   </p>
@@ -765,12 +664,7 @@
                 </div>
 
               </article>
-
-
-              <article>
-
-                <span class="timeline-year">
-                  1943
+@@ -677,6 +759,7 @@
                 </span>
 
                 <div>
@@ -778,9 +672,7 @@
                   <h3>
                     Squadron commander
                   </h3>
-
-                  <p>
-                    Stewart traveled to England as commanding officer
+@@ -686,6 +769,7 @@
                     of the 703rd Bomb Squadron, which operated
                     B-24 Liberator bombers.
                   </p>
@@ -788,12 +680,7 @@
                 </div>
 
               </article>
-
-
-              <article>
-
-                <span class="timeline-year">
-                  1943–1945
+@@ -698,6 +782,7 @@
                 </span>
 
                 <div>
@@ -801,10 +688,7 @@
                   <h3>
                     Combat operations
                   </h3>
-
-                  <p>
-                    He flew 20 combat missions during World War II.
-                    He later served as operations officer of the
+@@ -708,6 +793,7 @@
                     453rd Bomb Group and as chief of staff of the
                     2nd Combat Wing.
                   </p>
@@ -812,12 +696,7 @@
                 </div>
 
               </article>
-
-
-              <article>
-
-                <span class="timeline-year">
-                  1959
+@@ -720,6 +806,7 @@
                 </span>
 
                 <div>
@@ -825,9 +704,7 @@
                   <h3>
                     Brigadier general
                   </h3>
-
-                  <p>
-                    Stewart continued serving in the United States
+@@ -729,6 +816,7 @@
                     Air Force Reserve after the war and was promoted
                     to brigadier general.
                   </p>
@@ -835,12 +712,7 @@
                 </div>
 
               </article>
-
-
-              <article>
-
-                <span class="timeline-year">
-                  1968
+@@ -741,6 +829,7 @@
                 </span>
 
                 <div>
@@ -848,8 +720,7 @@
                   <h3>
                     Military retirement
                   </h3>
-
-                  <p>
+@@ -749,6 +838,7 @@
                     He retired from the Air Force Reserve after more
                     than 27 years of military service.
                   </p>
@@ -857,12 +728,20 @@
                 </div>
 
               </article>
-
-            </div>
+@@ -757,16 +847,20 @@
 
           </div>
 
+         <figure class="military-photo">
+  <img
+    src="images/jimmy-stewart-military.jpg"
+    alt="Jimmy Stewart in military uniform"
+  >
 
+  <figcaption>
+    Jimmy Stewart served as a bomber pilot and squadron commander during World War II.
+  </figcaption>
+</figure>
           <figure class="military-photo">
 
             <img
@@ -879,57 +758,45 @@
           </figure>
 
         </div>
-
-
-        <div class="military-awards">
-
-          <p class="eyebrow">
-            Military honors
-          </p>
-
-          <h3>
-            Selected decorations
-          </h3>
+@@ -784,7 +878,9 @@
 
           <div class="honor-list">
 
+            <span>Distinguished Service Medal</span>
             <span>
               Distinguished Service Medal
             </span>
 
             <span>
               Distinguished Flying Cross with Oak Leaf Cluster
-            </span>
-
-            <span>
+@@ -794,9 +890,13 @@
               Air Medal with three Oak Leaf Clusters
             </span>
 
+            <span>Army Commendation Medal</span>
             <span>
               Army Commendation Medal
             </span>
 
+            <span>Presidential Unit Citation</span>
             <span>
               Presidential Unit Citation
             </span>
 
             <span>
               French Croix de Guerre with Palm
-            </span>
-
-          </div>
-
-        </div>
-
+@@ -809,9 +909,7 @@
       </div>
 
     </section>
+
+
+    <!-- AWARDS -->
         <!-- AWARDS -->
 
     <section class="awards-section" id="awards">
 
-      <div class="container">
-
+@@ -820,13 +918,15 @@
         <div class="section-heading awards-heading">
 
           <div>
@@ -945,148 +812,7 @@
           </div>
 
           <p class="section-introduction">
-            Stewart received major honors for individual
-            performances, his entire acting career, his public
-            service, and his military service.
-          </p>
-
-        </div>
-
-
-        <div class="awards-grid">
-
-          <article class="award-card featured-award">
-
-            <span class="award-year">
-              1941
-            </span>
-
-            <h3>
-              Academy Award for Best Actor
-            </h3>
-
-            <p>
-              Stewart won Best Actor for his performance as
-              Macaulay “Mike” Connor in
-              <em>The Philadelphia Story</em>.
-            </p>
-
-          </article>
-
-
-          <article class="award-card">
-
-            <span class="award-year">
-              Five
-            </span>
-
-            <h3>
-              Competitive Oscar nominations
-            </h3>
-
-            <p>
-              His nominated performances included
-              <em>Mr. Smith Goes to Washington</em>,
-              <em>The Philadelphia Story</em>,
-              <em>It’s a Wonderful Life</em>,
-              <em>Harvey</em>, and
-              <em>Anatomy of a Murder</em>.
-            </p>
-
-          </article>
-
-
-          <article class="award-card">
-
-            <span class="award-year">
-              1965
-            </span>
-
-            <h3>
-              Cecil B. DeMille Award
-            </h3>
-
-            <p>
-              The Golden Globes honored Stewart for his outstanding
-              contributions to entertainment.
-            </p>
-
-          </article>
-
-
-          <article class="award-card">
-
-            <span class="award-year">
-              1980
-            </span>
-
-            <h3>
-              AFI Life Achievement Award
-            </h3>
-
-            <p>
-              The American Film Institute recognized the range,
-              influence, and lasting importance of his work.
-            </p>
-
-          </article>
-
-
-          <article class="award-card">
-
-            <span class="award-year">
-              1984
-            </span>
-
-            <h3>
-              Honorary Academy Award
-            </h3>
-
-            <p>
-              The Academy honored Stewart for 50 years of memorable
-              performances and his ideals both on and off screen.
-            </p>
-
-          </article>
-
-
-          <article class="award-card">
-
-            <span class="award-year">
-              1985
-            </span>
-
-            <h3>
-              Presidential Medal of Freedom
-            </h3>
-
-            <p>
-              Stewart received the United States’ highest civilian
-              honor in recognition of his career and public service.
-            </p>
-
-          </article>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- PERSONAL VIEWING INTRODUCTION -->
-
-    <section class="intro container">
-
-      <div>
-
-        <p class="eyebrow dark">
-          My viewing project
-        </p>
-
-        <h2>
-          More than a filmography
-        </h2>
+@@ -975,6 +1075,7 @@
 
       </div>
 
@@ -1094,13 +820,13 @@
       <div>
 
         <p>
-          This site tracks every Jimmy Stewart movie I have watched,
-          the character he played, who directed it, what kind of
-          movie it is, and my personal rating.
-        </p>
+@@ -985,9 +1086,10 @@
 
         <p>
           Click any movie in the list to read a spoiler-filled
+          description of Stewart’s character. As I continue through
+          his career, I will add more films, personal reviews,
+          rankings, favorite scenes, and photographs.
           description of Stewart’s character and my personal review
           of Jimmy’s performance. As I continue through his career,
           I will add more films, rankings, favorite scenes, and
@@ -1108,58 +834,25 @@
         </p>
 
       </div>
-
-    </section>
-
-
-    <!-- MOVIE DATABASE -->
-
-    <section class="movie-section" id="movies">
-
-      <div class="container">
-
-        <div class="section-heading">
-
-          <div>
-
-            <p class="eyebrow">
-              The watchlist
-            </p>
-
-            <h2>
-              Movies I’ve watched
-            </h2>
-
-          </div>
-
-          <p
+@@ -1019,7 +1121,7 @@
             id="results-label"
             aria-live="polite"
           >
+            Showing all 26 films
             Showing all 35 films
           </p>
 
         </div>
-
-
-        <div class="controls">
-
-          <label class="search-box">
-
-            <span class="sr-only">
-              Search movies
-            </span>
-
+@@ -1036,7 +1138,7 @@
             <input
               id="search"
               type="search"
+              placeholder="Search movie, character, director, or description…"
               placeholder="Search movie, character, director, description, or review…"
             >
 
           </label>
-
-
-          <select
+@@ -1046,19 +1148,23 @@
             id="director-filter"
             aria-label="Filter by director"
           >
@@ -1183,173 +876,86 @@
           </select>
 
 
-          <select
-            id="sort"
-            aria-label="Sort movies"
-          >
-
-            <option value="year-asc">
-              Year: earliest first
-            </option>
-
-            <option value="year-desc">
-              Year: latest first
-            </option>
-
-            <option value="title-asc">
-              Movie title: A–Z
-            </option>
-
-            <option value="director-asc">
-              Director: A–Z
-            </option>
-
-            <option value="genre-asc">
-              Genre: A–Z
-            </option>
-
-          </select>
-
-
-          <button id="reset" type="button">
-            Reset
-          </button>
-
-        </div>
-
-
-        <div class="table-wrap">
-
-          <table>
-
-            <thead>
-
-              <tr>
-                <th scope="col">Year</th>
-                <th scope="col">Movie</th>
-                <th scope="col">Jimmy Stewart as</th>
-                <th scope="col">Director</th>
-                <th scope="col">Primary genre</th>
-                <th scope="col">My rating</th>
-              </tr>
-
-            </thead>
-
-            <tbody id="movie-table"></tbody>
-
-          </table>
-
-        </div>
-
-
-        <div
-          id="movie-cards"
-          class="movie-cards"
-        ></div>
-
-
-        <p
-          id="empty-state"
-          class="empty-state"
-          hidden
-        >
-          No films match those filters.
-        </p>
-
-      </div>
-
-    </section>
-
-
-    <!-- CHARACTER TYPES -->
-
-    <section class="feature-grid container">
-
-      <article>
-
-        <span>01</span>
-
-        <h3>
-          The sincere idealist
-        </h3>
-
-        <p>
-          Jeff Smith, George Bailey, Tony Kirby, and
-          Ranse Stoddard believe that decency can make a difference.
-        </p>
-
-      </article>
-
-
-      <article>
-
-        <span>02</span>
-
-        <h3>
-          The troubled man
-        </h3>
-
-        <p>
-          Scottie Ferguson, Howard Kemp, Lin McAdam, and
-          Will Lockhart reveal Stewart’s darker and more wounded side.
-        </p>
-
-      </article>
-
-
-      <article>
-
-        <span>03</span>
-
-        <h3>
-          The charming eccentric
-        </h3>
-
-        <p>
-          Elwood P. Dowd, Theodore Honey, and Mike Connor show
-          Stewart’s warmth, humor, and unusual screen personality.
-        </p>
-
+@@ -1192,174 +1298,213 @@
       </article>
 
     </section>
         <!-- PHOTO GALLERY -->
 
+    <!-- PHOTO GALLERY -->
     <section class="gallery-section" id="gallery">
 
+     <section class="gallery-section" id="gallery">
+  <div class="container">
       <div class="container">
 
+    <div class="gallery-header">
+      <p class="eyebrow">
+        Photo archive
+      </p>
         <div class="gallery-header">
 
+      <h2>
+        Jimmy Stewart Gallery
+      </h2>
           <p class="eyebrow">
             Photo archive
           </p>
 
+      <p class="section-introduction">
+        A collection of photographs representing Jimmy Stewart’s early
+        career, military service, Hitchcock films, westerns, awards,
+        and later life.
+      </p>
+    </div>
           <h2>
             Jimmy Stewart Gallery
           </h2>
 
+    <div class="gallery-grid">
           <p class="section-introduction">
             A collection of photographs representing Jimmy Stewart’s
             early career, military service, Hitchcock films, westerns,
             awards, and later life.
           </p>
 
+      <!-- EARLY CAREER -->
         </div>
 
+      <figure class="gallery-item">
+        <img
+          src="images/jimmy-stewart-early-career.jpg"
+          alt="Jimmy Stewart as Jefferson Smith in Mr. Smith Goes to Washington"
+        >
 
+        <figcaption>
+          Jimmy Stewart as Jefferson “Jeff” Smith in
+          <em>Mr. Smith Goes to Washington</em> (1939).
+        </figcaption>
+      </figure>
         <div class="gallery-grid">
 
           <!-- EARLY CAREER -->
 
+      <!-- WORLD WAR II -->
           <figure class="gallery-item">
 
+      <figure class="gallery-item">
+        <img
+          src="images/jimmy-world-war-two.jpg"
+          alt="Jimmy Stewart during his World War II military service"
+        >
             <img
               src="images/jimmy-stewart-early-career.jpg"
               alt="Jimmy Stewart as Jefferson Smith in Mr. Smith Goes to Washington"
               loading="lazy"
             >
 
+        <figcaption>
+          Jimmy Stewart during his World War II service in the
+          United States Army Air Forces.
+        </figcaption>
+      </figure>
             <figcaption>
               Jimmy Stewart as Jefferson “Jeff” Smith in
               <em>Mr. Smith Goes to Washington</em> (1939).
@@ -1357,9 +963,20 @@
 
           </figure>
 
+      <!-- HITCHCOCK ERA -->
 
+     <figure class="gallery-item">
+  <img
+    src="images/jimmy-hitchcock-era.jpg"
+    alt="Jimmy Stewart during his Hitchcock era"
+  >
           <!-- WORLD WAR II -->
 
+  <figcaption>
+    Jimmy Stewart during his Hitchcock era, including films such as
+    <em>Rear Window</em> and <em>Vertigo</em>.
+  </figcaption>
+</figure>
           <figure class="gallery-item">
 
             <img
@@ -1368,18 +985,40 @@
               loading="lazy"
             >
 
+      <!-- WESTERN ERA -->
             <figcaption>
               Jimmy Stewart during his World War II service in the
               United States Army Air Forces.
             </figcaption>
 
+     <figure class="gallery-item">
+  <img
+    src="images/jimmy-western-era.jpg"
+    alt="Jimmy Stewart riding a horse during his western-film era"
+  >
           </figure>
 
+  <figcaption>
+    Jimmy Stewart on horseback during the western period that transformed
+    his screen image in the 1950s.
+  </figcaption>
+</figure>
 
+      <!-- AWARDS -->
           <!-- HITCHCOCK ERA -->
 
+      <figure class="gallery-item">
+  <img
+    src="images/jimmy-awards.jpg"
+    alt="Jimmy Stewart shown earlier in his career and later holding an Academy Award"
+  >
           <figure class="gallery-item">
 
+  <figcaption>
+    Jimmy Stewart across the decades, from young Hollywood star to
+    Academy Award–honored screen legend.
+  </figcaption>
+</figure>
             <img
               src="images/jimmy-hitchcock-era.jpg"
               alt="Jimmy Stewart during his Hitchcock era"
@@ -1391,9 +1030,19 @@
               such as <em>Rear Window</em> and <em>Vertigo</em>.
             </figcaption>
 
+      <!-- LATER LIFE -->
           </figure>
 
+      <figure class="gallery-item">
+  <img
+    src="images/jimmy-later-life.jpg"
+    alt="Jimmy Stewart later in life"
+  >
 
+  <figcaption>
+    Jimmy Stewart later in life, after decades as one of American cinema’s most admired actors.
+  </figcaption>
+</figure>
           <!-- WESTERN ERA -->
 
           <figure class="gallery-item">
@@ -1455,13 +1104,34 @@
 
 
     <!-- SITE INFORMATION -->
+<section class="about" id="about">
+  <div class="container about-inner">
 
+    <div>
+      <p class="eyebrow">
+        Built by Ace
+      </p>
     <section class="about" id="about">
 
+      <h2>
+        A fan’s view of a legendary career
+      </h2>
+    </div>
       <div class="container about-inner">
 
+    <div>
+      <p>
+        This is an independent fan project created to document
+        my Jimmy Stewart viewing journey and celebrate his life,
+        acting career, and military service.
+      </p>
         <div>
 
+      <p>
+        It is not affiliated with Jimmy Stewart’s estate, the
+        Jimmy Stewart Museum, any film studio, or any rights holder.
+      </p>
+    </div>
           <p class="eyebrow">
             Built by Ace
           </p>
@@ -1470,28 +1140,49 @@
             A fan’s view of a legendary career
           </h2>
 
+  </div>
+</section>
         </div>
 
 
+<!-- SOURCES -->
         <div>
 
+<section class="sources-section">
+  <div class="container">
           <p>
             This is an independent fan project created to document
             my Jimmy Stewart viewing journey and celebrate his life,
             acting career, and military service.
           </p>
 
+    <p class="eyebrow dark">
+      Research
+    </p>
           <p>
             It is not affiliated with Jimmy Stewart’s estate, the
             Jimmy Stewart Museum, any film studio, or any rights holder.
           </p>
 
+    <h2>
+      Main Information Sources
+    </h2>
         </div>
 
+    <p>
+      Biographical, military, and awards information on this page
+      was checked against material from the Jimmy Stewart Museum,
+      the National Museum of the United States Air Force, the
+      Academy of Motion Picture Arts and Sciences, and the
+      American Film Institute.
+    </p>
       </div>
 
+  </div>
+</section>
     </section>
 
+  </main>
 
     <!-- SOURCES -->
 
@@ -1523,15 +1214,13 @@
   <footer class="footer container">
 
     <p>
-      My Jimmy Stewart Journey
-    </p>
-
-    <p>
-      Built with HTML, CSS, and JavaScript.
-    </p>
+@@ -1372,8 +1517,7 @@
 
   </footer>
 
-<script src="script.js?v=8"></script>
+
+  <script src="script.js?v=3"></script>
+  <script src="script.js?v=4"></script>
+
 </body>
 </html>
