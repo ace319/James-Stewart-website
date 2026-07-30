@@ -725,19 +725,19 @@ function activateCardButtons() {
 function render() {
   const visibleMovies = getFilteredMovies();
 
+  function render() {
+  const visibleMovies = getFilteredMovies();
+
   tableBody.innerHTML = visibleMovies
     .map(movie => {
       const movieId = createMovieId(movie);
 
       return `
         <tr
-  class="movie-row"
-  id="movie-row-${movieId}"
-  data-movie-id="${movieId}"
-  tabindex="0"
-  aria-expanded="false"
-  aria-controls="table-description-${movieId}"
->
+          class="movie-row"
+          id="movie-row-${movieId}"
+          data-movie-id="${movieId}"
+          tabindex="0"
           aria-expanded="false"
           aria-controls="table-description-${movieId}"
         >
@@ -749,6 +749,7 @@ function render() {
 
               <div>
                 <em>${movie.title}</em>
+
                 <small class="description-hint">
                   Select to read about the character and Jimmy’s performance
                 </small>
