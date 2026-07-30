@@ -731,9 +731,13 @@ function render() {
 
       return `
         <tr
-          class="movie-row"
-          data-movie-id="${movieId}"
-          tabindex="0"
+  class="movie-row"
+  id="movie-row-${movieId}"
+  data-movie-id="${movieId}"
+  tabindex="0"
+  aria-expanded="false"
+  aria-controls="table-description-${movieId}"
+>
           aria-expanded="false"
           aria-controls="table-description-${movieId}"
         >
