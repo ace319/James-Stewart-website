@@ -77,6 +77,17 @@ const movies = [
       "A poor Paris sewer worker who dreams of improving his life and reluctantly gives Diane a safe place to stay. Their unusual arrangement develops into love, but World War I separates them and leaves Chico fighting to return home."
   },
   {
+  year: 1937,
+  title: "Navy Blue and Gold",
+  character: "John “Truck” Cross",
+  director: "Sam Wood",
+  genre: "Sports Drama",
+  rating: 3.5,
+  poster: "images/posters/navy-blue-and-gold.jpg",
+  description:
+    "An enlisted sailor determined to become an officer at the United States Naval Academy while trying to clear his father’s disgraced name. Truck becomes involved in academy life and football, but his loyalty to his father gives the story its strongest emotional moments."
+},
+  {
     year: 1938,
     title: "You Can't Take It with You",
     character: "Tony Kirby",
@@ -408,6 +419,9 @@ const movieReviews = {
   "Seventh Heaven":
     "His strongest early leading performance so far; Chico begins rough and proud but gradually becomes tender, romantic and emotionally convincing.",
 
+  "Navy Blue and Gold":
+  "The movie was not bad, but Jimmy was the strongest part of it. He gives Truck Cross a lot of warmth, especially when he stands up for his father and refuses to be ashamed of him. I liked the emotional family story more than the football and Naval Academy material.",
+ 
   "You Can't Take It with You":
     "Tony Kirby is charming, sincere and caught between wealth and the life he genuinely wants; Jimmy fits naturally into Capra’s warm comedy.",
 
