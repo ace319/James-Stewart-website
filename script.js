@@ -88,6 +88,17 @@ const movies = [
     "An enlisted sailor determined to become an officer at the United States Naval Academy while trying to clear his father’s disgraced name. Truck becomes involved in academy life and football, but his loyalty to his father gives the story its strongest emotional moments."
 },
   {
+  year: 1938,
+  title: "Of Human Hearts",
+  character: "Jason Wilkins",
+  director: "Clarence Brown",
+  genre: "Drama",
+  rating: 3,
+  poster: "images/posters/of-human-hearts.jpg",
+  description:
+    "The ambitious son of a poor minister who leaves home to become a doctor. Jason grows increasingly distant from his family as his career advances, until a meeting with President Abraham Lincoln forces him to confront how badly he has neglected his mother."
+},
+  {
     year: 1938,
     title: "You Can't Take It with You",
     character: "Tony Kirby",
@@ -422,6 +433,9 @@ const movieReviews = {
   "Navy Blue and Gold":
   "The movie was not bad, but Jimmy was the strongest part of it. He gives Truck Cross a lot of warmth, especially when he stands up for his father and refuses to be ashamed of him. I liked the emotional family story more than the football and Naval Academy material.",
  
+  "Of Human Hearts":
+  "The movie did not have too much of a plot, but I thought Jimmy's acting was better than some of his earlier movies. Jason is more selfish and flawed than the characters Jimmy had usually been playing, which gave him something different to do. The Abraham Lincoln scene was the most interesting part for me, especially when Jason is confronted about neglecting his mother. Overall, I would give it 3 stars.",
+  
   "You Can't Take It with You":
     "Tony Kirby is charming, sincere and caught between wealth and the life he genuinely wants; Jimmy fits naturally into Capra’s warm comedy.",
 
