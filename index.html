@@ -37,58 +37,74 @@
 
   <header class="hero" id="top">
 
-    <nav class="nav container">
+    <div class="hero-panel">
 
-      <a
-        class="logo"
-        href="#top"
-        aria-label="Return to the top of the page"
-      >
-        JS
-      </a>
+      <nav class="nav" aria-label="Main navigation">
 
-      <div class="nav-links">
-        <a href="#biography">His Life</a>
-        <a href="#fonda">Henry Fonda</a>
-        <a href="#pie">Pie</a>
-        <a href="#military">Military Service</a>
-        <a href="#awards">Awards</a>
-        <a href="#movies">My Movies</a>
-        <a href="#gallery">Gallery</a>
-      </div>
-
-    </nav>
-
-    <div class="hero-content container">
-
-      <p class="eyebrow">
-        A personal classic-film project
-      </p>
-
-      <h1>
-        My Jimmy Stewart Journey
-      </h1>
-
-      <p class="hero-copy">
-        Exploring the life and career of James Stewart—from his
-        Pennsylvania childhood and distinguished military service to
-        his comedies, dramas, Hitchcock thrillers, westerns, and some
-        of the most memorable characters in American film.
-      </p>
-
-      <div class="hero-buttons">
-
-        <a class="button" href="#biography">
-          Discover his life
+        <a
+          class="logo"
+          href="#top"
+          aria-label="Return to the top of the page"
+        >
+          <span class="logo-mark">JS</span>
+          <span class="logo-copy">
+            <strong>Jimmy Stewart</strong>
+            <small>A personal film journey</small>
+          </span>
         </a>
 
-        <a class="button button-secondary" href="#movies">
-          Explore my movies
-        </a>
+        <div class="nav-links">
+          <a href="#biography">His Life</a>
+          <a href="#fonda">Henry Fonda</a>
+          <a href="#pie">Pie</a>
+          <a href="#military">Military</a>
+          <a href="#awards">Awards</a>
+          <a href="#movies">Movies</a>
+          <a href="#gallery">Gallery</a>
+        </div>
+
+      </nav>
+
+      <div class="hero-content">
+
+        <p class="eyebrow">
+          A personal classic-film project
+        </p>
+
+        <h1>
+          My Jimmy Stewart <span>Journey</span>
+        </h1>
+
+        <div class="hero-rule" aria-hidden="true"></div>
+
+        <p class="hero-copy">
+          Exploring the life and career of James Stewart—from his
+          Pennsylvania childhood and distinguished military service to
+          his comedies, dramas, Hitchcock thrillers, westerns, and some
+          of the most memorable characters in American film.
+        </p>
+
+        <div class="hero-buttons">
+
+          <a class="button" href="#biography">
+            Discover his life
+          </a>
+
+          <a class="button button-secondary" href="#movies">
+            Explore my movies <span aria-hidden="true">&#8594;</span>
+          </a>
+
+        </div>
 
       </div>
 
     </div>
+
+    <div
+      class="hero-image"
+      role="img"
+      aria-label="Portrait of James Stewart"
+    ></div>
 
   </header>
 
