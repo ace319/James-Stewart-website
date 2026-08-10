@@ -433,8 +433,8 @@ const movieReviews = {
   "Navy Blue and Gold":
   "The movie was not bad, but Jimmy was the strongest part of it. He gives Truck Cross a lot of warmth, especially when he stands up for his father and refuses to be ashamed of him. I liked the emotional family story more than the football and Naval Academy material.",
  
-  "Of Human Hearts":
-  "The movie did not have too much of a plot, but I thought Jimmy's acting was better than some of his earlier movies. Jason is more selfish and flawed than the characters Jimmy had usually been playing, which gave him something different to do. The Abraham Lincoln scene was the most interesting part for me, especially when Jason is confronted about neglecting his mother.",
+"Of Human Hearts":
+  "Jimmy gives one of the stronger performances of his early films, especially once Jason’s selfishness begins catching up with him. The Abraham Lincoln scene is his best moment and gives him a good emotional scene.",  
   
   "You Can't Take It with You":
     "Tony Kirby is charming, sincere and caught between wealth and the life he genuinely wants; Jimmy fits naturally into Capra’s warm comedy.",
