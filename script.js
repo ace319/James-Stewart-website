@@ -410,115 +410,115 @@ const movies = [
 
 const movieReviews = {
   "The Murder Man":
-    "Jimmy is natural and recognizable as Shorty, but he is barely present and has almost nothing important to do.",
+    "Jimmy is natural and recognizable as Shorty, showing some of the warmth and nervous energy he would later become famous for, but he is barely present and has almost nothing important to do.",
 
   "Next Time We Love":
-    "His first substantial leading role shows his sincerity and emotional ability, although Christopher can be frustrating and the story is melancholy.",
+    "Jimmy's first substantial leading role shows his sincerity and emotional ability as Christopher, although the character can be frustrating and the melancholy story does not always give him enough to work with.",
 
   "Speed":
-    "Jimmy is unusually confident, sarcastic and witty as Terry Martin; the movie is basic, but his personality makes it enjoyable.",
+    "Jimmy is unusually confident, sarcastic and witty as Terry Martin, showing a more energetic side of his personality. The movie is fairly basic, but his charm makes it much more enjoyable.",
 
   "Born to Dance":
-    "He reveals a completely different side by singing, dancing and handling broad comedy surprisingly well.",
+    "Jimmy reveals a completely different side as Ted Barker, singing, dancing and handling broad romantic comedy surprisingly well. He looks increasingly comfortable carrying a movie as a leading man.",
 
   "The Gorgeous Hussy":
-    "Rowdy Dow is likable and warmly played, but Jimmy has far too little screen time to make a major impression.",
+    "Jimmy gives Rowdy Dow an easy warmth and loyalty that makes him immediately likable, but he has far too little screen time for the character or performance to make a major impression.",
 
   "After the Thin Man":
-    "One of his most fascinating early performances: he uses his gentle image to hide that David is the murderer, then becomes frightening during the reveal.",
+    "One of Jimmy's most fascinating early performances, using his gentle and trustworthy image to disguise what David is really capable of. His transformation during the final reveal is genuinely frightening.",
 
   "Seventh Heaven":
-    "His strongest early leading performance so far; Chico begins rough and proud but gradually becomes tender, romantic and emotionally convincing.",
+    "Jimmy gives one of his strongest early leading performances as Chico, beginning rough, proud and emotionally guarded before gradually becoming tender and romantic. His relationship with Diane brings out some very sincere acting.",
 
   "Navy Blue and Gold":
-  "The movie was not bad, but Jimmy was the strongest part of it. He gives Truck Cross a lot of warmth, especially when he stands up for his father and refuses to be ashamed of him. I liked the emotional family story more than the football and Naval Academy material.",
- 
-"Of Human Hearts":
-  "Jimmy gives one of the stronger performances of his early films, especially once Jason’s selfishness begins catching up with him. The Abraham Lincoln scene is his best moment and gives him a good emotional scene.",  
-  
+    "Jimmy gives Truck Cross a lot of warmth and determination, especially when he defends his father and refuses to be ashamed of him. The family story gives him stronger material than the football and academy scenes.",
+
+  "Of Human Hearts":
+    "Jimmy makes Jason more interesting by allowing him to become selfish, ambitious and distant without completely losing his humanity. His confrontation with Abraham Lincoln gives him the strongest emotional moment in the movie.",
+
   "You Can't Take It with You":
-    "Tony Kirby is charming, sincere and caught between wealth and the life he genuinely wants; Jimmy fits naturally into Capra’s warm comedy.",
+    "Jimmy makes Tony Kirby charming and sincere while showing how trapped he feels by his wealthy family and expected future. He fits naturally into Capra's mixture of romance, comedy and idealism.",
 
   "Made for Each Other":
-    "Jimmy convincingly plays an ordinary young husband overwhelmed by work, money and family problems, though the character is less memorable than his greatest roles.",
+    "Jimmy convincingly plays John Mason as an ordinary young husband overwhelmed by work, money and family problems. His frustration and desperation feel genuine, even if the character is less memorable than his greatest roles.",
 
   "Mr. Smith Goes to Washington":
-    "One of his defining performances: innocent, funny, furious and eventually heroic, especially during the exhausting filibuster.",
+    "One of Jimmy's defining performances, taking Jefferson Smith from innocent and awkward to furious, exhausted and heroic. The filibuster lets him combine his sincerity, physical acting and emotional intensity perfectly.",
 
   "The Philadelphia Story":
-    "He is witty, romantic and slightly drunk as Mike Connor, holding his own against Cary Grant and Katharine Hepburn and winning an Oscar.",
+    "Jimmy is witty, romantic and wonderfully loose as Mike Connor, especially once the character gets drunk. He easily holds his own beside Cary Grant and Katharine Hepburn and gives one of his funniest performances.",
 
   "The Shop Around the Corner":
-    "One of his most complete romantic performances—proud, awkward, funny, jealous and deeply vulnerable as Alfred Kralik.",
+    "Jimmy gives Alfred Kralik one of his most complete romantic performances, making him proud, awkward, funny, jealous and deeply vulnerable. His chemistry with Margaret Sullavan makes even the quieter moments feel completely natural.",
 
   "Pot o’ Gold":
-    "Jimmy is pleasant, musical and easygoing, but the lightweight material never gives him much dramatic depth.",
+    "Jimmy is pleasant, musical and easygoing as Jimmy Haskell, bringing plenty of charm to a lightweight comedy. The material never asks much from him dramatically, but he remains enjoyable throughout.",
 
   "It’s a Wonderful Life":
-    "Possibly his greatest performance: George Bailey’s warmth, anger, desperation and eventual joy all feel completely genuine.",
+    "Jimmy gives George Bailey extraordinary emotional range, moving naturally between warmth, humor, anger, exhaustion and complete despair. His breakdown and eventual joy make this one of his greatest and most human performances.",
 
   "Rope":
-    "Jimmy plays Rupert with intelligence and authority, then powerfully shows his horror when he realizes his ideas helped inspire murder.",
+    "Jimmy gives Rupert Cadell intelligence, confidence and authority before gradually revealing his horror at what his ideas have inspired. His final realization gives the character much more emotional weight than he initially seems to have.",
 
   "Call Northside 777":
-    "His restrained, realistic performance as reporter P. J. McNeal works well because the character slowly changes from skeptic to determined investigator.",
+    "Jimmy keeps P. J. McNeal restrained and realistic, allowing the reporter's change from skeptical professional to determined investigator to happen gradually. His understated performance fits the documentary-like style of the movie very well.",
 
   "On Our Merry Way":
-    "Jimmy’s short section is funny and physically energetic, and his easy chemistry with Henry Fonda makes you wish they had been given the entire movie.",
+    "Jimmy is funny and physically energetic as Slim, and his relaxed chemistry with Henry Fonda feels completely natural. Their section is so enjoyable that it makes you wish they had been given the entire movie.",
 
   "Broken Arrow":
-    "He gives Tom Jeffords a calm, thoughtful dignity, making him a peaceful western hero rather than another revenge-driven gunman.",
+    "Jimmy gives Tom Jeffords a calm, thoughtful dignity, creating a western hero who relies more on understanding and negotiation than revenge. His restrained performance fits the movie's more peaceful approach to the genre.",
 
   "Harvey":
-    "Elwood P. Dowd is one of Jimmy’s sweetest creations—gentle, polite and completely sincere without ever becoming foolish.",
+    "Jimmy makes Elwood P. Dowd incredibly gentle, polite and sincere without ever turning him into a joke. His absolute belief in Harvey gives the character warmth while leaving just enough mystery around what is actually happening.",
 
   "The Jackpot":
-    "Jimmy is funny and relatable as an ordinary man whose supposed good fortune creates endless problems, though it is a fairly minor role for him.",
+    "Jimmy is funny and relatable as Bill Lawrence, an ordinary family man whose supposed good fortune quickly becomes a nightmare. He handles the domestic comedy naturally, even if the role never pushes him very far.",
 
   "Winchester ’73":
-    "This begins his darker western persona: Lin McAdam is heroic but driven by anger, revenge and a painful family history.",
+    "Jimmy introduces a much darker western persona as Lin McAdam, a decent man driven by anger, revenge and painful family history. His intensity gives the movie an edge that feels very different from his earlier heroes.",
 
   "No Highway in the Sky":
-    "Jimmy makes the brilliant and awkward Theodore Honey funny, sympathetic and believable rather than merely eccentric.",
+    "Jimmy makes Theodore Honey's awkwardness, intelligence and absent-minded behavior funny without making him ridiculous. He also gives the character enough sincerity and determination to make his unusual scientific obsession completely believable.",
 
   "The Greatest Show on Earth":
-    "Buttons is easily one of the movie’s most interesting characters; Jimmy gives the mysterious clown sadness, kindness and dignity despite limited screen time.",
+    "Jimmy gives Buttons the Clown an unusual mixture of mystery, kindness and sadness, even while hiding behind makeup for the entire movie. His quiet performance makes Buttons one of the film's most interesting characters.",
 
   "Bend of the River":
-    "Glyn McLyntock is a strong redemption role, with Jimmy suggesting that the respectable guide still fears the violent man he used to be.",
+    "Jimmy gives Glyn McLyntock the confidence of a traditional western hero while suggesting that his violent past is never far beneath the surface. That struggle makes his attempt at redemption much more interesting.",
 
   "The Naked Spur":
-    "One of his most intense performances: Howard Kemp is bitter, greedy, traumatized and often close to completely losing control.",
+    "Jimmy gives one of his most intense performances as Howard Kemp, making him bitter, greedy, traumatized and increasingly unstable. His anger feels dangerous because Jimmy never lets you forget how emotionally damaged the character has become.",
 
   "Rear Window":
-    "Jimmy makes Jeff Jefferies curious, humorous, stubborn and flawed, while carrying nearly the entire thriller from one room.",
+    "Jimmy makes Jeff Jefferies curious, funny, stubborn and noticeably flawed while carrying almost the entire thriller from one apartment. His small reactions keep the character engaging even when he can barely physically participate in the action.",
 
   "The Far Country":
-    "Jeff Webster is colder and more selfish than Jimmy’s usual hero, but Jimmy gradually reveals the decency buried underneath.",
+    "Jimmy makes Jeff Webster colder and more selfish than his usual western hero, keeping other people at an emotional distance. His gradual decision to care about the community gives the character a convincing change.",
 
   "The Man from Laramie":
-    "One of his strongest western performances: Will Lockhart is controlled and decent, but grief and revenge constantly threaten to break through.",
+    "Jimmy keeps Will Lockhart controlled and decent while allowing grief and revenge to constantly threaten that restraint. His quiet anger makes the moments when the character finally loses control much more powerful.",
 
   "The Man Who Knew Too Much":
-    "Jimmy is convincing as an ordinary father becoming increasingly frightened, stubborn and desperate to save his kidnapped son.",
+    "Jimmy makes Ben McKenna believable as an ordinary father becoming increasingly frightened, stubborn and desperate to recover his son. His emotional reactions give the suspense a personal weight beyond the mystery itself.",
 
   "The Spirit of St. Louis":
-    "He keeps a long, largely solitary film engaging through small reactions, humor and Lindbergh’s growing physical exhaustion.",
+    "Jimmy keeps Charles Lindbergh engaging through small reactions, dry humor and increasingly visible exhaustion despite spending much of the film alone. He makes the physical and mental strain of the flight feel convincing.",
 
   "Night Passage":
-    "Grant McLaine is a familiar honorable western hero, but Jimmy adds warmth through the accordion scenes and sadness through the conflict with his brother.",
+    "Jimmy gives Grant McLaine the familiar decency of one of his western heroes while adding warmth through the accordion scenes and sadness through his relationship with his brother. The character feels comfortable but still distinctly Jimmy.",
 
   "Vertigo":
-    "Probably his darkest performance: Scottie shifts from traumatized and sympathetic to obsessive, controlling and frightening.",
+    "Jimmy gives probably his darkest performance as Scottie, beginning traumatized and sympathetic before becoming obsessive, controlling and frightening. His familiar likability makes the character's transformation even more disturbing.",
 
   "Bell, Book and Candle":
-    "Jimmy is charming and funny as Shep, although Kim Novak’s magical character is ultimately the more unusual and memorable role.",
+    "Jimmy is charming and funny as Shep Henderson, playing his confusion and growing attraction naturally. He works well as the grounded center of the movie, although Kim Novak's magical character is ultimately more unusual.",
 
   "Anatomy of a Murder":
-    "He plays Paul Biegler with relaxed humor and intelligence while subtly showing how calculating and strategically manipulative the lawyer can be.",
+    "Jimmy gives Paul Biegler a relaxed humor and intelligence that makes him immediately likable while quietly revealing how calculating he can be in court. His understated manipulation is one of the performance's most interesting qualities.",
 
   "The Man Who Shot Liberty Valance":
-    "Ransom Stoddard is idealistic, brave and decent, but Jimmy also captures the lifelong guilt of a man whose success rests upon another man’s sacrifice."
+    "Jimmy makes Ransom Stoddard idealistic, brave and deeply committed to his principles while also carrying the weight of a secret that follows him for life. His later scenes reveal the character's lasting guilt especially well."
 };
 const tableBody = document.querySelector("#movie-table");
 const cardGrid = document.querySelector("#movie-cards");
