@@ -388,6 +388,170 @@ p {
   font-size: 0.82rem;
 }
 
+/* UPCOMING BIOPIC */
+
+.biopic-section {
+  padding: 110px 0;
+  overflow: hidden;
+  background: #e7dfd0;
+}
+
+.biopic-layout {
+  display: grid;
+  grid-template-columns: minmax(300px, 0.82fr) minmax(0, 1.18fr);
+  gap: clamp(50px, 8vw, 110px);
+  align-items: center;
+}
+
+.biopic-art {
+  position: relative;
+  display: flex;
+  min-height: 560px;
+  padding: 44px;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: var(--white);
+  background:
+    radial-gradient(circle at 78% 18%, rgba(200, 159, 90, 0.32), transparent 29%),
+    linear-gradient(145deg, #2a373d, var(--ink) 64%);
+  box-shadow: var(--shadow);
+}
+
+.biopic-art::before,
+.biopic-art::after {
+  content: "";
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 50%;
+}
+
+.biopic-art::before {
+  top: -90px;
+  right: -100px;
+  width: 330px;
+  height: 330px;
+}
+
+.biopic-art::after {
+  top: -38px;
+  right: -48px;
+  width: 220px;
+  height: 220px;
+}
+
+.biopic-art-kicker,
+.biopic-art-subtitle,
+.biopic-art-date {
+  position: relative;
+  z-index: 1;
+  font-family: "Oswald", Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+}
+
+.biopic-art-kicker {
+  margin-bottom: auto;
+  color: var(--gold-light);
+  font-size: 0.72rem;
+}
+
+.biopic-art strong {
+  position: relative;
+  z-index: 1;
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: clamp(5rem, 9vw, 8.5rem);
+  font-weight: 600;
+  line-height: 0.9;
+  letter-spacing: -0.05em;
+}
+
+.biopic-art-subtitle {
+  margin-top: 16px;
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 0.64rem;
+}
+
+.biopic-art-date {
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  color: var(--gold-light);
+  font-size: 0.78rem;
+}
+
+.biopic-copy h2 {
+  max-width: 760px;
+  margin-bottom: 26px;
+  font-size: clamp(2.8rem, 4.7vw, 5rem);
+}
+
+.biopic-copy > p:not(.eyebrow, .biopic-note) {
+  max-width: 700px;
+  color: #465157;
+}
+
+.biopic-lead {
+  font-size: 1.08rem;
+}
+
+.biopic-facts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 36px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.biopic-facts div {
+  padding: 20px 18px 20px 0;
+}
+
+.biopic-facts div + div {
+  padding-left: 18px;
+  border-left: 1px solid var(--line);
+}
+
+.biopic-facts dt {
+  margin-bottom: 5px;
+  color: var(--red);
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 0.66rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.biopic-facts dd {
+  margin: 0;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.biopic-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.biopic-button-secondary {
+  border-color: var(--ink);
+  background: transparent;
+  color: var(--ink);
+}
+
+.biopic-button-secondary:hover,
+.biopic-button-secondary:focus-visible {
+  border-color: var(--ink);
+  background: var(--ink);
+  color: var(--white);
+}
+
+.biopic-note {
+  margin: 16px 0 0;
+  color: var(--muted);
+  font-size: 0.7rem;
+}
+
 /* SHARED SECTION HEADING */
 
 .section-heading {
@@ -1408,6 +1572,16 @@ td.movie-title {
   .hero-image { width: 43%; }
   .logo-copy { display: none; }
 
+  .biopic-layout {
+    grid-template-columns: minmax(280px, 0.75fr) minmax(0, 1.25fr);
+    gap: 45px;
+  }
+
+  .biopic-art {
+    min-height: 510px;
+    padding: 34px;
+  }
+
   .stats {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1537,6 +1711,43 @@ td.movie-title {
     height: 430px;
     clip-path: polygon(0 13%, 100% 0, 100% 100%, 0 100%);
     background-position: center 34%;
+  }
+
+  .biopic-section {
+    padding: 70px 0;
+  }
+
+  .biopic-layout {
+    grid-template-columns: 1fr;
+    gap: 42px;
+  }
+
+  .biopic-art {
+    min-height: 430px;
+  }
+
+  .biopic-facts {
+    grid-template-columns: 1fr;
+  }
+
+  .biopic-facts div,
+  .biopic-facts div + div {
+    padding: 15px 0;
+    border-left: 0;
+  }
+
+  .biopic-facts div + div {
+    border-top: 1px solid var(--line);
+  }
+
+  .biopic-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .biopic-actions .button {
+    width: 100%;
+    text-align: center;
   }
 
   .stats {
