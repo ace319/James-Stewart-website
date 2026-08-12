@@ -99,6 +99,17 @@ const movies = [
     "The ambitious son of a poor minister who leaves home to become a doctor. Jason grows increasingly distant from his family as his career advances, until a meeting with President Abraham Lincoln forces him to confront how badly he has neglected his mother."
 },
   {
+  year: 1938,
+  title: "Vivacious Lady",
+  character: "Peter Morgan",
+  director: "George Stevens",
+  genre: "Romantic Comedy",
+  rating: 3.5,
+  poster: "images/posters/vivacious-lady.jpg",
+  description:
+    "A shy young botany professor who impulsively marries nightclub singer Francey Brent after meeting her in New York. Peter brings his new wife home but struggles to tell his strict father about the marriage, leading to a series of misunderstandings and increasingly chaotic attempts to keep their relationship together."
+},
+  {
     year: 1938,
     title: "You Can't Take It with You",
     character: "Tony Kirby",
@@ -436,6 +447,9 @@ const movieReviews = {
   "Of Human Hearts":
     "Jimmy makes Jason more interesting by allowing him to become selfish, ambitious and distant without completely losing his humanity. His confrontation with Abraham Lincoln gives him the strongest emotional moment in the movie.",
 
+  "Vivacious Lady":
+  "Jimmy is confident, charming and very funny as Peter Morgan, showing how comfortable he had become carrying a romantic comedy by 1938. His drunk scene is a highlight, and his natural chemistry with Ginger Rogers helps elevate a fairly thin story.",
+  
   "You Can't Take It with You":
     "Jimmy makes Tony Kirby charming and sincere while showing how trapped he feels by his wealthy family and expected future. He fits naturally into Capra's mixture of romance, comedy and idealism.",
 
