@@ -391,116 +391,84 @@ p {
 /* UPCOMING BIOPIC */
 
 .biopic-section {
-  padding: 110px 0;
+  padding: clamp(80px, 9vw, 120px) 0;
   overflow: hidden;
-  background: #e7dfd0;
+  color: var(--white);
+  background: #172228;
 }
 
 .biopic-layout {
   display: grid;
-  grid-template-columns: minmax(300px, 0.82fr) minmax(0, 1.18fr);
-  gap: clamp(50px, 8vw, 110px);
+  grid-template-columns: minmax(260px, 360px) minmax(0, 1fr);
+  gap: clamp(48px, 8vw, 105px);
   align-items: center;
 }
 
-.biopic-art {
-  position: relative;
-  display: flex;
-  min-height: 560px;
-  padding: 44px;
-  overflow: hidden;
-  flex-direction: column;
-  justify-content: flex-end;
-  color: var(--white);
-  background:
-    radial-gradient(circle at 78% 18%, rgba(200, 159, 90, 0.32), transparent 29%),
-    linear-gradient(145deg, #2a373d, var(--ink) 64%);
-  box-shadow: var(--shadow);
+.biopic-poster {
+  width: 100%;
+  max-width: 360px;
+  margin: 0;
 }
 
-.biopic-art::before,
-.biopic-art::after {
-  content: "";
-  position: absolute;
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  border-radius: 50%;
+.biopic-poster img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: 0 28px 75px rgba(0, 0, 0, 0.38);
 }
 
-.biopic-art::before {
-  top: -90px;
-  right: -100px;
-  width: 330px;
-  height: 330px;
+.biopic-poster figcaption {
+  margin-top: 13px;
+  color: rgba(255, 255, 255, 0.48);
+  font-size: 0.65rem;
+  line-height: 1.5;
 }
 
-.biopic-art::after {
-  top: -38px;
-  right: -48px;
-  width: 220px;
-  height: 220px;
+.biopic-poster a {
+  color: rgba(255, 255, 255, 0.7);
 }
 
-.biopic-art-kicker,
-.biopic-art-subtitle,
-.biopic-art-date {
-  position: relative;
-  z-index: 1;
-  font-family: "Oswald", Arial, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.16em;
+.biopic-copy {
+  max-width: 700px;
 }
 
-.biopic-art-kicker {
-  margin-bottom: auto;
+.biopic-copy .eyebrow {
   color: var(--gold-light);
-  font-size: 0.72rem;
-}
-
-.biopic-art strong {
-  position: relative;
-  z-index: 1;
-  font-family: "Oswald", Arial, sans-serif;
-  font-size: clamp(5rem, 9vw, 8.5rem);
-  font-weight: 600;
-  line-height: 0.9;
-  letter-spacing: -0.05em;
-}
-
-.biopic-art-subtitle {
-  margin-top: 16px;
-  color: rgba(255, 255, 255, 0.68);
-  font-size: 0.64rem;
-}
-
-.biopic-art-date {
-  margin-top: 28px;
-  padding-top: 24px;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-  color: var(--gold-light);
-  font-size: 0.78rem;
 }
 
 .biopic-copy h2 {
-  max-width: 760px;
-  margin-bottom: 26px;
-  font-size: clamp(2.8rem, 4.7vw, 5rem);
+  margin: 2px 0 6px;
+  color: var(--white);
+  font-size: clamp(4.5rem, 9vw, 8rem);
+  line-height: 0.95;
+  letter-spacing: -0.045em;
 }
 
-.biopic-copy > p:not(.eyebrow, .biopic-note) {
+.biopic-copy > p:not(.eyebrow, .biopic-note, .biopic-kicker) {
   max-width: 700px;
-  color: #465157;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.biopic-kicker {
+  margin: 0 0 30px;
+  color: var(--gold-light);
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
 }
 
 .biopic-lead {
-  font-size: 1.08rem;
+  font-size: 1.06rem;
 }
 
 .biopic-facts {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  margin: 36px 0;
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
+  margin: 34px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
 }
 
 .biopic-facts div {
@@ -509,12 +477,12 @@ p {
 
 .biopic-facts div + div {
   padding-left: 18px;
-  border-left: 1px solid var(--line);
+  border-left: 1px solid rgba(255, 255, 255, 0.14);
 }
 
 .biopic-facts dt {
   margin-bottom: 5px;
-  color: var(--red);
+  color: var(--gold-light);
   font-family: "Oswald", Arial, sans-serif;
   font-size: 0.66rem;
   text-transform: uppercase;
@@ -523,6 +491,7 @@ p {
 
 .biopic-facts dd {
   margin: 0;
+  color: var(--white);
   font-size: 0.82rem;
   font-weight: 700;
 }
@@ -534,21 +503,21 @@ p {
 }
 
 .biopic-button-secondary {
-  border-color: var(--ink);
+  border-color: rgba(255, 255, 255, 0.7);
   background: transparent;
-  color: var(--ink);
+  color: var(--white);
 }
 
 .biopic-button-secondary:hover,
 .biopic-button-secondary:focus-visible {
-  border-color: var(--ink);
-  background: var(--ink);
-  color: var(--white);
+  border-color: var(--white);
+  background: var(--white);
+  color: var(--ink);
 }
 
 .biopic-note {
   margin: 16px 0 0;
-  color: var(--muted);
+  color: rgba(255, 255, 255, 0.45);
   font-size: 0.7rem;
 }
 
@@ -1573,13 +1542,8 @@ td.movie-title {
   .logo-copy { display: none; }
 
   .biopic-layout {
-    grid-template-columns: minmax(280px, 0.75fr) minmax(0, 1.25fr);
-    gap: 45px;
-  }
-
-  .biopic-art {
-    min-height: 510px;
-    padding: 34px;
+    grid-template-columns: minmax(250px, 320px) minmax(0, 1fr);
+    gap: 48px;
   }
 
   .stats {
@@ -1722,8 +1686,13 @@ td.movie-title {
     gap: 42px;
   }
 
-  .biopic-art {
-    min-height: 430px;
+  .biopic-poster {
+    width: min(100%, 330px);
+    margin: 0 auto;
+  }
+
+  .biopic-copy h2 {
+    font-size: clamp(4rem, 23vw, 6.5rem);
   }
 
   .biopic-facts {
@@ -1737,7 +1706,7 @@ td.movie-title {
   }
 
   .biopic-facts div + div {
-    border-top: 1px solid var(--line);
+    border-top: 1px solid rgba(255, 255, 255, 0.14);
   }
 
   .biopic-actions {
