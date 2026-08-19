@@ -110,6 +110,17 @@ const movies = [
     "A shy young botany professor who impulsively marries nightclub singer Francey Brent after meeting her in New York. Peter brings his new wife home but struggles to tell his strict father about the marriage, leading to a series of misunderstandings and increasingly chaotic attempts to keep their relationship together."
 },
   {
+  year: 1938,
+  title: "The Shopworn Angel",
+  character: "William “Bill” Pettigrew",
+  director: "H. C. Potter",
+  genre: "Romantic Drama",
+  rating: 2.5,
+  poster: "images/posters/the-shopworn-angel.jpg",
+  description:
+    "A sincere and inexperienced young soldier preparing to leave for World War I who meets Broadway star Daisy Heath. What begins as Daisy pretending to be his girlfriend gradually becomes more complicated as Bill genuinely falls in love with her and believes they can have a future together."
+},
+  {
     year: 1938,
     title: "You Can't Take It with You",
     character: "Tony Kirby",
@@ -449,6 +460,9 @@ const movieReviews = {
 
   "Vivacious Lady":
   "Jimmy is confident, charming and very funny as Peter Morgan, showing how comfortable he had become carrying a romantic comedy by 1938. His drunk scene is a highlight, and his natural chemistry with Ginger Rogers helps elevate a fairly thin story.",
+
+  "The Shopworn Angel":
+  "Jimmy makes Bill Pettigrew extremely sincere, innocent and easy to sympathize with, which makes it frustrating to watch him believe Daisy’s feelings are simpler than they really are. His natural chemistry with Margaret Sullavan works well, and Bill’s fate gives an otherwise fairly light character a surprisingly sad ending.",
   
   "You Can't Take It with You":
     "Jimmy makes Tony Kirby charming and sincere while showing how trapped he feels by his wealthy family and expected future. He fits naturally into Capra's mixture of romance, comedy and idealism.",
