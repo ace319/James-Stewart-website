@@ -143,6 +143,17 @@ const movies = [
       "A hardworking young lawyer who quickly marries Jane and then struggles with money, family pressure and their dangerously ill baby. He is loving but overwhelmed as he tries to hold his family together."
   },
   {
+  year: 1939,
+  title: "The Ice Follies of 1939",
+  character: "Larry Hall",
+  director: "Reinhold Schünzel",
+  genre: "Musical Drama",
+  rating: 3,
+  poster: "images/posters/the-ice-follies-of-1939.jpg",
+  description:
+    "An ambitious ice skater and producer whose marriage to Mary McKay becomes strained after her acting career makes her a major movie star. Larry struggles with living in his wife's shadow while continuing to pursue his dream of producing a spectacular ice show."
+},
+  {
     year: 1939,
     title: "Mr. Smith Goes to Washington",
     character: "Jefferson “Jeff” Smith",
@@ -470,6 +481,9 @@ const movieReviews = {
   "Made for Each Other":
     "Jimmy convincingly plays John Mason as an ordinary young husband overwhelmed by work, money and family problems. His frustration and desperation feel genuine, even if the character is less memorable than his greatest roles.",
 
+  "The Ice Follies of 1939":
+  "Jimmy gives Larry Hall a mixture of ambition, pride and genuine affection for Mary, and he seems noticeably smoother and more confident than in many of his earlier roles. The story's marriage conflict is dated, but his sincerity helps keep Larry sympathetic, and the Technicolor finale provides a memorable early glimpse of Jimmy in color.",
+ 
   "Mr. Smith Goes to Washington":
     "One of Jimmy's defining performances, taking Jefferson Smith from innocent and awkward to furious, exhausted and heroic. The filibuster lets him combine his sincerity, physical acting and emotional intensity perfectly.",
 
