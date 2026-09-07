@@ -154,6 +154,17 @@ const movies = [
     "An ambitious ice skater and producer whose marriage to Mary McKay becomes strained after her acting career makes her a major movie star. Larry struggles with living in his wife's shadow while continuing to pursue his dream of producing a spectacular ice show."
 },
   {
+  year: 1939,
+  title: "It’s a Wonderful World",
+  character: "Guy Johnson",
+  director: "W. S. Van Dyke",
+  genre: "Comedy Mystery",
+  rating: 3,
+  poster: "images/posters/its-a-wonderful-world.jpg",
+  description:
+    "A private detective who becomes a fugitive after being wrongly accused of helping his client commit murder. Guy escapes custody and teams up with poet Edwina Corday while trying to uncover the real killer and clear his name."
+},
+  {
     year: 1939,
     title: "Mr. Smith Goes to Washington",
     character: "Jefferson “Jeff” Smith",
@@ -483,7 +494,10 @@ const movieReviews = {
 
   "The Ice Follies of 1939":
   "Jimmy gives Larry Hall a mixture of ambition, pride and genuine affection for Mary, and he seems noticeably smoother and more confident than in many of his earlier roles. The story's marriage conflict is dated, but his sincerity helps keep Larry sympathetic, and the Technicolor finale provides a memorable early glimpse of Jimmy in color.",
- 
+
+  "It’s a Wonderful World":
+  "Jimmy is confident, quick-thinking and sarcastic as Guy Johnson, showing how far he had moved beyond the shy and nervous characters of his earliest films. His frustrated comic timing is the strongest part of the movie, even though the mystery never becomes as suspenseful as the situation suggests.",
+  
   "Mr. Smith Goes to Washington":
     "One of Jimmy's defining performances, taking Jefferson Smith from innocent and awkward to furious, exhausted and heroic. The filibuster lets him combine his sincerity, physical acting and emotional intensity perfectly.",
 
