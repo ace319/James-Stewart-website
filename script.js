@@ -176,6 +176,17 @@ const movies = [
       "An idealistic and inexperienced youth leader unexpectedly appointed to the United States Senate. Although initially naïve, his honesty and endurance give him the courage to confront political corruption."
   },
   {
+  year: 1939,
+  title: "Destry Rides Again",
+  character: "Thomas J. Destry Jr.",
+  director: "George Marshall",
+  genre: "Western Comedy",
+  rating: 4,
+  poster: "images/posters/destry-rides-again.jpg",
+  description:
+    "The son of a famous lawman who arrives in the corrupt town of Bottleneck as its new deputy. Destry surprises everyone by refusing to carry a gun and using patience, humor and intelligence instead, but the town’s violence eventually forces him to confront Kent and his gang directly."
+},
+  {
     year: 1940,
     title: "The Shop Around the Corner",
     character: "Alfred Kralik",
@@ -501,6 +512,9 @@ const movieReviews = {
   "Mr. Smith Goes to Washington":
     "One of Jimmy's defining performances, taking Jefferson Smith from innocent and awkward to furious, exhausted and heroic. The filibuster lets him combine his sincerity, physical acting and emotional intensity perfectly.",
 
+  "Destry Rides Again":
+  "Jimmy seems completely comfortable and charismatic as Tom Destry, combining his familiar warmth and humor with a quiet confidence that makes it easy to understand why audiences loved him. Destry’s refusal to carry a gun gives Jimmy plenty of gentle comedy, while the darker ending lets him reveal a much tougher and more emotional side.",
+ 
   "The Philadelphia Story":
     "Jimmy is witty, romantic and wonderfully loose as Mike Connor, especially once the character gets drunk. He easily holds his own beside Cary Grant and Katharine Hepburn and gives one of his funniest performances.",
 
