@@ -198,6 +198,17 @@ const movies = [
       "The intelligent and dependable senior clerk at a Budapest shop. He constantly argues with Klara without realizing that she is the anonymous pen pal with whom he has fallen in love."
   },
   {
+  year: 1940,
+  title: "The Mortal Storm",
+  character: "Martin Breitner",
+  director: "Frank Borzage",
+  genre: "Political Drama",
+  rating: 2.5,
+  poster: "images/posters/the-mortal-storm.jpg",
+  description:
+    "A close friend of the Roth family who openly rejects the rise of Nazism in Germany. As the country becomes more dangerous, Martin tries to protect Freya and her family while standing against the political beliefs that are dividing the people around him."
+},
+  {
     year: 1940,
     title: "The Philadelphia Story",
     character: "Macaulay “Mike” Connor",
@@ -514,13 +525,16 @@ const movieReviews = {
 
   "Destry Rides Again":
   "Jimmy seems completely comfortable and charismatic as Tom Destry, combining his familiar warmth and humor with a quiet confidence that makes it easy to understand why audiences loved him. Destry’s refusal to carry a gun gives Jimmy plenty of gentle comedy, while the darker ending lets him reveal a much tougher and more emotional side.",
- 
-  "The Philadelphia Story":
-    "Jimmy is witty, romantic and wonderfully loose as Mike Connor, especially once the character gets drunk. He easily holds his own beside Cary Grant and Katharine Hepburn and gives one of his funniest performances.",
 
   "The Shop Around the Corner":
     "Jimmy gives Alfred Kralik one of his most complete romantic performances, making him proud, awkward, funny, jealous and deeply vulnerable. His chemistry with Margaret Sullavan makes even the quieter moments feel completely natural.",
 
+  "The Mortal Storm":
+  "Jimmy gives Martin Breitner a quiet strength and sincerity, making him feel much more natural than some of the more theatrical characters around him. His growing determination to protect Freya gives him some strong emotional material, although the tragic ending makes the movie much darker than enjoyable.",
+  
+  "The Philadelphia Story":
+    "Jimmy is witty, romantic and wonderfully loose as Mike Connor, especially once the character gets drunk. He easily holds his own beside Cary Grant and Katharine Hepburn and gives one of his funniest performances.",
+  
   "Pot o’ Gold":
     "Jimmy is pleasant, musical and easygoing as Jimmy Haskell, bringing plenty of charm to a lightweight comedy. The material never asks much from him dramatically, but he remains enjoyable throughout.",
 
