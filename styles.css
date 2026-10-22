@@ -500,6 +500,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
+  align-items: center;
 }
 
 .biopic-button-secondary {
@@ -519,6 +520,101 @@ p {
   margin: 16px 0 0;
   color: rgba(255, 255, 255, 0.45);
   font-size: 0.7rem;
+}
+
+.biopic-site-link {
+  padding: 12px 0;
+  color: var(--gold-light);
+  font-size: 0.78rem;
+  text-underline-offset: 4px;
+}
+
+.biopic-updates {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 64px;
+  padding-top: 40px;
+  border-top: 1px solid var(--light-line);
+}
+
+.biopic-update-card {
+  display: flex;
+  flex-direction: column;
+  padding: 28px;
+  border: 1px solid var(--light-line);
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.biopic-update-card h3 {
+  color: var(--white);
+  font-size: 1.6rem;
+}
+
+.biopic-update-card > p:not(.eyebrow) {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.86rem;
+}
+
+.biopic-update-card > a {
+  align-self: start;
+  margin-top: auto;
+  padding-top: 8px;
+  color: var(--gold-light);
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  text-underline-offset: 5px;
+  letter-spacing: 0.06em;
+}
+
+.biopic-update-card > a:hover,
+.biopic-update-card > a:focus-visible,
+.biopic-site-link:hover,
+.biopic-site-link:focus-visible {
+  color: var(--white);
+}
+
+.anniversary-section {
+  padding: 90px 0;
+  background: var(--cream);
+}
+
+.anniversary-layout {
+  display: grid;
+  grid-template-columns: minmax(140px, 200px) minmax(0, 1fr);
+  gap: clamp(30px, 5vw, 70px);
+  align-items: center;
+}
+
+.anniversary-poster {
+  width: 100%;
+  height: auto;
+  box-shadow: var(--small-shadow);
+}
+
+.anniversary-copy {
+  max-width: 760px;
+}
+
+.anniversary-copy h2 {
+  font-size: clamp(2.2rem, 4vw, 3.8rem);
+}
+
+.anniversary-dates {
+  color: var(--red);
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.anniversary-copy > p:not(.eyebrow, .anniversary-dates) {
+  color: var(--muted);
+}
+
+.anniversary-note {
+  margin: 16px 0 0;
+  font-size: 0.72rem;
 }
 
 /* SHARED SECTION HEADING */
@@ -1839,6 +1935,29 @@ td.movie-title {
     text-align: center;
   }
 
+  .biopic-updates {
+    grid-template-columns: 1fr;
+    margin-top: 42px;
+    padding-top: 30px;
+  }
+
+  .biopic-update-card {
+    padding: 24px;
+  }
+
+  .anniversary-section {
+    padding: 70px 0;
+  }
+
+  .anniversary-layout {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .anniversary-poster {
+    width: 150px;
+  }
+
   .stats {
     margin-top: 0;
   }
@@ -2315,3 +2434,4 @@ td.movie-title {
     padding: 20px;
   }
 }
+
