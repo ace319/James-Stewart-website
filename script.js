@@ -209,6 +209,17 @@ const movies = [
     "A close friend of the Roth family who openly rejects the rise of Nazism in Germany. As the country becomes more dangerous, Martin tries to protect Freya and her family while standing against the political beliefs that are dividing the people around him."
 },
   {
+  year: 1940,
+  title: "No Time for Comedy",
+  character: "Gaylord Esterbrook",
+  director: "William Keighley",
+  genre: "Romantic Comedy-Drama",
+  rating: 3,
+  poster: "images/posters/no-time-for-comedy.jpg",
+  description:
+    "A small-town playwright whose first Broadway comedy becomes a surprise success and leads to his marriage to actress Linda Paige. Years later, Gaylord becomes dissatisfied with writing light comedies and tries to prove himself with a serious play, putting pressure on both his career and his marriage."
+},
+  {
     year: 1940,
     title: "The Philadelphia Story",
     character: "Macaulay “Mike” Connor",
@@ -531,6 +542,9 @@ const movieReviews = {
 
   "The Mortal Storm":
   "Jimmy gives Martin Breitner a quiet strength and sincerity, making him feel much more natural than some of the more theatrical characters around him. His growing determination to protect Freya gives him some strong emotional material, although the tragic ending makes the movie much darker than enjoyable.",
+
+"No Time for Comedy":
+  "Jimmy is charming, funny and increasingly confident as Gaylord Esterbrook, especially during the lighter first half of the movie. He also gets to show more frustration and seriousness as Gaylord questions his career and marriage, although the story becomes less enjoyable once the relationships start getting complicated.",
   
   "The Philadelphia Story":
     "Jimmy is witty, romantic and wonderfully loose as Mike Connor, especially once the character gets drunk. He easily holds his own beside Cary Grant and Katharine Hepburn and gives one of his funniest performances.",
