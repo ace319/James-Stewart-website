@@ -231,6 +231,17 @@ const movies = [
       "A sharp and sarcastic writer reluctantly working as a society reporter. Mike initially looks down on the wealthy people he covers but gradually recognizes Tracy’s vulnerability and briefly falls in love with her."
   },
   {
+  year: 1941,
+  title: "Come Live with Me",
+  character: "Bill Smith",
+  director: "Clarence Brown",
+  genre: "Romantic Comedy",
+  rating: 4,
+  poster: "images/posters/come-live-with-me.jpg",
+  description:
+    "A struggling writer who agrees to marry Austrian refugee Johnny Jones so she can remain in the United States. What begins as a practical arrangement becomes much more complicated as Bill falls genuinely in love with her and begins using their unusual relationship as inspiration for his writing."
+},
+  {
     year: 1941,
     title: "Pot o’ Gold",
     character: "James Hamilton “Jimmy” Haskell",
@@ -548,6 +559,9 @@ const movieReviews = {
   
   "The Philadelphia Story":
     "Jimmy is witty, romantic and wonderfully loose as Mike Connor, especially once the character gets drunk. He easily holds his own beside Cary Grant and Katharine Hepburn and gives one of his funniest performances.",
+
+  "Come Live with Me":
+  "Jimmy is relaxed, charming and extremely funny as Bill Smith, showing how much more confident his romantic-comedy acting had become by 1941. His facial expressions and physical comedy are especially strong, while his chemistry with Hedy Lamarr makes the unusual marriage story feel warm and believable.",
   
   "Pot o’ Gold":
     "Jimmy is pleasant, musical and easygoing as Jimmy Haskell, bringing plenty of charm to a lightweight comedy. The material never asks much from him dramatically, but he remains enjoyable throughout.",
