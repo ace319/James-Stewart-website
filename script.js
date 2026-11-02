@@ -1,3 +1,69 @@
+// Keep release-week notices current on the U.S. release calendar.
+function getJimmyReleaseStatus(now = new Date()) {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/New_York",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).formatToParts(now);
+  const part = type => parts.find(item => item.type === type).value;
+  const date = `${part("year")}-${part("month")}-${part("day")}`;
+
+  if (date < "2026-11-02") {
+    return {
+      date,
+      title: "JIMMY opens November 6, 2026",
+      label: "Tickets now on sale",
+      description: "The Jimmy Stewart biopic is coming to U.S. theaters. Explore the film and find local showtimes."
+    };
+  }
+
+  if (date < "2026-11-06") {
+    return {
+      date,
+      title: "JIMMY arrives this Friday — November 6",
+      label: "In U.S. theaters this Friday",
+      description: "The Jimmy Stewart biopic opens nationwide this week. Find tickets, early screenings, and the latest film news."
+    };
+  }
+
+  if (date < "2026-11-20") {
+    return {
+      date,
+      title: "JIMMY is now in theaters",
+      label: "Now in U.S. theaters",
+      description: "The Jimmy Stewart biopic opened nationwide November 6. Check participating theaters for current showtimes and tickets."
+    };
+  }
+
+  return {
+    date,
+    title: "JIMMY — released November 6, 2026",
+    label: "U.S. theatrical release · November 6, 2026",
+    description: "Explore the Jimmy Stewart biopic, watch the latest footage, and check official listings for availability."
+  };
+}
+
+function updateJimmyReleaseStatus(now = new Date()) {
+  const status = getJimmyReleaseStatus(now);
+
+  for (const field of ["title", "label", "description"]) {
+    document.querySelectorAll(`[data-release-${field}]`).forEach(element => {
+      element.textContent = status[field];
+    });
+  }
+
+  document.querySelectorAll("[data-release-news-until]").forEach(element => {
+    element.hidden = status.date > element.dataset.releaseNewsUntil;
+  });
+}
+
+updateJimmyReleaseStatus();
+window.setInterval(() => updateJimmyReleaseStatus(), 60 * 1000);
+document.addEventListener("visibilitychange", () => {
+  if (!document.hidden) updateJimmyReleaseStatus();
+});
+
 const movies = [
   {
     year: 1935,
@@ -1068,3 +1134,4 @@ if (westernCount) {
 
 populateFilters();
 render();
+
