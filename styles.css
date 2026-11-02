@@ -388,7 +388,61 @@ p {
   font-size: 0.82rem;
 }
 
-/* UPCOMING BIOPIC */
+/* RELEASE-WEEK ANNOUNCEMENT */
+
+.release-announcement {
+  margin-top: 30px;
+  padding: 28px 0;
+  border-top: 3px solid var(--gold);
+  background: var(--ink);
+  color: var(--white);
+}
+
+.release-announcement-inner {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.release-announcement .eyebrow {
+  margin-bottom: 8px;
+}
+
+.release-announcement h2 {
+  margin-bottom: 8px;
+  font-size: clamp(1.3rem, 2.3vw, 1.8rem);
+  letter-spacing: 0;
+  text-wrap: balance;
+}
+
+.release-announcement [data-release-description] {
+  max-width: 650px;
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 0.8rem;
+}
+
+.release-announcement-actions {
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.release-news-link {
+  color: var(--gold-light);
+  font-size: 0.74rem;
+  text-underline-offset: 4px;
+}
+
+.release-news-link:hover,
+.release-news-link:focus-visible {
+  color: var(--white);
+}
+
+/* BIOPIC */
 
 .biopic-section {
   padding: clamp(80px, 9vw, 120px) 0;
@@ -554,6 +608,25 @@ p {
 .biopic-update-card > p:not(.eyebrow) {
   color: rgba(255, 255, 255, 0.72);
   font-size: 0.86rem;
+}
+
+.biopic-update-card[hidden] {
+  display: none;
+}
+
+.biopic-honors {
+  margin: 0 0 22px;
+  padding-left: 19px;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.8rem;
+}
+
+.biopic-honors li + li {
+  margin-top: 9px;
+}
+
+.biopic-honors strong {
+  color: var(--white);
 }
 
 .biopic-update-card > a {
@@ -1897,6 +1970,21 @@ td.movie-title {
     padding: 70px 0;
   }
 
+  .release-announcement-inner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+  }
+
+  .release-announcement-actions {
+    align-items: start;
+  }
+
+  .release-announcement-actions .button {
+    width: 100%;
+    text-align: center;
+  }
+
   .biopic-layout {
     grid-template-columns: 1fr;
     gap: 42px;
@@ -2434,4 +2522,5 @@ td.movie-title {
     padding: 20px;
   }
 }
+
 
