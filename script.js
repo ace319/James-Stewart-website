@@ -18,12 +18,21 @@ function getJimmyReleaseStatus(now = new Date()) {
     };
   }
 
-  if (date < "2026-11-06") {
+  if (date < "2026-11-05") {
     return {
       date,
       title: "JIMMY arrives this Friday — November 6",
       label: "In U.S. theaters this Friday",
       description: "The Jimmy Stewart biopic opens nationwide this week. Find tickets, early screenings, and the latest film news."
+    };
+  }
+
+  if (date < "2026-11-06") {
+    return {
+      date,
+      title: "JIMMY — in theaters tomorrow, November 6",
+      label: "In U.S. theaters tomorrow",
+      description: "The Jimmy Stewart biopic opens nationwide tomorrow, Friday, November 6. Find local showtimes and book your tickets."
     };
   }
 
@@ -1134,4 +1143,3 @@ if (westernCount) {
 
 populateFilters();
 render();
-
