@@ -328,6 +328,17 @@ const movies = [
       "A friendly, music-loving man caught between his wealthy anti-music uncle and a family of musicians. Jimmy becomes involved in radio contests, misunderstandings and musical comedy."
   },
   {
+  year: 1941,
+  title: "Ziegfeld Girl",
+  character: "Gilbert “Gil” Young",
+  director: "Robert Z. Leonard",
+  genre: "Musical Drama",
+  rating: 3,
+  poster: "images/posters/ziegfeld-girl.jpg",
+  description:
+    "A hardworking truck driver who is deeply in love with Sheila Regan, an aspiring Broadway performer. As Sheila becomes successful in the Ziegfeld shows, her growing ambition and troubled personal life pull them apart. Despite his own struggles, Gil continues to care for her and hopes they can eventually build a life together."
+},
+  {
     year: 1946,
     title: "It’s a Wonderful Life",
     character: "George Bailey",
@@ -641,6 +652,9 @@ const movieReviews = {
   "Pot o’ Gold":
     "Jimmy is pleasant, musical and easygoing as Jimmy Haskell, bringing plenty of charm to a lightweight comedy. The material never asks much from him dramatically, but he remains enjoyable throughout.",
 
+  "Ziegfeld Girl":
+  "Jimmy gives Gil Young a strong mixture of loyalty, frustration and emotional vulnerability, showing how deeply he cares for Sheila even as their relationship falls apart. His chemistry with Lana Turner is excellent, especially during their touching conversation about raising ducks, although his limited screen time prevents the performance from making an even greater impression.",
+  
   "It’s a Wonderful Life":
     "Jimmy gives George Bailey extraordinary emotional range, moving naturally between warmth, humor, anger, exhaustion and complete despair. His breakdown and eventual joy make this one of his greatest and most human performances.",
 
