@@ -583,6 +583,129 @@ p {
   text-underline-offset: 4px;
 }
 
+.biopic-experience {
+  margin-top: 64px;
+  padding: clamp(26px, 4vw, 48px);
+  border-left: 5px solid var(--gold);
+  background: var(--cream);
+  color: var(--ink);
+  box-shadow: var(--shadow);
+}
+
+.biopic-experience > h3 {
+  max-width: 850px;
+  margin-bottom: 18px;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  text-wrap: balance;
+}
+
+.biopic-experience-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 8px;
+  margin-bottom: 24px;
+  color: var(--muted);
+  font-size: 0.76rem;
+}
+
+.biopic-experience-intro {
+  max-width: 900px;
+  margin-bottom: 0;
+  color: #435057;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.biopic-review-details {
+  margin-top: 28px;
+  border-top: 1px solid var(--line);
+}
+
+.biopic-review-details > summary {
+  padding: 22px 0 4px;
+  color: var(--red);
+  cursor: pointer;
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.biopic-review-details > summary::marker {
+  color: var(--red);
+}
+
+.biopic-review-details > summary:hover {
+  color: var(--red-dark);
+}
+
+.biopic-review-details > summary:focus-visible {
+  outline: 2px solid var(--red);
+  outline-offset: 5px;
+}
+
+.biopic-spoiler-label {
+  display: inline-block;
+  margin-left: 12px;
+  padding: 5px 8px;
+  border: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.64rem;
+  vertical-align: middle;
+}
+
+.biopic-review-content {
+  max-width: 850px;
+  padding-top: 24px;
+  font-size: 0.92rem;
+  line-height: 1.85;
+}
+
+.biopic-spoiler-note {
+  margin-bottom: 32px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-style: italic;
+}
+
+.biopic-review-content > section + section {
+  margin-top: 34px;
+}
+
+.biopic-review-content h4 {
+  margin: 0 0 14px;
+  color: var(--red);
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.biopic-review-content p {
+  margin: 0 0 18px;
+}
+
+.biopic-review-content section > p:last-child {
+  margin-bottom: 0;
+}
+
+.biopic-experience-takeaway {
+  margin: 28px 0 0;
+  padding: 20px 24px;
+  border-left: 3px solid var(--red);
+  background: var(--paper);
+}
+
+.biopic-experience-takeaway p:last-child {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.biopic-next-chapter {
+  padding-top: 26px;
+  border-top: 1px solid var(--line);
+}
+
 .biopic-updates {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -2522,5 +2645,3 @@ td.movie-title {
     padding: 20px;
   }
 }
-
-
