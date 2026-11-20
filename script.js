@@ -350,6 +350,17 @@ const movies = [
       "A generous and ambitious man who repeatedly sacrifices his dreams to help his family and Bedford Falls. Clarence eventually shows George how profoundly his life has affected everyone around him."
   },
   {
+  year: 1947,
+  title: "Magic Town",
+  character: "Lawrence “Rip” Smith",
+  director: "William A. Wellman",
+  genre: "Comedy-Drama",
+  rating: 3,
+  poster: "images/posters/magic-town.jpg",
+  description:
+    "A struggling public-opinion pollster who discovers that the small town of Grandview perfectly represents the views of the American population. Rip travels there to conduct secret surveys but gradually becomes attached to the community and falls for local newspaper editor Mary Peterman. When his discovery makes the town nationally famous, the attention threatens everything that made Grandview special."
+},
+  {
     year: 1948,
     title: "On Our Merry Way",
     character: "Slim",
@@ -658,14 +669,17 @@ const movieReviews = {
   "It’s a Wonderful Life":
     "Jimmy gives George Bailey extraordinary emotional range, moving naturally between warmth, humor, anger, exhaustion and complete despair. His breakdown and eventual joy make this one of his greatest and most human performances.",
 
-  "Rope":
-    "Jimmy gives Rupert Cadell intelligence, confidence and authority before gradually revealing his horror at what his ideas have inspired. His final realization gives the character much more emotional weight than he initially seems to have.",
-
+  "Magic Town":
+  "Jimmy gives Rip Smith a charming, mature and increasingly thoughtful personality, showing a more relaxed side of his romantic-comedy acting. His humor is especially effective during the drinking scene, while his growing attachment to Grandview gives him some sincere emotional moments. The town's eventual recovery also recalls the hopeful ending of It's a Wonderful Life.",
+  
   "Call Northside 777":
     "Jimmy keeps P. J. McNeal restrained and realistic, allowing the reporter's change from skeptical professional to determined investigator to happen gradually. His understated performance fits the documentary-like style of the movie very well.",
 
   "On Our Merry Way":
     "Jimmy is funny and physically energetic as Slim, and his relaxed chemistry with Henry Fonda feels completely natural. Their section is so enjoyable that it makes you wish they had been given the entire movie.",
+
+  "Rope":
+    "Jimmy gives Rupert Cadell intelligence, confidence and authority before gradually revealing his horror at what his ideas have inspired. His final realization gives the character much more emotional weight than he initially seems to have.",
 
   "Broken Arrow":
     "Jimmy gives Tom Jeffords a calm, thoughtful dignity, creating a western hero who relies more on understanding and negotiation than revenge. His restrained performance fits the movie's more peaceful approach to the genre.",
