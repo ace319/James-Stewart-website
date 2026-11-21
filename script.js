@@ -105,7 +105,7 @@ const movies = [
   rating: 2.5,
   poster: "images/posters/wife-vs-secretary.jpg",
   description:
-    "A young man deeply in love with Helen 'Whitey' Wilson, the secretary of a successful magazine publisher. Dave becomes increasingly frustrated by Whitey's demanding career and her devotion to her boss, creating tension in their relationship. Despite their disagreements, he genuinely loves her and hopes they can find a future together."
+    "A young man in love with Helen “Whitey” Wilson, a magazine publisher’s secretary. Her demanding job and devotion to her boss leave Dave frustrated and put their relationship under strain."
 },
   {
     year: 1936,
@@ -127,7 +127,7 @@ const movies = [
     rating: 1.5,
     poster: "images/posters/the-gorgeous-hussy.jpg",
     description:
-      "Peggy O’Neal’s loyal childhood friend, who remains protective of her during the political scandals surrounding her life in Washington. Rowdy helps defend Peggy’s reputation and escorts her during a dangerous journey, but Jimmy Stewart appears in only a small supporting role."
+      "Peggy O’Neal’s loyal childhood friend, who remains protective during the political scandals surrounding her life in Washington. Rowdy defends her reputation and escorts her on a dangerous journey in a small supporting role."
   },
   {
     year: 1936,
@@ -171,7 +171,7 @@ const movies = [
   rating: 3.5,
   poster: "images/posters/navy-blue-and-gold.jpg",
   description:
-    "An enlisted sailor determined to become an officer at the United States Naval Academy while trying to clear his father’s disgraced name. Truck becomes involved in academy life and football, but his loyalty to his father gives the story its strongest emotional moments."
+    "An enlisted sailor pursuing an officer’s career at the United States Naval Academy while trying to clear his father’s name. Truck throws himself into academy life and football, but family loyalty remains his strongest motivation."
 },
   {
   year: 1938,
@@ -182,7 +182,7 @@ const movies = [
   rating: 3,
   poster: "images/posters/of-human-hearts.jpg",
   description:
-    "The ambitious son of a poor minister who leaves home to become a doctor. Jason grows increasingly distant from his family as his career advances, until a meeting with President Abraham Lincoln forces him to confront how badly he has neglected his mother."
+    "A poor minister’s ambitious son who leaves home to become a doctor and grows distant from his family. A meeting with Abraham Lincoln forces Jason to confront how badly he has neglected his mother."
 },
   {
   year: 1938,
@@ -193,7 +193,7 @@ const movies = [
   rating: 3.5,
   poster: "images/posters/vivacious-lady.jpg",
   description:
-    "A shy young botany professor who impulsively marries nightclub singer Francey Brent after meeting her in New York. Peter brings his new wife home but struggles to tell his strict father about the marriage, leading to a series of misunderstandings and increasingly chaotic attempts to keep their relationship together."
+    "A shy botany professor who impulsively marries nightclub singer Francey Brent in New York. Back home, Peter struggles to tell his strict father, leading to increasingly chaotic attempts to keep the marriage secret."
 },
   {
   year: 1938,
@@ -204,7 +204,7 @@ const movies = [
   rating: 2.5,
   poster: "images/posters/the-shopworn-angel.jpg",
   description:
-    "A sincere and inexperienced young soldier preparing to leave for World War I who meets Broadway star Daisy Heath. What begins as Daisy pretending to be his girlfriend gradually becomes more complicated as Bill genuinely falls in love with her and believes they can have a future together."
+    "A sincere young soldier preparing to leave for World War I who meets Broadway star Daisy Heath. Her decision to pretend to be his girlfriend becomes complicated when Bill genuinely falls in love with her."
 },
   {
     year: 1938,
@@ -237,7 +237,7 @@ const movies = [
   rating: 3,
   poster: "images/posters/the-ice-follies-of-1939.jpg",
   description:
-    "An ambitious ice skater and producer whose marriage to Mary McKay becomes strained after her acting career makes her a major movie star. Larry struggles with living in his wife's shadow while continuing to pursue his dream of producing a spectacular ice show."
+    "An ambitious ice skater and producer whose marriage becomes strained when his wife Mary becomes a movie star. Larry struggles with living in her shadow while pursuing his dream of staging a spectacular ice show."
 },
   {
   year: 1939,
@@ -270,7 +270,7 @@ const movies = [
   rating: 4,
   poster: "images/posters/destry-rides-again.jpg",
   description:
-    "The son of a famous lawman who arrives in the corrupt town of Bottleneck as its new deputy. Destry surprises everyone by refusing to carry a gun and using patience, humor and intelligence instead, but the town’s violence eventually forces him to confront Kent and his gang directly."
+    "The son of a famous lawman, appointed deputy in the corrupt town of Bottleneck. Destry relies on patience, humor and intelligence instead of carrying a gun, until violence forces him to confront Kent’s gang."
 },
   {
     year: 1940,
@@ -292,7 +292,7 @@ const movies = [
   rating: 2.5,
   poster: "images/posters/the-mortal-storm.jpg",
   description:
-    "A close friend of the Roth family who openly rejects the rise of Nazism in Germany. As the country becomes more dangerous, Martin tries to protect Freya and her family while standing against the political beliefs that are dividing the people around him."
+    "A friend of the Roth family who openly rejects Nazism as it takes hold in Germany. Martin tries to protect Freya and her family while resisting the political beliefs dividing the people around him."
 },
   {
   year: 1940,
@@ -303,7 +303,7 @@ const movies = [
   rating: 3,
   poster: "images/posters/no-time-for-comedy.jpg",
   description:
-    "A small-town playwright whose first Broadway comedy becomes a surprise success and leads to his marriage to actress Linda Paige. Years later, Gaylord becomes dissatisfied with writing light comedies and tries to prove himself with a serious play, putting pressure on both his career and his marriage."
+    "A small-town playwright whose Broadway success leads to marriage with actress Linda Paige. Gaylord later becomes dissatisfied with light comedy and attempts a serious play, placing pressure on both his career and his marriage."
 },
   {
     year: 1940,
@@ -325,7 +325,7 @@ const movies = [
   rating: 4,
   poster: "images/posters/come-live-with-me.jpg",
   description:
-    "A struggling writer who agrees to marry Austrian refugee Johnny Jones so she can remain in the United States. What begins as a practical arrangement becomes much more complicated as Bill falls genuinely in love with her and begins using their unusual relationship as inspiration for his writing."
+    "A struggling writer who marries Austrian refugee Johnny Jones so she can remain in America. Bill falls genuinely in love with her, turning their practical arrangement into a complicated relationship that inspires his writing."
 },
   {
     year: 1941,
@@ -347,7 +347,7 @@ const movies = [
   rating: 3,
   poster: "images/posters/ziegfeld-girl.jpg",
   description:
-    "A hardworking truck driver who is deeply in love with Sheila Regan, an aspiring Broadway performer. As Sheila becomes successful in the Ziegfeld shows, her growing ambition and troubled personal life pull them apart. Despite his own struggles, Gil continues to care for her and hopes they can eventually build a life together."
+    "A hardworking truck driver in love with aspiring performer Sheila Regan. Her success in the Ziegfeld shows, growing ambition and troubled personal life pull them apart, but Gil keeps hoping they can build a future together."
 },
   {
     year: 1946,
@@ -369,7 +369,7 @@ const movies = [
   rating: 3,
   poster: "images/posters/magic-town.jpg",
   description:
-    "A struggling public-opinion pollster who discovers that the small town of Grandview perfectly represents the views of the American population. Rip travels there to conduct secret surveys but gradually becomes attached to the community and falls for local newspaper editor Mary Peterman. When his discovery makes the town nationally famous, the attention threatens everything that made Grandview special."
+    "A struggling pollster who secretly surveys Grandview because its opinions mirror America’s. His growing affection for the community and newspaper editor Mary Peterman complicates his plans when his discovery makes the town famous."
 },
   {
     year: 1948,
@@ -380,7 +380,7 @@ const movies = [
     rating: 2.5,
     poster: "images/posters/on-our-merry-way.jpg",
     description:
-      "A struggling jazz musician traveling with his friend Lank and an impoverished band. Slim and Lank attempt to rig a local talent contest to earn money for repairs, leading to musical confusion and physical comedy. Jimmy Stewart appears only in one segment of the anthology."
+      "A struggling jazz musician traveling with his friend Lank and an impoverished band. They attempt to rig a talent contest to pay for repairs, drawing Slim into musical confusion and physical comedy in one anthology segment."
   },
   {
     year: 1948,
@@ -556,7 +556,7 @@ const movies = [
     rating: 3.5,
     poster: "images/posters/night-passage.jpg",
     description:
-      "A former railroad employee hired to transport payroll money through dangerous territory. Grant must confront a gang of outlaws that includes his younger brother."
+      "A former railroad employee hired to carry payroll money through dangerous territory. Grant must face a gang of outlaws that includes his younger brother, turning the assignment into a personal conflict."
   },
   {
     year: 1958,
@@ -612,7 +612,7 @@ const movieReviews = {
     "Jimmy's first substantial leading role shows his sincerity and emotional ability as Christopher, although the character can be frustrating and the melancholy story does not always give him enough to work with.",
 
 "Wife vs. Secretary":
-  "Jimmy gives Dave a youthful sincerity and romantic charm, although he is still developing the confidence of his later performances. His familiar voice and mannerisms are already recognizable, and his chemistry with Jean Harlow is enjoyable, especially during their final reunion. His limited screen time makes the role less memorable than his stronger early performances.",
+  "Jimmy brings youthful sincerity and charm to Dave, with enjoyable chemistry alongside Jean Harlow, especially during their final reunion. His limited screen time makes the role less memorable than his stronger early performances.",
   
   "Speed":
     "Jimmy is unusually confident, sarcastic and witty as Terry Martin, showing a more energetic side of his personality. The movie is fairly basic, but his charm makes it much more enjoyable.",
@@ -636,10 +636,10 @@ const movieReviews = {
     "Jimmy makes Jason more interesting by allowing him to become selfish, ambitious and distant without completely losing his humanity. His confrontation with Abraham Lincoln gives him the strongest emotional moment in the movie.",
 
   "Vivacious Lady":
-  "Jimmy is confident, charming and very funny as Peter Morgan, showing how comfortable he had become carrying a romantic comedy by 1938. His drunk scene is a highlight, and his natural chemistry with Ginger Rogers helps elevate a fairly thin story.",
+  "Jimmy is confident, charming and very funny as Peter Morgan, especially in the drunk scene. His natural chemistry with Ginger Rogers helps elevate a thin story and shows his growing comfort with romantic comedy.",
 
   "The Shopworn Angel":
-  "Jimmy makes Bill Pettigrew extremely sincere, innocent and easy to sympathize with, which makes it frustrating to watch him believe Daisy’s feelings are simpler than they really are. His natural chemistry with Margaret Sullavan works well, and Bill’s fate gives an otherwise fairly light character a surprisingly sad ending.",
+  "Jimmy makes Bill Pettigrew sincere and innocent, which makes his misunderstanding of Daisy’s feelings frustrating to watch. His chemistry with Margaret Sullavan feels natural, while Bill’s fate gives the character a surprisingly sad ending.",
   
   "You Can't Take It with You":
     "Jimmy makes Tony Kirby charming and sincere while showing how trapped he feels by his wealthy family and expected future. He fits naturally into Capra's mixture of romance, comedy and idealism.",
@@ -648,43 +648,43 @@ const movieReviews = {
     "Jimmy convincingly plays John Mason as an ordinary young husband overwhelmed by work, money and family problems. His frustration and desperation feel genuine, even if the character is less memorable than his greatest roles.",
 
   "The Ice Follies of 1939":
-  "Jimmy gives Larry Hall a mixture of ambition, pride and genuine affection for Mary, and he seems noticeably smoother and more confident than in many of his earlier roles. The story's marriage conflict is dated, but his sincerity helps keep Larry sympathetic, and the Technicolor finale provides a memorable early glimpse of Jimmy in color.",
+  "Jimmy balances Larry’s ambition and pride with sincere affection for Mary, looking smoother and more confident than in earlier roles. The marriage conflict feels dated, but the Technicolor finale offers a memorable glimpse of Jimmy in color.",
 
   "It’s a Wonderful World":
-  "Jimmy is confident, quick-thinking and sarcastic as Guy Johnson, showing how far he had moved beyond the shy and nervous characters of his earliest films. His frustrated comic timing is the strongest part of the movie, even though the mystery never becomes as suspenseful as the situation suggests.",
+  "Jimmy is confident, quick-thinking and sarcastic as Guy Johnson, moving beyond his earlier shy characters. His frustrated comic timing is the highlight, even though the mystery never becomes as suspenseful as the situation promises.",
   
   "Mr. Smith Goes to Washington":
     "One of Jimmy's defining performances, taking Jefferson Smith from innocent and awkward to furious, exhausted and heroic. The filibuster lets him combine his sincerity, physical acting and emotional intensity perfectly.",
 
   "Destry Rides Again":
-  "Jimmy seems completely comfortable and charismatic as Tom Destry, combining his familiar warmth and humor with a quiet confidence that makes it easy to understand why audiences loved him. Destry’s refusal to carry a gun gives Jimmy plenty of gentle comedy, while the darker ending lets him reveal a much tougher and more emotional side.",
+  "Jimmy combines warmth, humor and quiet confidence as Tom Destry, making his refusal to carry a gun gently funny. The darker ending reveals a tougher, more emotional side beneath his relaxed and charismatic performance.",
 
   "The Shop Around the Corner":
     "Jimmy gives Alfred Kralik one of his most complete romantic performances, making him proud, awkward, funny, jealous and deeply vulnerable. His chemistry with Margaret Sullavan makes even the quieter moments feel completely natural.",
 
   "The Mortal Storm":
-  "Jimmy gives Martin Breitner a quiet strength and sincerity, making him feel much more natural than some of the more theatrical characters around him. His growing determination to protect Freya gives him some strong emotional material, although the tragic ending makes the movie much darker than enjoyable.",
+  "Jimmy gives Martin Breitner quiet strength and sincerity, feeling more natural than some of the theatrical performances around him. His determination to protect Freya is moving, although the tragic ending makes the film difficult to enjoy.",
 
 "No Time for Comedy":
-  "Jimmy is charming, funny and increasingly confident as Gaylord Esterbrook, especially during the lighter first half of the movie. He also gets to show more frustration and seriousness as Gaylord questions his career and marriage, although the story becomes less enjoyable once the relationships start getting complicated.",
+  "Jimmy is charming, funny and confident as Gaylord Esterbrook, especially during the lighter first half. His later frustration adds depth as Gaylord questions his career and marriage, although the increasingly complicated relationships make the story less enjoyable.",
   
   "The Philadelphia Story":
     "Jimmy is witty, romantic and wonderfully loose as Mike Connor, especially once the character gets drunk. He easily holds his own beside Cary Grant and Katharine Hepburn and gives one of his funniest performances.",
 
   "Come Live with Me":
-  "Jimmy is relaxed, charming and extremely funny as Bill Smith, showing how much more confident his romantic-comedy acting had become by 1941. His facial expressions and physical comedy are especially strong, while his chemistry with Hedy Lamarr makes the unusual marriage story feel warm and believable.",
+  "Jimmy is relaxed, charming and extremely funny as Bill Smith, with expressive reactions and strong physical comedy. His chemistry with Hedy Lamarr makes the unusual marriage story feel warm and believable, showing his growing romantic-comedy confidence.",
   
   "Pot o’ Gold":
     "Jimmy is pleasant, musical and easygoing as Jimmy Haskell, bringing plenty of charm to a lightweight comedy. The material never asks much from him dramatically, but he remains enjoyable throughout.",
 
   "Ziegfeld Girl":
-  "Jimmy gives Gil Young a strong mixture of loyalty, frustration and emotional vulnerability, showing how deeply he cares for Sheila even as their relationship falls apart. His chemistry with Lana Turner is excellent, especially during their touching conversation about raising ducks, although his limited screen time prevents the performance from making an even greater impression.",
+  "Jimmy gives Gil Young loyalty, frustration and vulnerability as his relationship with Sheila unravels. His chemistry with Lana Turner shines during their touching conversation about raising ducks, although his limited screen time holds the performance back.",
   
   "It’s a Wonderful Life":
     "Jimmy gives George Bailey extraordinary emotional range, moving naturally between warmth, humor, anger, exhaustion and complete despair. His breakdown and eventual joy make this one of his greatest and most human performances.",
 
   "Magic Town":
-  "Jimmy gives Rip Smith a charming, mature and increasingly thoughtful personality, showing a more relaxed side of his romantic-comedy acting. His humor is especially effective during the drinking scene, while his growing attachment to Grandview gives him some sincere emotional moments. The town's eventual recovery also recalls the hopeful ending of It's a Wonderful Life.",
+  "Jimmy is charming, relaxed and funny as Rip Smith, especially in the drinking scene. His growing affection for Grandview adds sincerity, while the town’s recovery echoes the hopeful ending of It’s a Wonderful Life.",
   
   "Call Northside 777":
     "Jimmy keeps P. J. McNeal restrained and realistic, allowing the reporter's change from skeptical professional to determined investigator to happen gradually. His understated performance fits the documentary-like style of the movie very well.",
