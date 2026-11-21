@@ -97,6 +97,17 @@ const movies = [
       "An ambitious young newspaper reporter married to aspiring actress Cicely Tyler. As their careers repeatedly separate them, Christopher struggles to balance his professional dreams with his love for his wife and family."
   },
   {
+  year: 1936,
+  title: "Wife vs. Secretary",
+  character: "Dave",
+  director: "Clarence Brown",
+  genre: "Romantic Comedy-Drama",
+  rating: 2.5,
+  poster: "images/posters/wife-vs-secretary.jpg",
+  description:
+    "A young man deeply in love with Helen 'Whitey' Wilson, the secretary of a successful magazine publisher. Dave becomes increasingly frustrated by Whitey's demanding career and her devotion to her boss, creating tension in their relationship. Despite their disagreements, he genuinely loves her and hopes they can find a future together."
+},
+  {
     year: 1936,
     title: "Speed",
     character: "Terry Martin",
@@ -600,6 +611,9 @@ const movieReviews = {
   "Next Time We Love":
     "Jimmy's first substantial leading role shows his sincerity and emotional ability as Christopher, although the character can be frustrating and the melancholy story does not always give him enough to work with.",
 
+"Wife vs. Secretary":
+  "Jimmy gives Dave a youthful sincerity and romantic charm, although he is still developing the confidence of his later performances. His familiar voice and mannerisms are already recognizable, and his chemistry with Jean Harlow is enjoyable, especially during their final reunion. His limited screen time makes the role less memorable than his stronger early performances.",
+  
   "Speed":
     "Jimmy is unusually confident, sarcastic and witty as Terry Martin, showing a more energetic side of his personality. The movie is fairly basic, but his charm makes it much more enjoyable.",
 
